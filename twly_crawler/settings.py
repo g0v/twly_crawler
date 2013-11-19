@@ -10,6 +10,8 @@ BOT_NAME = 'twly_crawler'
 
 SPIDER_MODULES = ['twly_crawler.spiders']
 NEWSPIDER_MODULE = 'twly_crawler.spiders'
-
+ITEM_PIPELINES = {
+    'twly_crawler.pipelines.TwlyCrawlerPipeline': 800,
+}
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'twly_crawler (+http://www.yourdomain.com)'
