@@ -20,19 +20,25 @@ class LyinfoSpider(BaseSpider):
         item['party'] = sel.xpath('//table/tr/td/ul/li/text()').re(u'^黨籍：([\w]+)')
         item['caucus'] = sel.xpath('//table/tr/td/ul/li/text()').re(u'^黨團：([\w]+)')
         item['constituency'] = sel.xpath('//table/tr/td/ul/li/text()').re(u'^選區：([\w]+)')
-        item['committees'] = sel.xpath('//table/tr/td/ul/li/text()').re(u'^(第8屆第[\d]會期)：[\s]*([\w]+)')
         item['term_start'] = sel.xpath('//table/tr/td/ul/li/text()').re(u'到職日期：[\s]*([\d|/]+)')
+        item['committees'] = {} 
+        for session in range(1,9):
+            committee_list = sel.xpath('//table/tr/td/ul/li/text()').re(u'^第[\d]屆第%d會期：[\s]*([\w]+)' % session)
+            if committee_list:
+                item['committees'][session] = committee_list
         nodes = sel.xpath('//table/tr/td/ul[contains(@style, "list-style-position:outside;")]')
-        item['contacts']=[]
+        item['contacts'] = {}
         for node in nodes:
-            if node.xpath('../span/text()').re(u'(電話|傳真)'):
-                item['contacts'].append(node.xpath('div/text()').extract())
+            if node.xpath('../span/text()').re(u'電話'):
+                item['contacts']["phone"] = node.xpath('div/text()').extract()
+            elif node.xpath('../span/text()').re(u'傳真'):
+                item['contacts']["fax"] = node.xpath('div/text()').extract()
+            elif node.xpath('../span/text()').re(u'通訊處'):
+                item['contacts']["address"] = node.xpath('text()').re(u'[\s]*([\S]+)[\s]*')
             elif node.xpath('../span/text()').re(u'學歷'):
                 item['education'] = node.xpath('div/text()').extract()
             elif node.xpath('../span/text()').re(u'經歷'):
                 item['experience'] = node.xpath('div/text()').extract()               
-            elif node.xpath('../span/text()').re(u'通訊處'):
-                item['contacts'].append(node.xpath('text()').re(u'[\s]*([\S]+)[\s]*'))
             elif node.xpath('../span/text()').re(u'備註'):
                 item['term_end'] = node.xpath('font/text()').re(u'生效日期：[\s]*([\d|/]+)')
                 item['term_end_reason'] = node.xpath('div/text()').extract()
