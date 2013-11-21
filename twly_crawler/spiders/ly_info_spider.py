@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import re
 from scrapy.spider import BaseSpider
 from scrapy.selector import Selector
 from twly_crawler.items import LegislatorItem
@@ -29,7 +30,7 @@ class LyinfoSpider(BaseSpider):
         item['term_start'] = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'到職日期：[\s]*([\d|/]+)')).replace('/', '-')
         item['committees'] = {} 
         for session in range(1,9):
-            committee_list = sel.xpath('//table/tr/td/ul/li/text()').re(u'^第[\d]屆第%d會期：[\s]*([\S]+)' % session)
+            committee_list = [re.sub(u'[\s]', '', x) for x in sel.xpath('//table/tr/td/ul/li/text()').re(u'^第[\d]屆第%d會期：[\s]*([\S]+[\s]*[\S]+)' % session)]
             if committee_list:
                 item['committees'][session] = take_first(committee_list)
         nodes = sel.xpath('//table/tr/td/ul[contains(@style, "list-style-position:outside;")]')
