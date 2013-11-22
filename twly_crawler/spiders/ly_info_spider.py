@@ -28,11 +28,15 @@ class LyinfoSpider(BaseSpider):
         item['caucus'] = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'^黨團：([\S]+)'))
         item['constituency'] = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'^選區：([\S]+)'))
         item['term_start'] = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'到職日期：[\s]*([\d|/]+)')).replace('/', '-')
-        item['committees'] = {} 
-        for session in range(1,9):
-            committee_list = [re.sub(u'[\s]', '', x) for x in sel.xpath('//table/tr/td/ul/li/text()').re(u'^第[\d]屆第%d會期：[\s]*([\S]+[\s]*[\S]+)' % session)]
-            if committee_list:
-                item['committees'][session] = take_first(committee_list)
+        item['committees'] = []
+        committee_list = sel.xpath('//table/tr/td/ul/li/text()').re(u'^第[\d]屆第[\d]會期：[\s]*[\S]+[\s]*[\S]*')
+        for committee in committee_list:
+            match = re.search(u'第[\d]屆第(?P<session>\d)會期：[\s]*(?P<name>[\S]+)[\s]*(?P<chair>\(召集委員\))?', committee)
+            if match:
+                if match.group('chair'):
+                    item['committees'].append({"session":match.group('session'), "name":match.group('name'), "chair":True})
+                else:
+                    item['committees'].append({"session":match.group('session'), "name":match.group('name'), "chair":False})
         nodes = sel.xpath('//table/tr/td/ul[contains(@style, "list-style-position:outside;")]')
         item['contacts'] = {}
         for node in nodes:
@@ -48,7 +52,7 @@ class LyinfoSpider(BaseSpider):
                 item['experience'] = take_first(node.xpath('div/text()').extract())               
             elif node.xpath('../span/text()').re(u'備註'):
                 item['term_end'] = {}
-                item['term_end']['date'] = take_first(node.xpath('font/text()').re(u'生效日期：[\s]*([\d|/]+)'))
+                item['term_end']['date'] = take_first(node.xpath('font/text()').re(u'生效日期：[\s]*([\d|/]+)')).replace('/', '-')
                 item['term_end']['reason'] = take_first(node.xpath('div/text()').extract())
                 item['term_end']['replacement'] = take_first(node.xpath('a/text()').extract())
         items.append(item)
