@@ -23,10 +23,14 @@ class npl_ly_Spider(BaseSpider):
         nodes = sel.xpath('//table/tr/td/a[contains(@href, "/do/www/commissionerInfo")]')
         for node in nodes:
             item = LegislatorItem()
-            match = re.search(u'id=(?P<id>[\d]*)&expireBack=0&expire=(?P<ad>[\d]*)', take_first(node.xpath('@href').extract()))
             item["name"] = take_first(node.xpath('text()').extract()).strip()
+            match = re.search(u'id=(?P<id>[\d]*)&expireBack=0&expire=(?P<ad>[\d]*)', take_first(node.xpath('@href').extract()))
             if match:
-                item["id"] = match.group('id')
-                item["ad"] = match.group('ad')
+                item["id"] = int(match.group('id'))
+                item["ad"] = int(match.group('ad'))
+            if node.xpath('font/text()').re(u'離職'):
+                item['in_office'] = False
+            else:
+                item['in_office'] = True 
             items.append(item)
         return items
