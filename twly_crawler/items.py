@@ -6,6 +6,7 @@ from scrapy.item import Item, Field
 
 
 class LegislatorItem(Item):
+    ad = Field()
     name = Field()
     gender = Field()
     party = Field()
@@ -17,3 +18,4 @@ class LegislatorItem(Item):
     term_end = Field()
     education = Field()
     experience = Field()
+    picture_url = Field()
