@@ -13,6 +13,7 @@ class LegislatorItem(Item):
     caucus = Field()
     constituency = Field()
     committees = Field()
+    in_office = Field()
     term_start = Field()
     contacts = Field()
     term_end = Field()

@@ -42,6 +42,7 @@ class LyinfoSpider(BaseSpider):
                     item['committees'].append({"session":'0%s0%s' % (match.group('ad'), match.group('session')), "name":match.group('name'), "chair":False})
         nodes = sel.xpath('//table/tr/td/ul[contains(@style, "list-style-position:outside;")]')
         item['contacts'] = {}
+        item['in_office'] = True
         for node in nodes:
             if node.xpath('../span/text()').re(u'電話'):
                 item['contacts']['phone'] = take_first(node.xpath('div/text()').extract())
@@ -58,5 +59,6 @@ class LyinfoSpider(BaseSpider):
                 item['term_end']['date'] = take_first(node.xpath('font/text()').re(u'生效日期：[\s]*([\d|/]+)')).replace('/', '-')
                 item['term_end']['reason'] = take_first(node.xpath('div/text()').extract())
                 item['term_end']['replacement'] = take_first(node.xpath('a/text()').extract())
+                item['in_office'] = False
         items.append(item)
         return items
