@@ -21,3 +21,4 @@ class LegislatorItem(Item):
     education = Field()
     experience = Field()
     picture_url = Field()
+    remark = Field()

@@ -16,7 +16,6 @@ or
 scrapy crawl npl_ly -o npl_ly.json -t json        
         
 After crawler finished, ly_info.json file will been create, if you want a pretty format:        
-rm -f ly_info(pretty_format).json npl_ly(pretty_format).json      
 python reformat_ly_info.py      
 or              
 python reformat_npl_ly.py      
