@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import re
+from scrapy import log
 from scrapy.spider import BaseSpider
 from scrapy.selector import Selector
 from twly_crawler.items import LegislatorItem
@@ -14,24 +15,32 @@ def take_first(list_in):
 class LyinfoSpider(BaseSpider):
     name = "ly_info"
     allowed_domains = ["www.ly.gov.tw"]
-    download_delay = 2
+    #download_delay = 2
     urls_list = []
-    ad = 8
-    for id in range(1,2):
-        urls_list.append("http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00%03d&stage=%d" % (id, ad))
+    for ad in range(2,9):
+        for id in range(1,250):
+            urls_list.append("http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00%03d&stage=%d" % (id, ad))
     start_urls = urls_list
     def parse(self, response):
         sel = Selector(response)
         items = []
         item = LegislatorItem()
-        item['ad'] = self.ad 
+        item['urls'] = {
+            "ly": response.url
+        }
+        item['ad'] = int(re.search(u'stage=([\d]{1,2})', response.url).group(1))
         item['name'] = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'^姓名：([\S]+)'))
         item['gender'] = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'^性別：([\S]+)'))
         item['party'] = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'^黨籍：([\S]+)'))
         item['caucus'] = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'^黨團：([\S]+)'))
         item['constituency'] = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'^選區：([\S]+)'))
-        item['term_start'] = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'到職日期：[\s]*([\d|/]+)')).replace('/', '-')
-        item['picture_url'] = 'http://www.ly.gov.tw' + take_first(sel.xpath('//table/tr/td/div/img[contains(@alt, ".jpg")]/@src').extract())
+        term_start = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'到職日期：[\s]*([\d|/]+)'))
+        if term_start:
+            item['term_start'] = term_start.replace('/', '-')
+        else:
+            item['term_start'] = [] 
+            #self.log('Term_start not found:' + response.url, level=log.WARNING)
+        item['picture_url'] = 'http://www.ly.gov.tw' + take_first(sel.xpath('//table/tr/td/div/img[@class="leg03_pic"]/@src').extract())
         item['committees'] = []
         committee_list = sel.xpath('//table/tr/td/ul/li/text()').re(u'^第[\d]{1,2}屆第[\d]{1,2}會期：[\s]*[\S]+[\s]*[\S]*')
         for committee in committee_list:
@@ -57,7 +66,11 @@ class LyinfoSpider(BaseSpider):
                 item['experience'] = take_first(node.xpath('div/text()').extract())               
             elif node.xpath('../span/text()').re(u'備註'):
                 item['term_end'] = {}
-                item['term_end']['date'] = take_first(node.xpath('font/text()').re(u'生效日期：[\s]*([\d|/]+)')).replace('/', '-')
+                term_end_date = take_first(node.xpath('font/text()').re(u'生效日期：[\s]*([\d|/]+)'))
+                if term_end_date:
+                    item['term_end']['date'] = term_end_date.replace('/', '-')
+                else:
+                    item['term_end']['date'] = []
                 item['term_end']['reason'] = take_first(node.xpath('div/text()').extract())
                 item['term_end']['replacement'] = take_first(node.xpath('a/text()').extract())
                 item['in_office'] = False

@@ -22,3 +22,4 @@ class LegislatorItem(Item):
     experience = Field()
     picture_url = Field()
     remark = Field()
+    urls = Field()
