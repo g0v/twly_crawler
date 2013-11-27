@@ -54,10 +54,8 @@ class npl_ly_Spider(BaseSpider):
                 item['committees'] = []
                 committee_list = node.xpath('text()').re(u'第[\S]{1,2}屆第[\S]{1,2}會期[：|:][\s]*[\S]+[\s]*[\S]*')
                 for committee in committee_list:
-                    print committee
                     match = re.search(u'第(?P<ad>[\S]{1,2})屆第(?P<session>[\S]{1,2})會期[：|:][\s]*(?P<name>[\S]+)[\s]*(?P<chair>\(召委\))?', committee)
                     if match:
-                        print 'match'
                         if match.group('chair'):
                             item['committees'].append({"session":'%02d%02d' % (int(match.group('ad')), int(match.group('session'))), "name":match.group('name'), "chair":True})
                         else:

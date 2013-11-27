@@ -27,7 +27,7 @@ dump_data = json.dumps(merge_dicts(sorted(objs, key=lambda d: d["id"])), sort_ke
 convert_file = codecs.open('npl_ly(pretty_format).json', 'w', encoding='utf-8')
 convert_file.write(dump_data)
 convert_file.close()
-origin_file = codecs.open('npl_ly.json', 'w', encoding='utf-8')
+origin_file = codecs.open('npl_ly(same_id_in_one_dict).json', 'w', encoding='utf-8')
 dump_data = json.dumps(merge_dicts(sorted(objs, key=lambda d: d["id"])), sort_keys=True)
 origin_file.write(dump_data)
 origin_file.close()
