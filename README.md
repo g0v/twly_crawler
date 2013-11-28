@@ -12,13 +12,14 @@ http://doc.scrapy.org/en/latest/intro/install.html
 Enter a directory where you’d like to store these code and then run:        
 rm -f ly_info.json npl_ly.json     
 scrapy crawl ly_info -o ly_info.json -t json        
-or              
 scrapy crawl npl_ly -o npl_ly.json -t json        
         
-After crawler finished, ly_info.json file will been create, if you want a pretty format:        
+After crawler finished:        
 python reformat_ly_info.py      
-or              
 python reformat_npl_ly.py      
+python merge_ly_and_npl.py      
+        
+merge.json is the final data, merge(pretty_format).json is it's pretty format in order to read easily.
 
 資料來源
 ======

@@ -4,14 +4,14 @@ import json
 import codecs
 
 
-def find_legislator_from_ly_info(name, term, ly_dict_list):
-    possible = [legislator for legislator in ly_dict_list if legislator["ad"] == term["ad"] and legislator["name"] == name]
+def find_legislator_from_ly_info(names, term, ly_dict_list):
+    possible = [legislator for legislator in ly_dict_list if legislator["ad"] == term["ad"] and legislator["name"] in names]
     if len(possible) == 1:
         return possible[0]
     elif len(possible) == 0:
-        print 'ly2npl can not find legislator at ad: ' + str(term["ad"]) + ' named: ' + name
+        print 'ly2npl can not find legislator at ad: %s name in: %s' % (str(term["ad"]), names[:])
     else:
-        print 'ly2npl duplicate name: ' + name + ' at: ' + str(term["ad"])
+        print 'ly2npl duplicate name in: %s at ad: %s' % (names[:], str(term["ad"]))
         possible2one = [legislator for legislator in possible if legislator["party"] == term["party"] and legislator["gender"] == term["gender"]]
         if len(possible2one) == 1:
             return possible2one[0]
@@ -33,8 +33,7 @@ def find_legislator_from_npl(ly_legislator, origin_npl_dict_list):
             print 'npl2ly still can not find only one legislator from possible list!!'
 
 def complement(addition, base):
-    base_reserve_fields = ['committees',]
-    pairs = [(key, value)for key, value in addition.items() if not base.has_key(key)]
+    pairs = [(key, value) for key, value in addition.items() if not base.has_key(key)]
     base.update(pairs)
     return base
 
@@ -42,12 +41,14 @@ ly_dict_list = json.load(open('ly_info.json'))
 npl_dict_list = json.load(open('npl_ly(same_id_in_one_dict).json'))
 origin_npl_dict_list = json.load(open('npl_ly.json'))
 for npl_legislator in npl_dict_list:
+    names_list = [npl_legislator["name"]]
+    for name in npl_legislator.get("former_names", []):
+        names_list.append(name) 
     for term in npl_legislator["each_term"]:
         if term["ad"] != 1:
-            ly_legislator = find_legislator_from_ly_info(npl_legislator["name"], term, ly_dict_list)
+            ly_legislator = find_legislator_from_ly_info(names_list, term, ly_dict_list)
             if ly_legislator:
                 term = complement(ly_legislator, term)
-                print term
 # --> cross check data conflict
 for ly_legislator in ly_dict_list:
     npl_legislator = find_legislator_from_npl(ly_legislator, origin_npl_dict_list)
