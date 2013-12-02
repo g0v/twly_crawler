@@ -34,7 +34,7 @@ class npl_ly_Spider(BaseSpider):
                 item['in_office'] = False
             else:
                 item['in_office'] = True 
-            request = Request('http://' + self.allowed_domains[0] + take_first(node.xpath('@href').extract()), callback=self.parse_profile)
+            request = Request('http://%s%s' % (self.allowed_domains[0], take_first(node.xpath('@href').extract())), callback=self.parse_profile)
             request.meta['item'] = item
             yield request
 
@@ -61,8 +61,8 @@ class npl_ly_Spider(BaseSpider):
                         else:
                             item['committees'].append({"session":'%02d%02d' % (int(match.group('ad')), int(match.group('session'))), "name":match.group('name'), "chair":False})
             elif node.xpath('../td/font/text()').re(u'簡歷'):
-                item['experience'] = take_first(node.xpath('text()').re(u'[\s]*([\S]+)[\s]*'))
+                item['experience'] = node.xpath('text()').re(u'[\s]*([\S]+)[\s]*')
             elif node.xpath('../td/font/text()').re(u'備註'):
-                item['remark'] = take_first(node.xpath('text()').re(u'[\s]*([\S]+)[\s]*'))
+                item['remark'] = node.xpath('text()').re(u'[\s]*([\S]+)[\s]*')
         items.append(item)
         return items

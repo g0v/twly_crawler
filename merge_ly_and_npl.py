@@ -5,11 +5,11 @@ import codecs
 
 
 def find_legislator_from_ly_info(names, term, ly_dict_list):
-    possible = [legislator for legislator in ly_dict_list if legislator["ad"] == term["ad"] and legislator["name"] in names]
+    possible = [legislator for legislator in ly_dict_list if legislator["ad"] == term["ad"] and legislator["name"].replace(u'．', u'.') in names]
     if len(possible) == 1:
         return possible[0]
     elif len(possible) == 0:
-        print 'ly2npl can not find legislator at ad: %s name in: %s' % (str(term["ad"]), names[:])
+        print 'ly2npl can not find legislator at ad: %s name in: %s' % (str(term["ad"]), names[0])
     else:
         print 'ly2npl duplicate name in: %s at ad: %s' % (names[:], str(term["ad"]))
         possible2one = [legislator for legislator in possible if legislator["party"] == term["party"] and legislator["gender"] == term["gender"]]
@@ -19,7 +19,7 @@ def find_legislator_from_ly_info(names, term, ly_dict_list):
             print 'ly2npl still can not find only one legislator from possible list!!'
 
 def find_legislator_from_npl(ly_legislator, origin_npl_dict_list):
-    possible = [legislator for legislator in origin_npl_dict_list if legislator["name"] == ly_legislator["name"] and legislator["ad"] == ly_legislator["ad"]]
+    possible = [legislator for legislator in origin_npl_dict_list if legislator["name"] == ly_legislator["name"].replace(u'．', u'.') and legislator["ad"] == ly_legislator["ad"]]
     if len(possible) == 1:
         return possible[0]
     elif len(possible) == 0:

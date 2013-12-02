@@ -40,7 +40,7 @@ class LyinfoSpider(BaseSpider):
         else:
             item['term_start'] = [] 
             #self.log('Term_start not found:' + response.url, level=log.WARNING)
-        item['picture_url'] = 'http://www.ly.gov.tw' + take_first(sel.xpath('//table/tr/td/div/img[@class="leg03_pic"]/@src').extract())
+        item['picture_url'] = 'http://www.ly.gov.tw%s' % (take_first(sel.xpath('//table/tr/td/div/img[@class="leg03_pic"]/@src').extract()))
         item['committees'] = []
         committee_list = sel.xpath('//table/tr/td/ul/li/text()').re(u'^第[\d]{1,2}屆第[\d]{1,2}會期：[\s]*[\S]+[\s]*[\S]*')
         for committee in committee_list:
@@ -55,15 +55,15 @@ class LyinfoSpider(BaseSpider):
         item['in_office'] = True
         for node in nodes:
             if node.xpath('../span/text()').re(u'電話'):
-                item['contacts']['phone'] = take_first(node.xpath('div/text()').extract())
+                item['contacts']['phone'] = node.xpath('div/text()').extract()
             elif node.xpath('../span/text()').re(u'傳真'):
-                item['contacts']['fax'] = take_first(node.xpath('div/text()').extract())
+                item['contacts']['fax'] = node.xpath('div/text()').extract()
             elif node.xpath('../span/text()').re(u'通訊處'):
-                item['contacts']['address'] = take_first(node.xpath('text()').re(u'[\s]*([\S]+)[\s]*'))
+                item['contacts']['address'] = node.xpath('text()').re(u'[\s]*([\S]+)[\s]*')
             elif node.xpath('../span/text()').re(u'學歷'):
-                item['education'] = take_first(node.xpath('div/text()').extract())
+                item['education'] = node.xpath('div/text()').extract()
             elif node.xpath('../span/text()').re(u'經歷'):
-                item['experience'] = take_first(node.xpath('div/text()').extract())               
+                item['experience'] = node.xpath('div/text()').extract()               
             elif node.xpath('../span/text()').re(u'備註'):
                 item['term_end'] = {}
                 term_end_date = take_first(node.xpath('font/text()').re(u'生效日期：[\s]*([\d|/]+)'))
