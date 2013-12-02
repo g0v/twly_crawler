@@ -9,6 +9,7 @@ def dict_per_ad(dict_in):
     for key in ["id","name"]:
         dict_out.pop(key,None)
     return dict_out
+
 def merge_dicts(dict_list_id_sorted):
     output = []
     legislator_rename = []
@@ -29,12 +30,13 @@ def merge_dicts(dict_list_id_sorted):
         pre_dict_item = dict_item
     return output
 
+def write_file(data, file_name):
+    file = codecs.open(file_name, 'w', encoding='utf-8')
+    file.write(data)
+    file.close()
+
 objs = json.load(open('npl_ly.json'))
 dump_data = json.dumps(merge_dicts(sorted(objs, key=lambda d: d["id"])), sort_keys=True, indent=4, ensure_ascii=False)
-convert_file = codecs.open('npl_ly(pretty_format).json', 'w', encoding='utf-8')
-convert_file.write(dump_data)
-convert_file.close()
-origin_file = codecs.open('npl_ly(same_id_in_one_dict).json', 'w', encoding='utf-8')
+write_file(dump_data, 'npl_ly(pretty_format).json')
 dump_data = json.dumps(merge_dicts(sorted(objs, key=lambda d: d["id"])), sort_keys=True)
-origin_file.write(dump_data)
-origin_file.close()
+write_file(dump_data, 'npl_ly(same_id_in_one_dict).json')
