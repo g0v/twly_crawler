@@ -26,7 +26,7 @@ class npl_ly_Spider(BaseSpider):
             item['name'] = take_first(node.xpath('text()').re(u'[\s]*([\S]+)[\s]*'))
             match = re.search(u'id=(?P<id>[\d]*)&expireBack=0&expire=(?P<ad>[\d]*)', take_first(node.xpath('@href').extract()))
             if match:
-                item['id'] = int(match.group('id'))
+                item['uid'] = int(match.group('id'))
                 item['ad'] = int(match.group('ad'))
             else:
                 raise Exception("id & ad not found!")
