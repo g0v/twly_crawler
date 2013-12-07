@@ -20,6 +20,6 @@ class LegislatorItem(Item):
     term_end = Field()
     education = Field()
     experience = Field()
-    picture_url = Field()
+    image = Field()
     remark = Field()
-    urls = Field()
+    links = Field()

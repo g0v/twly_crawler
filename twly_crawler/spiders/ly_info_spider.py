@@ -25,7 +25,7 @@ class LyinfoSpider(BaseSpider):
         sel = Selector(response)
         items = []
         item = LegislatorItem()
-        item['urls'] = {
+        item['links'] = {
             "ly": response.url
         }
         item['ad'] = int(re.search(u'stage=([\d]{1,2})', response.url).group(1))
@@ -37,10 +37,8 @@ class LyinfoSpider(BaseSpider):
         term_start = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'到職日期：[\s]*([\d|/]+)'))
         if term_start:
             item['term_start'] = term_start.replace('/', '-')
-        else:
-            item['term_start'] = [] 
             #self.log('Term_start not found:' + response.url, level=log.WARNING)
-        item['picture_url'] = 'http://www.ly.gov.tw%s' % (take_first(sel.xpath('//table/tr/td/div/img[@class="leg03_pic"]/@src').extract()))
+        item['image'] = 'http://www.ly.gov.tw%s' % (take_first(sel.xpath('//table/tr/td/div/img[@class="leg03_pic"]/@src').extract()))
         item['committees'] = []
         committee_list = sel.xpath('//table/tr/td/ul/li/text()').re(u'^第[\d]{1,2}屆第[\d]{1,2}會期：[\s]*[\S]+[\s]*[\S]*')
         for committee in committee_list:
@@ -51,15 +49,15 @@ class LyinfoSpider(BaseSpider):
                 else:
                     item['committees'].append({"session":'%02d%02d' % (int(match.group('ad')), int(match.group('session'))), "name":match.group('name'), "chair":False})
         nodes = sel.xpath('//table/tr/td/ul[contains(@style, "list-style-position:outside;")]')
-        item['contacts'] = {}
+        contacts = {}
         item['in_office'] = True
         for node in nodes:
             if node.xpath('../span/text()').re(u'電話'):
-                item['contacts']['phone'] = node.xpath('div/text()').extract()
+                contacts['phone'] = node.xpath('div/text()').extract()
             elif node.xpath('../span/text()').re(u'傳真'):
-                item['contacts']['fax'] = node.xpath('div/text()').extract()
+                contacts['fax'] = node.xpath('div/text()').extract()
             elif node.xpath('../span/text()').re(u'通訊處'):
-                item['contacts']['address'] = node.xpath('text()').re(u'[\s]*([\S]+)[\s]*')
+                contacts['address'] = node.xpath('text()').re(u'[\s]*([\S]+)[\s]*')
             elif node.xpath('../span/text()').re(u'學歷'):
                 item['education'] = node.xpath('div/text()').extract()
             elif node.xpath('../span/text()').re(u'經歷'):
@@ -70,9 +68,11 @@ class LyinfoSpider(BaseSpider):
                 if term_end_date:
                     item['term_end']['date'] = term_end_date.replace('/', '-')
                 else:
-                    item['term_end']['date'] = []
+                    item['term_end']['date'] = None
                 item['term_end']['reason'] = take_first(node.xpath('div/text()').extract())
                 item['term_end']['replacement'] = take_first(node.xpath('a/text()').extract())
                 item['in_office'] = False
+        if contacts:
+            item['contacts'] = contacts
         items.append(item)
         return items

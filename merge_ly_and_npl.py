@@ -37,6 +37,14 @@ def complement(addition, base):
     base.update(pairs)
     return base
 
+def conflict(compare, base, f):
+    for key in ["gender", "party", "in_office",]:
+        if compare.has_key(key) and base.has_key(key):
+            if compare[key] != base[key]:
+                f.write('key, %s, (ly.gov.tw), %s, (npl), %s, uid, %s, ad, %s, name, %s, links, %s\n' % (key, compare[key], base[key], base["uid"], base["ad"], base["name"], compare["links"]["ly"]))
+        else:
+            f.write('can not find key: %s\n' % key)
+
 ly_dict_list = json.load(open('ly_info.json'))
 npl_dict_list = json.load(open('npl_ly(same_id_in_one_dict).json'))
 origin_npl_dict_list = json.load(open('npl_ly.json'))
@@ -50,8 +58,12 @@ for npl_legislator in npl_dict_list:
             if ly_legislator:
                 term = complement(ly_legislator, term)
 # --> cross check data conflict
+f = codecs.open('conflict.txt','w', encoding='utf-8')
 for ly_legislator in ly_dict_list:
     npl_legislator = find_legislator_from_npl(ly_legislator, origin_npl_dict_list)
+    if npl_legislator:
+        conflict(ly_legislator, npl_legislator, f)
+f.close()
 # <-- end
 
 output_file = codecs.open('merged.json', 'w', encoding='utf-8')
