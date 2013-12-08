@@ -37,7 +37,6 @@ class LyinfoSpider(BaseSpider):
         term_start = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'到職日期：[\s]*([\d|/]+)'))
         if term_start:
             item['term_start'] = term_start.replace('/', '-')
-            #self.log('Term_start not found:' + response.url, level=log.WARNING)
         item['image'] = 'http://www.ly.gov.tw%s' % (take_first(sel.xpath('//table/tr/td/div/img[@class="leg03_pic"]/@src').extract()))
         item['committees'] = []
         committee_list = sel.xpath('//table/tr/td/ul/li/text()').re(u'^第[\d]{1,2}屆第[\d]{1,2}會期：[\s]*[\S]+[\s]*[\S]*')
@@ -45,9 +44,9 @@ class LyinfoSpider(BaseSpider):
             match = re.search(u'第(?P<ad>[\d]{1,2})屆第(?P<session>[\d]{1,2})會期：[\s]*(?P<name>[\S]+)[\s]*(?P<chair>\(召集委員\))?', committee)
             if match:
                 if match.group('chair'):
-                    item['committees'].append({"session":'%02d%02d' % (int(match.group('ad')), int(match.group('session'))), "name":match.group('name'), "chair":True})
+                    item['committees'].append({"ad": int(match.group('ad')), "session": int(match.group('session')), "name":match.group('name'), "chair":True})
                 else:
-                    item['committees'].append({"session":'%02d%02d' % (int(match.group('ad')), int(match.group('session'))), "name":match.group('name'), "chair":False})
+                    item['committees'].append({"ad": int(match.group('ad')), "session": int(match.group('session')), "name":match.group('name'), "chair":False})
         nodes = sel.xpath('//table/tr/td/ul[contains(@style, "list-style-position:outside;")]')
         contacts = {}
         item['in_office'] = True
