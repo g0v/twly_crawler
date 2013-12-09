@@ -28,6 +28,10 @@ def merge_dicts(dict_list_id_sorted):
             legislator_rename = []
             same_id_term = [dict_per_ad(dict_item)]
         pre_dict_item = dict_item
+    if legislator_rename:
+        output.append({"uid": pre_dict_item["uid"], "name": pre_dict_item["name"], "former_names": legislator_rename, "each_term": same_id_term})
+    else:
+        output.append({"uid": pre_dict_item["uid"], "name": pre_dict_item["name"], "each_term": same_id_term})
     return output
 
 def write_file(data, file_name):
