@@ -1,0 +1,37 @@
+{
+  "author": "thewayiam",
+  "status": "alpha",
+  "name": "twly_crawler",
+  "description": "Crawler for Taiwan Congress Data",
+  "description_zh": "台灣立法院 crawler",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g0v/twly_crawler"
+  },
+  "licenses": [
+    {
+      "type": "CC0 1.0 Universal"
+    }
+  ],
+  "keywords": [
+    "twly",
+	"legislator",
+	"crawler",
+    "python"
+  ],
+  "audience": [
+    "public"
+  ],
+  "products": [
+    "crawler"
+  ],
+  "projects": [
+    "twly_crawler"
+  ],
+  "contributors": [
+    "thewayiam"
+  ],
+  "needs": [
+    "programmer",
+  ]
+}
