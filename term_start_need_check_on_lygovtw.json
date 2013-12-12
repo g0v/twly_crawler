@@ -25,15 +25,15 @@
     ], 
     [
         2, 
-        "洪濬哲", 
-        "1999-01-26", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00171&stage=2"
-    ], 
-    [
-        2, 
         "朱勝號", 
         "1995-11-15", 
         "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00165&stage=2"
+    ], 
+    [
+        2, 
+        "洪濬哲", 
+        "1999-01-26", 
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00171&stage=2"
     ], 
     [
         3, 
@@ -43,33 +43,15 @@
     ], 
     [
         3, 
-        "蔡勝邦", 
-        "1996-06-17", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00167&stage=3"
-    ], 
-    [
-        3, 
         "林忠正", 
         "1996-03-13", 
         "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00165&stage=3"
     ], 
     [
         3, 
-        "蘇嘉全", 
-        "1996-02-01", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00163&stage=3"
-    ], 
-    [
-        3, 
         "簡金卿", 
         "1996-06-17", 
         "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00166&stage=3"
-    ], 
-    [
-        3, 
-        "饒穎奇", 
-        "1996-02-01", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00164&stage=3"
     ], 
     [
         3, 
@@ -85,21 +67,9 @@
     ], 
     [
         4, 
-        "方醫良", 
+        "丁守中", 
         "1999-02-01", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00002&stage=4"
-    ], 
-    [
-        4, 
-        "王麗萍", 
-        "2000-05-26", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00226&stage=4"
-    ], 
-    [
-        4, 
-        "蘇煥智", 
-        "1999-02-01", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00224&stage=4"
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00001&stage=4"
     ], 
     [
         4, 
@@ -109,21 +79,21 @@
     ], 
     [
         4, 
+        "王麗萍", 
+        "2000-05-26", 
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00226&stage=4"
+    ], 
+    [
+        4, 
         "鍾新財", 
         "2001-12-28", 
         "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00228&stage=4"
     ], 
     [
         5, 
-        "王幸男", 
+        "王政中", 
         "2002-02-01", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00002&stage=5"
-    ], 
-    [
-        5, 
-        "林文郎", 
-        "2002-06-19", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00227&stage=5"
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00004&stage=5"
     ], 
     [
         5, 
@@ -139,6 +109,24 @@
     ], 
     [
         5, 
+        "高仲源", 
+        "2002-02-01", 
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00226&stage=5"
+    ], 
+    [
+        5, 
+        "林文郎", 
+        "2002-06-19", 
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00227&stage=5"
+    ], 
+    [
+        5, 
+        "蘇嘉富", 
+        "2004-06-02", 
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00230&stage=5"
+    ], 
+    [
+        5, 
         "陳飛龍", 
         "2004-09-14", 
         "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00231&stage=5"
@@ -151,9 +139,9 @@
     ], 
     [
         6, 
-        "王金平", 
+        "丁守中", 
         "2005-02-01", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00002&stage=6"
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00001&stage=6"
     ], 
     [
         6, 
@@ -169,15 +157,15 @@
     ], 
     [
         6, 
-        "林文郎", 
-        "2006-05-02", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00229&stage=6"
-    ], 
-    [
-        6, 
         "吳明敏", 
         "2006-01-27", 
         "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00227&stage=6"
+    ], 
+    [
+        6, 
+        "林文郎", 
+        "2006-05-02", 
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00229&stage=6"
     ], 
     [
         6, 
@@ -187,15 +175,15 @@
     ], 
     [
         6, 
-        "黃誠", 
-        "2007-05-24", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00233&stage=6"
-    ], 
-    [
-        6, 
         "李復甸", 
         "2007-01-18", 
         "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00231&stage=6"
+    ], 
+    [
+        6, 
+        "黃誠", 
+        "2007-05-24", 
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00233&stage=6"
     ], 
     [
         6, 
@@ -217,15 +205,15 @@
     ], 
     [
         6, 
-        "陳宗仁", 
-        "2007-09-17", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00237&stage=6"
-    ], 
-    [
-        6, 
         "陳東榮", 
         "2007-06-11", 
         "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00235&stage=6"
+    ], 
+    [
+        6, 
+        "陳宗仁", 
+        "2007-09-17", 
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00237&stage=6"
     ], 
     [
         6, 
@@ -247,27 +235,21 @@
     ], 
     [
         7, 
-        "蕭景田", 
+        "賴士葆", 
         "2008-02-01", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00103&stage=7"
-    ], 
-    [
-        7, 
-        "陳淑慧", 
-        "2008-07-10", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00114&stage=7"
-    ], 
-    [
-        7, 
-        "蘇震清", 
-        "2008-02-01", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00113&stage=7"
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00104&stage=7"
     ], 
     [
         7, 
         "蔣乃辛", 
         "2009-04-06", 
         "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00116&stage=7"
+    ], 
+    [
+        7, 
+        "陳淑慧", 
+        "2008-07-10", 
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00114&stage=7"
     ], 
     [
         7, 
@@ -283,21 +265,21 @@
     ], 
     [
         7, 
-        "許舒博", 
-        "2009-10-15", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00118&stage=7"
-    ], 
-    [
-        7, 
         "馬文君", 
         "2009-12-18", 
         "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00119&stage=7"
     ], 
     [
         7, 
-        "郭榮宗", 
+        "許舒博", 
+        "2009-10-15", 
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00118&stage=7"
+    ], 
+    [
+        7, 
+        "賴坤成", 
         "2010-01-18", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00120&stage=7"
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00121&stage=7"
     ], 
     [
         7, 
@@ -313,9 +295,9 @@
     ], 
     [
         7, 
-        "黃仁杼", 
+        "彭紹瑾", 
         "2010-03-08", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00126&stage=7"
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00125&stage=7"
     ], 
     [
         7, 
@@ -337,9 +319,9 @@
     ], 
     [
         8, 
-        "蘇震清", 
+        "羅淑蕾", 
         "2012-02-01", 
-        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00113&stage=8"
+        "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00111&stage=8"
     ], 
     [
         8, 
