@@ -18,9 +18,9 @@ key, party, (ly.gov.tw), 無黨籍, (npl), 新黨, uid, 722, ad, 3, name, 姚立
 key, party, (ly.gov.tw), 無黨籍, (npl), 中國國民黨, uid, 636, ad, 3, name, 徐成焜, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00072&stage=3
 key, party, (ly.gov.tw), 民主進步黨, (npl), 無黨籍, uid, 639, ad, 3, name, 許添財, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00075&stage=3
 key, party, (ly.gov.tw), 無黨籍, (npl), 民主進步黨, uid, 730, ad, 3, name, 張晉城, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00086&stage=3
-key, party, (ly.gov.tw), 建國黨, (npl), 民主進步黨, uid, 732, ad, 3, name, 陳文輝, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00089&stage=3
 key, party, (ly.gov.tw), 無黨籍, (npl), 民主進步黨, uid, 733, ad, 3, name, 陳永興, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00090&stage=3
 key, party, (ly.gov.tw), 建國黨, (npl), 民主進步黨, uid, 650, ad, 3, name, 陳光復, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00091&stage=3
+key, party, (ly.gov.tw), 建國黨, (npl), 民主進步黨, uid, 732, ad, 3, name, 陳文輝, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00089&stage=3
 key, party, (ly.gov.tw), 中國國民黨, (npl), 新黨, uid, 742, ad, 3, name, 黃國鐘, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00116&stage=3
 key, in_office, (ly.gov.tw), False, (npl), True, uid, 767, ad, 3, name, 何聖隆, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00169&stage=3
 key, party, (ly.gov.tw), 親民黨, (npl), 中國國民黨, uid, 516, ad, 4, name, 王天競, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00004&stage=4
@@ -43,7 +43,6 @@ key, party, (ly.gov.tw), 親民黨, (npl), 無黨籍, uid, 831, ad, 4, name, 陳
 key, party, (ly.gov.tw), 親民黨, (npl), 中國國民黨, uid, 646, ad, 4, name, 陳朝容, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00136&stage=4
 key, party, (ly.gov.tw), 無黨籍, (npl), 民主聯盟, uid, 835, ad, 4, name, 陳進丁, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00141&stage=4
 key, party, (ly.gov.tw), 親民黨, (npl), 新黨, uid, 738, ad, 4, name, 馮定國, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00153&stage=4
-key, gender, (ly.gov.tw), 男, (npl), 女, uid, 740, ad, 4, name, 黃秀孟, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00157&stage=4
 key, party, (ly.gov.tw), 親民黨, (npl), 無黨籍, uid, 848, ad, 4, name, 黃義交, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00161&stage=4
 key, party, (ly.gov.tw), 無黨籍, (npl), 全國民主非政黨聯盟, uid, 670, ad, 4, name, 葉憲修, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00173&stage=4
 key, party, (ly.gov.tw), 無黨籍, (npl), 中國國民黨, uid, 674, ad, 4, name, 趙永清, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00178&stage=4
@@ -54,9 +53,9 @@ key, party, (ly.gov.tw), 親民黨, (npl), 中國國民黨, uid, 292, ad, 4, nam
 key, party, (ly.gov.tw), 中國國民黨, (npl), 無黨籍, uid, 864, ad, 4, name, 劉銓忠, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00200&stage=4
 key, party, (ly.gov.tw), 親民黨, (npl), 中國國民黨, uid, 873, ad, 4, name, 謝章捷, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00211&stage=4
 key, party, (ly.gov.tw), 親民黨, (npl), 中國國民黨, uid, 876, ad, 4, name, 鍾紹和, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00216&stage=4
+key, party, (ly.gov.tw), 無黨團結聯盟, (npl), 台灣吾黨, uid, 687, ad, 5, name, 瓦歷斯.貝林, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00010&stage=5
 key, party, (ly.gov.tw), 無黨團結聯盟, (npl), 民主進步黨, uid, 606, ad, 5, name, 朱星羽, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00011&stage=5
 key, party, (ly.gov.tw), 無黨團結聯盟, (npl), 民主進步黨, uid, 887, ad, 5, name, 何金松, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00016&stage=5
-key, party, (ly.gov.tw), 無黨團結聯盟, (npl), 台灣吾黨, uid, 687, ad, 5, name, 瓦歷斯.貝林, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00010&stage=5
 key, party, (ly.gov.tw), 無黨團結聯盟, (npl), 中國國民黨, uid, 615, ad, 5, name, 呂新民, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00023&stage=5
 key, party, (ly.gov.tw), 無黨團結聯盟, (npl), 無黨籍, uid, 713, ad, 5, name, 林炳坤, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00056&stage=5
 key, party, (ly.gov.tw), 無黨團結聯盟, (npl), 親民黨, uid, 805, ad, 5, name, 邱創良, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00070&stage=5
@@ -79,8 +78,8 @@ key, party, (ly.gov.tw), 中國國民黨, (npl), 親民黨, uid, 782, ad, 6, nam
 key, party, (ly.gov.tw), 中國國民黨, (npl), 親民黨, uid, 607, ad, 6, name, 李慶華, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00048&stage=6
 key, party, (ly.gov.tw), 民主進步黨, (npl), 中國國民黨, uid, 610, ad, 6, name, 李顯榮, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00051&stage=6
 key, party, (ly.gov.tw), 中國國民黨, (npl), 親民黨, uid, 803, ad, 6, name, 周錫瑋, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00057&stage=6
-key, party, (ly.gov.tw), 中國國民黨, (npl), 親民黨, uid, 716, ad, 6, name, 林郁方, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00067&stage=6
 key, party, (ly.gov.tw), 無黨籍, (npl), 民主進步黨, uid, 1334, ad, 6, name, 林為洲, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00065&stage=6
+key, party, (ly.gov.tw), 中國國民黨, (npl), 親民黨, uid, 716, ad, 6, name, 林郁方, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00067&stage=6
 key, party, (ly.gov.tw), 中國國民黨, (npl), 親民黨, uid, 908, ad, 6, name, 林德福, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00076&stage=6
 key, party, (ly.gov.tw), 中國國民黨, (npl), 親民黨, uid, 912, ad, 6, name, 邱毅, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00080&stage=6
 key, party, (ly.gov.tw), 中國國民黨, (npl), 親民黨, uid, 919, ad, 6, name, 孫大千, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00095&stage=6
