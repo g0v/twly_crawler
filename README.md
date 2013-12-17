@@ -21,6 +21,10 @@ python merge_ly_and_npl.py
         
 merge.json is the final data, merge(pretty_format).json is it's pretty format in order to read easily.
 
+File too large? Please see in below url:
+http://g0v.github.io/twly_crawler/merged%28pretty_format%29.json
+http://g0v.github.io/twly_crawler/merged.json
+
 資料來源
 ======
 http://www.ly.gov.tw/       
