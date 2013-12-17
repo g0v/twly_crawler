@@ -12,6 +12,22 @@ def take_first(list_in):
     else:
         return list_in
 
+def convert_contacts(dict_list):
+    contacts_list = []
+    for key, values in dict_list.items():
+        for item in values:
+            contact_dict, name_exist = {}, False
+            match = re.search(u'(?P<name>[\S]+)[：:](?P<key>[\S]+)', item)
+            if match:
+                for place in contacts_list:
+                    if place["name"] == match.group('name'):
+                        place.update([(key, match.group('key'))])
+                        name_exist = True
+                if not name_exist:
+                    contact_dict.update([("name", match.group('name')), (key, match.group('key'))])
+                    contacts_list.append(contact_dict)
+    return contacts_list
+    
 class LyinfoSpider(BaseSpider):
     name = "ly_info"
     allowed_domains = ["www.ly.gov.tw"]
@@ -72,6 +88,6 @@ class LyinfoSpider(BaseSpider):
                 item['term_end']['replacement'] = take_first(node.xpath('a/text()').extract())
                 item['in_office'] = False
         if contacts:
-            item['contacts'] = contacts
+            item['contacts'] = convert_contacts(contacts)
         items.append(item)
         return items
