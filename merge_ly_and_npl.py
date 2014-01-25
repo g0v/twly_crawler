@@ -35,6 +35,7 @@ def find_legislator_from_npl(ly_legislator, origin_npl_dict_list):
 def complement(addition, base):
     pairs = [(key, value) for key, value in addition.items() if not base.has_key(key)]
     base.update(pairs)
+    base["constituency"]=addition["constituency"]
     return base
 
 def conflict(compare, base, f):
@@ -51,7 +52,7 @@ origin_npl_dict_list = json.load(open('npl_ly.json'))
 for npl_legislator in npl_dict_list:
     names_list = [npl_legislator["name"]]
     for name in npl_legislator.get("former_names", []):
-        names_list.append(name) 
+        names_list.append(name)
     for term in npl_legislator["each_term"]:
         if term["ad"] != 1:
             ly_legislator = find_legislator_from_ly_info(names_list, term, ly_dict_list)
