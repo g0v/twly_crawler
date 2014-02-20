@@ -11,12 +11,20 @@ http://doc.scrapy.org/en/latest/intro/install.html
 ======
 Enter a directory where you’d like to store these code and then run:        
 ```
+./crawl_all.sh
+```
+or
+```
 rm -f ly_info.json npl_ly.json     
 scrapy crawl ly_info -o ly_info.json -t json        
 scrapy crawl npl_ly -o npl_ly.json -t json        
 ```
         
 After crawler finished:        
+```
+./merge_all.sh
+```
+or
 ```
 python reformat_ly_info.py      
 python reformat_npl_ly.py      
@@ -25,7 +33,7 @@ python merge_ly_and_npl.py
         
 merge.json is the final data, merge(pretty_format).json is it's pretty format in order to read easily.
 
-File too large? Please see in below url:
+File too large? Please see in below url:        
 [pretty version](http://g0v.github.io/twly_crawler/merged%28pretty_format%29.json)      
 [origin version](http://g0v.github.io/twly_crawler/merged.json)
 
