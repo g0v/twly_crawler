@@ -1,7 +1,7 @@
 twly_crawler
 ==========
 
-Crawler for http://twly.herokuapp.com/
+Crawler for [立委投票指南](http://vote.ly.g0v.tw/)
 
 環境
 ======
@@ -31,7 +31,7 @@ python reformat_npl_ly.py
 python merge_ly_and_npl.py      
 ```
         
-merge.json is the final data, merge(pretty_format).json is it's pretty format in order to read easily.
+merge.json is the final data, ./data(pretty_format)/merge.json is it's pretty format in order to read easily.
 
 File too large? Please see in below url:        
 [pretty version](http://g0v.github.io/twly_crawler/merged%28pretty_format%29.json)      
@@ -46,4 +46,4 @@ CC0 1.0 Universal
 =================
 CC0 1.0 Universal       
 This work is published from Taiwan.     
-[about](http://twly.herokuapp.com/about/)
+[about](http://vote.ly.g0v.tw/about/)
