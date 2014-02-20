@@ -59,7 +59,7 @@ for npl_legislator in npl_dict_list:
             if ly_legislator:
                 term = complement(ly_legislator, term)
 # --> cross check data conflict
-f = codecs.open('conflict.txt','w', encoding='utf-8')
+f = codecs.open('./log/conflict.txt','w', encoding='utf-8')
 for ly_legislator in ly_dict_list:
     npl_legislator = find_legislator_from_npl(ly_legislator, origin_npl_dict_list)
     if npl_legislator:
@@ -71,7 +71,7 @@ output_file = codecs.open('merged.json', 'w', encoding='utf-8')
 dump_data = json.dumps(npl_dict_list, sort_keys=True)
 output_file.write(dump_data)
 output_file.close()
-output_pretty_file = codecs.open('merged(pretty_format).json', 'w', encoding='utf-8')
+output_pretty_file = codecs.open('./data(pretty_format)/merged.json', 'w', encoding='utf-8')
 dump_data = json.dumps(npl_dict_list, sort_keys=True, indent=4, ensure_ascii=False)
 output_pretty_file.write(dump_data)
 output_pretty_file.close()

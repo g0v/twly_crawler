@@ -6,7 +6,7 @@ import codecs
 
 def check_term_start(dict_list):
     output = []
-    pre_notnull_dict_item = '' 
+    pre_notnull_dict_item = ''
     for dict_item in dict_list:
         if not dict_item.has_key("term_start"):
             continue
@@ -24,9 +24,9 @@ def write_file(data, file_name):
 
 objs = json.load(open('ly_info.json'))
 dump_data = json.dumps(objs, sort_keys=True, indent=4, ensure_ascii=False)
-write_file(dump_data, 'ly_info(pretty_format).json')
+write_file(dump_data, './data(pretty_format)/ly_info.json')
 empty_term_start = [(legislator["ad"], legislator["name"], legislator["links"]["ly"]) for legislator in objs if not legislator.has_key("term_start")]
 dump_data = json.dumps(empty_term_start, sort_keys=True, indent=4, ensure_ascii=False)
-write_file(dump_data, 'term_start_empty_on_lygovtw.json')
+write_file(dump_data, './log/term_start_empty_on_lygovtw.json')
 dump_data = json.dumps(check_term_start(objs), sort_keys=True, indent=4, ensure_ascii=False)
-write_file(dump_data, 'term_start_need_check_on_lygovtw.json')
+write_file(dump_data, './log/term_start_need_check_on_lygovtw.json')
