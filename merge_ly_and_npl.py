@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*
+import re
 import json
 import codecs
 
@@ -32,10 +33,22 @@ def find_legislator_from_npl(ly_legislator, origin_npl_dict_list):
         else:
             print 'npl2ly still can not find only one legislator from possible list!!'
 
+def constituency2county_district_village(constituency):
+    util = json.load(open('util.json'))
+    constituency_maped = json.load(open('./data(pretty_format)/constituency_8_maped.json'))
+    match = re.search(u'(\S*)第(\d)選舉區', constituency)
+    if match:
+        constituenct_eng = util.get(match.group(1))
+        return constituency_maped.get('%s,%s' % (constituenct_eng, match.group(2)))
+
 def complement(addition, base):
     pairs = [(key, value) for key, value in addition.items() if not base.has_key(key)]
     base.update(pairs)
-    base["constituency"]=addition["constituency"]
+    base["constituency"] = addition["constituency"]
+    if base["ad"] == 8:
+        county_district_village = constituency2county_district_village(base["constituency"])
+        if county_district_village:
+            base.update(county_district_village)
     return base
 
 def conflict(compare, base, f):
