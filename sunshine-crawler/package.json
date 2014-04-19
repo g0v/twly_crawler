@@ -1,0 +1,7 @@
+{
+  "name": "sunshine",
+  "dependencies": {
+    "request": "~2.34.0",
+    "exec-sync": "~0.1.6"
+  }
+}
