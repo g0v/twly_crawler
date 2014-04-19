@@ -41,6 +41,8 @@ class LyinfoSpider(BaseSpider):
     name = "ly_info"
     allowed_domains = ["www.ly.gov.tw"]
     start_urls = urls_list
+    #server has some anti-ddos protection and we need some delay to avoid fetch failure
+    download_delay = 2
 
     def parse(self, response):
         """ get the following information
