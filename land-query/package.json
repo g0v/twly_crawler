@@ -1,0 +1,9 @@
+{
+  "name": "land-query",
+  "dependencies": {
+    "jsdom": "~0.10.5",
+    "encoding": "~0.1.7",
+    "iconv": "~2.0.7",
+    "request": "~2.34.0"
+  }
+}
