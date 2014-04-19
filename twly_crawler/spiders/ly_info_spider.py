@@ -34,8 +34,8 @@ class LyinfoSpider(BaseSpider):
     #the first office period is not avaiable on this site
     urls_list = []
     for ad in range(2,9):
-        for id in range(1,250):
-            urls_list.append("http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00%03d&stage=%d" % (id, ad))
+        for lgno in range(1,250):
+            urls_list.append("http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00%03d&stage=%d" % (lgno, ad))
 
     #for scrapy
     name = "ly_info"
