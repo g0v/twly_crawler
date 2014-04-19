@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 import re
-from scrapy import log
-from scrapy.spider import BaseSpider
+
 from scrapy.selector import Selector
+from scrapy.spider import BaseSpider
+
 from twly_crawler.items import LegislatorItem
 
 
