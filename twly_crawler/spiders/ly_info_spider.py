@@ -43,6 +43,30 @@ class LyinfoSpider(BaseSpider):
     start_urls = urls_list
 
     def parse(self, response):
+        """ get the following information
+            { links        : {ly : },
+              ad           :
+              caucus       :
+              constituency :
+              committee    :
+              education    :
+              experience   : []
+              gender       :
+              name         :
+              party        :
+              term_start   :
+              term_end     : { date :
+                               reason :
+                               replacement :
+                             }
+              contacts     : [{ name :
+                               phone :
+                               fax :
+                               address :
+                             }]
+            }
+        """
+
         sel = Selector(response)
         items = []
         item = LegislatorItem()
