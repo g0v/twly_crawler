@@ -15,12 +15,27 @@ def take_first(list_in):
         return list_in
 
 class npl_ly_Spider(BaseSpider):
+    #for scrapy
     name = "npl_ly"
     allowed_domains = ["npl.ly.gov.tw"]
     start_urls = [
         "http://npl.ly.gov.tw/do/www/commissioner?orderBy=name&nameOrder=true&eleDisOrder=false&act=exp&expire=0&partyName=&keyword1=&keyword=&+%E6%9F%A5%E8%A9%A2+=+%E6%9F%A5%E8%A9%A2+",
     ]
+
     def parse(self, response):
+        """ get the following dictionary structure
+            { name         :
+              uid          :
+              ad           :
+              in_office    :
+              gender       :
+              party        :
+              constituency :
+              committee    :
+              experience   :
+              remark       :
+            }
+        """
         sel = Selector(response)
         nodes = sel.xpath('//table/tr/td/a[contains(@href, "/do/www/commissionerInfo")]')
         for node in nodes:
