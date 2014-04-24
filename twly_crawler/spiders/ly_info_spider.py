@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 import re
-from scrapy import log
-from scrapy.spider import BaseSpider
+
 from scrapy.selector import Selector
+from scrapy.spider import BaseSpider
+
 from twly_crawler.items import LegislatorItem
 
 
@@ -29,15 +30,45 @@ def convert_contacts(dict_list):
     return contacts_list
     
 class LyinfoSpider(BaseSpider):
-    name = "ly_info"
-    allowed_domains = ["www.ly.gov.tw"]
-    #download_delay = 2
+    #generate all url. each url for one legsitator of one office period
+    #the first office period is not avaiable on this site
     urls_list = []
     for ad in range(2,9):
-        for id in range(1,250):
-            urls_list.append("http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00%03d&stage=%d" % (id, ad))
+        for lgno in range(1,250):
+            urls_list.append("http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00%03d&stage=%d" % (lgno, ad))
+
+    #for scrapy
+    name = "ly_info"
+    allowed_domains = ["www.ly.gov.tw"]
     start_urls = urls_list
+    #server has some anti-ddos protection and we need some delay to avoid fetch failure
+    download_delay = 2
+
     def parse(self, response):
+        """ get the following information
+            { links        : {ly : },
+              ad           :
+              caucus       :
+              constituency :
+              committee    :
+              education    :
+              experience   : []
+              gender       :
+              name         :
+              party        :
+              term_start   :
+              term_end     : { date :
+                               reason :
+                               replacement :
+                             }
+              contacts     : [{ name :
+                               phone :
+                               fax :
+                               address :
+                             }]
+            }
+        """
+
         sel = Selector(response)
         items = []
         item = LegislatorItem()
