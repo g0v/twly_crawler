@@ -1,4 +1,5 @@
 {
+  "version": "0.1.0",
   "name": "land-query",
   "dependencies": {
     "jsdom": "~0.10.5",

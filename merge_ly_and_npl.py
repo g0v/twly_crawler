@@ -45,6 +45,8 @@ def complement(addition, base):
     pairs = [(key, value) for key, value in addition.items() if not base.has_key(key)]
     base.update(pairs)
     base["constituency"] = addition["constituency"]
+    if base["ad"] != 1:
+        base["experience"] = addition["experience"]
     if base["ad"] == 8:
         county_district_village = constituency2county_district_village(base["constituency"])
         if county_district_village:

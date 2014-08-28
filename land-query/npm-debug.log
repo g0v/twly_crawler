@@ -1,0 +1,204 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'i' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/thewayiam/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose caching /home/thewayiam/dev/twly_crawler/land-query/package.json
+verbose loadDefaults land-query@0.1.0
+verbose readDependencies: using package.json deps
+verbose where, deps [ '/home/thewayiam/dev/twly_crawler/land-query',
+verbose where, deps   [ 'jsdom', 'encoding', 'iconv', 'request', 'async' ] ]
+verbose from cache /home/thewayiam/dev/twly_crawler/land-query/package.json
+info preinstall land-query@0.1.0
+verbose caching /home/thewayiam/dev/twly_crawler/land-query/node_modules/jsdom/package.json
+verbose caching /home/thewayiam/dev/twly_crawler/land-query/node_modules/async/package.json
+verbose caching /home/thewayiam/dev/twly_crawler/land-query/node_modules/encoding/package.json
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/home/thewayiam/dev/twly_crawler/land-query/node_modules/iconv/package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching /home/thewayiam/dev/twly_crawler/land-query/node_modules/iconv/package.json
+verbose from cache /home/thewayiam/dev/twly_crawler/land-query/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /home/thewayiam/dev/twly_crawler/land-query/node_modules/iconv/package.json
+verbose from cache /home/thewayiam/dev/twly_crawler/land-query/node_modules/jsdom/package.json
+verbose from cache /home/thewayiam/dev/twly_crawler/land-query/node_modules/async/package.json
+verbose from cache /home/thewayiam/dev/twly_crawler/land-query/node_modules/encoding/package.json
+verbose already installed in /home/thewayiam/dev/twly_crawler/land-query skipping jsdom@~0.10.5
+verbose already installed in /home/thewayiam/dev/twly_crawler/land-query skipping encoding@~0.1.7
+verbose cache add [ 'iconv@~2.0.7', null ]
+silly cache add: name, spec, args [ undefined, 'iconv@~2.0.7', [ 'iconv@~2.0.7', null ] ]
+verbose parsed url { pathname: 'iconv@~2.0.7',
+verbose parsed url   path: 'iconv@~2.0.7',
+verbose parsed url   href: 'iconv@~2.0.7' }
+silly cache add: name, spec, args [ 'iconv', '~2.0.7', [ 'iconv', '~2.0.7' ] ]
+verbose parsed url { pathname: '~2.0.7', path: '~2.0.7', href: '~2.0.7' }
+verbose addNamed [ 'iconv', '~2.0.7' ]
+verbose addNamed [ null, '>=2.0.7- <2.1.0-' ]
+silly name, range, hasData [ 'iconv', '>=2.0.7- <2.1.0-', false ]
+verbose cache add [ 'request@~2.34.0', null ]
+silly cache add: name, spec, args [ undefined, 'request@~2.34.0', [ 'request@~2.34.0', null ] ]
+verbose parsed url { pathname: 'request@~2.34.0',
+verbose parsed url   path: 'request@~2.34.0',
+verbose parsed url   href: 'request@~2.34.0' }
+silly cache add: name, spec, args [ 'request', '~2.34.0', [ 'request', '~2.34.0' ] ]
+verbose parsed url { pathname: '~2.34.0', path: '~2.34.0', href: '~2.34.0' }
+verbose addNamed [ 'request', '~2.34.0' ]
+verbose addNamed [ null, '>=2.34.0- <2.35.0-' ]
+silly name, range, hasData [ 'request', '>=2.34.0- <2.35.0-', false ]
+verbose already installed in /home/thewayiam/dev/twly_crawler/land-query skipping async@~0.7.0
+verbose raw, before any munging iconv
+verbose url resolving [ 'http://registry.npmjs.org/', './iconv' ]
+verbose url resolved http://registry.npmjs.org/iconv
+verbose etag "3W69ZS140BVETDF2R14CYST91"
+http GET http://registry.npmjs.org/iconv
+verbose raw, before any munging request
+verbose url resolving [ 'http://registry.npmjs.org/', './request' ]
+verbose url resolved http://registry.npmjs.org/request
+verbose etag "1KRQ86R9URFA3N1AWBN33N2KW"
+http GET http://registry.npmjs.org/request
+http 304 http://registry.npmjs.org/request
+silly get cb [ 304,
+silly get cb   { date: 'Tue, 29 Apr 2014 07:54:27 GMT',
+silly get cb     via: '1.1 varnish',
+silly get cb     'last-modified': 'Tue, 29 Apr 2014 07:54:27 GMT',
+silly get cb     'cache-control': 'max-age=1',
+silly get cb     etag: '"1KRQ86R9URFA3N1AWBN33N2KW"',
+silly get cb     connection: 'keep-alive',
+silly get cb     'x-served-by': 'cache-ty67-TYO',
+silly get cb     'x-cache': 'MISS',
+silly get cb     'x-cache-hits': '0',
+silly get cb     'x-timer': 'S1398758067.042686462,VS0,VE176',
+silly get cb     vary: 'Accept' } ]
+verbose etag request from cache
+silly name, range, hasData 2 [ 'request', '>=2.34.0- <2.35.0-', true ]
+silly versions [ 'request',
+silly versions   [ '0.10.0',
+silly versions     '0.8.3',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.9.5',
+silly versions     '1.0.0',
+silly versions     '1.1.0',
+silly versions     '1.1.1',
+silly versions     '1.2.0',
+silly versions     '1.9.0',
+silly versions     '1.9.1',
+silly versions     '1.9.2',
+silly versions     '1.9.3',
+silly versions     '1.9.5',
+silly versions     '1.9.7',
+silly versions     '1.9.8',
+silly versions     '1.9.9',
+silly versions     '2.0.0',
+silly versions     '2.0.1',
+silly versions     '2.0.2',
+silly versions     '2.0.3',
+silly versions     '2.0.4',
+silly versions     '2.0.5',
+silly versions     '2.1.0',
+silly versions     '2.1.1',
+silly versions     '2.2.0',
+silly versions     '2.2.5',
+silly versions     '2.2.6',
+silly versions     '2.2.9',
+silly versions     '2.9.0',
+silly versions     '2.9.1',
+silly versions     '2.9.2',
+silly versions     '2.9.3',
+silly versions     '2.9.100',
+silly versions     '2.9.150',
+silly versions     '2.9.151',
+silly versions     '2.9.152',
+silly versions     '2.9.153',
+silly versions     '2.9.200',
+silly versions     '2.9.201',
+silly versions     '2.9.202',
+silly versions     '2.9.203',
+silly versions     '2.10.0',
+silly versions     '2.11.0',
+silly versions     '2.11.1',
+silly versions     '2.11.2',
+silly versions     '2.11.3',
+silly versions     '2.11.4',
+silly versions     '2.12.0',
+silly versions     '2.14.0',
+silly versions     '2.16.0',
+silly versions     '2.16.2',
+silly versions     '2.16.4',
+silly versions     '2.16.6',
+silly versions     '2.18.0',
+silly versions     '2.19.0',
+silly versions     '2.20.0',
+silly versions     '2.21.0',
+silly versions     '2.22.0',
+silly versions     '2.23.0',
+silly versions     '2.24.0',
+silly versions     '2.25.0',
+silly versions     '2.26.0',
+silly versions     '2.27.0',
+silly versions     '2.28.0',
+silly versions     '2.29.0',
+silly versions     '2.30.0',
+silly versions     '2.31.0',
+silly versions     '2.32.0',
+silly versions     '2.33.0',
+silly versions     '2.34.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.11.0-20-generic',
+verbose bin dist   { shasum: 'b5d8b9526add4a2d4629f4d417124573996445ae',
+verbose bin dist     tarball: 'http://registry.npmjs.org/request/-/request-2.34.0.tgz' } ]
+verbose caching /home/thewayiam/.npm/request/2.34.0/package/package.json
+verbose loadDefaults request@2.34.0
+http 304 http://registry.npmjs.org/iconv
+silly get cb [ 304,
+silly get cb   { date: 'Tue, 29 Apr 2014 07:54:27 GMT',
+silly get cb     via: '1.1 varnish',
+silly get cb     'last-modified': 'Tue, 29 Apr 2014 07:54:27 GMT',
+silly get cb     'cache-control': 'max-age=1',
+silly get cb     etag: '"3W69ZS140BVETDF2R14CYST91"',
+silly get cb     connection: 'keep-alive',
+silly get cb     'x-served-by': 'cache-ty67-TYO',
+silly get cb     'x-cache': 'MISS',
+silly get cb     'x-cache-hits': '0',
+silly get cb     'x-timer': 'S1398758067.050822258,VS0,VE262',
+silly get cb     vary: 'Accept' } ]
+verbose etag iconv from cache
+silly name, range, hasData 2 [ 'iconv', '>=2.0.7- <2.1.0-', true ]
+silly versions [ 'iconv',
+silly versions   [ '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.1.0',
+silly versions     '1.1.1',
+silly versions     '1.1.2',
+silly versions     '1.1.3',
+silly versions     '1.2.0',
+silly versions     '1.2.1',
+silly versions     '1.2.2',
+silly versions     '1.2.3',
+silly versions     '1.2.4' ] ]
+ERR! Error: No compatible version found: iconv@'>=2.0.7- <2.1.0-'
+ERR! Valid install targets:
+ERR! ["1.0.0","1.0.1","1.1.0","1.1.1","1.1.2","1.1.3","1.2.0","1.2.1","1.2.2","1.2.3","1.2.4"]
+ERR!     at installTargetsError (/usr/share/npm/lib/cache.js:488:10)
+ERR!     at next_ (/usr/share/npm/lib/cache.js:438:17)
+ERR!     at next (/usr/share/npm/lib/cache.js:415:44)
+ERR!     at /usr/share/npm/lib/cache.js:408:5
+ERR!     at saved (/usr/share/npm/lib/utils/npm-registry-client/get.js:147:7)
+ERR!     at Object.oncomplete (/usr/lib/nodejs/graceful-fs.js:230:7)
+ERR! You may report this log at:
+ERR!     <http://bugs.debian.org/npm>
+ERR! or use
+ERR!     reportbug --attach /home/thewayiam/dev/twly_crawler/land-query/npm-debug.log npm
+ERR! 
+ERR! System Linux 3.11.0-20-generic
+ERR! command "node" "/usr/bin/npm" "i"
+ERR! cwd /home/thewayiam/dev/twly_crawler/land-query
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! message No compatible version found: iconv@'>=2.0.7- <2.1.0-'
+ERR! message Valid install targets:
+ERR! message ["1.0.0","1.0.1","1.1.0","1.1.1","1.1.2","1.1.3","1.2.0","1.2.1","1.2.2","1.2.3","1.2.4"]
+verbose exit [ 1, true ]

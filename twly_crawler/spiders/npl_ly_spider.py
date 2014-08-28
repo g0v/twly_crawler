@@ -50,7 +50,7 @@ class npl_ly_Spider(BaseSpider):
             if node.xpath('font/text()').re(u'離職'):
                 item['in_office'] = False
             else:
-                item['in_office'] = True 
+                item['in_office'] = True
             request = Request('http://%s%s' % (self.allowed_domains[0], take_first(node.xpath('@href').extract())), callback=self.parse_profile)
             request.meta['item'] = item
             yield request
