@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 import re
-
+import scrapy
 from scrapy.http import Request
 from scrapy.selector import Selector
-from scrapy.spider import BaseSpider
-
 from twly_crawler.items import LegislatorItem
 
 
@@ -14,7 +12,7 @@ def take_first(list_in):
     else:
         return list_in
 
-class npl_ly_Spider(BaseSpider):
+class Spider(scrapy.Spider):
     #for scrapy
     name = "npl_ly"
     allowed_domains = ["npl.ly.gov.tw"]

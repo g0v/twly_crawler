@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 import re
-
+import scrapy
 from scrapy.selector import Selector
 from scrapy.spider import BaseSpider
-
 from twly_crawler.items import LegislatorItem
 
 
@@ -28,8 +27,8 @@ def convert_contacts(dict_list):
                     contact_dict.update([("name", match.group('name')), (key, match.group('key'))])
                     contacts_list.append(contact_dict)
     return contacts_list
-    
-class LyinfoSpider(BaseSpider):
+
+class Spider(scrapy.Spider):
     #generate all url. each url for one legsitator of one office period
     #the first office period is not avaiable on this site
     urls_list = []
@@ -107,7 +106,7 @@ class LyinfoSpider(BaseSpider):
             elif node.xpath('../span/text()').re(u'學歷'):
                 item['education'] = node.xpath('div/text()').extract()
             elif node.xpath('../span/text()').re(u'經歷'):
-                item['experience'] = node.xpath('div/text()').extract()               
+                item['experience'] = node.xpath('div/text()').extract()
             elif node.xpath('../span/text()').re(u'備註'):
                 item['term_end'] = {}
                 term_end_date = take_first(node.xpath('font/text()').re(u'生效日期：[\s]*([\d|/]+)'))
