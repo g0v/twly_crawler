@@ -39,8 +39,8 @@ def write_file(data, file_name):
     file.write(data)
     file.close()
 
-objs = json.load(open('npl_ly.json'))
+objs = json.load(open('../data/npl_ly.json'))
 dump_data = json.dumps(merge_dicts(sorted(objs, key=lambda d: d["uid"])), sort_keys=True, indent=4, ensure_ascii=False)
-write_file(dump_data, './data(pretty_format)/npl_ly.json')
+write_file(dump_data, '../data/pretty_format/npl_ly.json')
 dump_data = json.dumps(merge_dicts(sorted(objs, key=lambda d: d["uid"])), sort_keys=True)
-write_file(dump_data, 'npl_ly(same_id_in_one_dict).json')
+write_file(dump_data, '../data/npl_ly(same_id_in_one_dict).json')

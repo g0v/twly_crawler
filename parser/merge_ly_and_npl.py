@@ -35,7 +35,7 @@ def find_legislator_from_npl(ly_legislator, origin_npl_dict_list):
 
 def constituency2county_district_village(constituency):
     util = json.load(open('util.json'))
-    constituency_maped = json.load(open('./data(pretty_format)/constituency_8_maped.json'))
+    constituency_maped = json.load(open('../data/pretty_format/constituency_8_maped.json'))
     match = re.search(u'(\S*)第(\d)選舉區', constituency)
     if match:
         constituenct_eng = util.get(re.sub(u'台', u'臺', match.group(1)))
@@ -61,9 +61,9 @@ def conflict(compare, base, f):
         else:
             f.write('can not find key: %s\n' % key)
 
-ly_dict_list = json.load(open('ly_info.json'))
-npl_dict_list = json.load(open('npl_ly(same_id_in_one_dict).json'))
-origin_npl_dict_list = json.load(open('npl_ly.json'))
+ly_dict_list = json.load(open('../data/ly_info.json'))
+npl_dict_list = json.load(open('../data/npl_ly(same_id_in_one_dict).json'))
+origin_npl_dict_list = json.load(open('../data/npl_ly.json'))
 for npl_legislator in npl_dict_list:
     names_list = [npl_legislator["name"]]
     for name in npl_legislator.get("former_names", []):
@@ -74,7 +74,7 @@ for npl_legislator in npl_dict_list:
             if ly_legislator:
                 term = complement(ly_legislator, term)
 # --> cross check data conflict
-f = codecs.open('./log/conflict.txt','w', encoding='utf-8')
+f = codecs.open('../log/conflict.txt','w', encoding='utf-8')
 for ly_legislator in ly_dict_list:
     npl_legislator = find_legislator_from_npl(ly_legislator, origin_npl_dict_list)
     if npl_legislator:
@@ -82,11 +82,11 @@ for ly_legislator in ly_dict_list:
 f.close()
 # <-- end
 
-output_file = codecs.open('merged.json', 'w', encoding='utf-8')
+output_file = codecs.open('../data/merged.json', 'w', encoding='utf-8')
 dump_data = json.dumps(npl_dict_list, sort_keys=True)
 output_file.write(dump_data)
 output_file.close()
-output_pretty_file = codecs.open('./data(pretty_format)/merged.json', 'w', encoding='utf-8')
+output_pretty_file = codecs.open('../data/pretty_format/merged.json', 'w', encoding='utf-8')
 dump_data = json.dumps(npl_dict_list, sort_keys=True, indent=4, ensure_ascii=False)
 output_pretty_file.write(dump_data)
 output_pretty_file.close()
