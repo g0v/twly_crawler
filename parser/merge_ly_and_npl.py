@@ -36,7 +36,7 @@ def find_legislator_from_npl(ly_legislator, origin_npl_dict_list):
 def constituency2county_district_village(constituency):
     util = json.load(open('util.json'))
     constituency_maped = json.load(open('../data/pretty_format/constituency_8_maped.json'))
-    match = re.search(u'(\S*)第(\d)選舉區', constituency)
+    match = re.search(u'(\S*)第(\d+)選舉區', constituency)
     if match:
         constituenct_eng = util.get(re.sub(u'台', u'臺', match.group(1)))
         return constituency_maped.get('%s,%s' % (constituenct_eng, match.group(2)))
