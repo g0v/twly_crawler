@@ -19,7 +19,7 @@ class Spider(scrapy.Spider):
     start_urls = [
         "http://npl.ly.gov.tw/do/www/commissioner?orderBy=name&nameOrder=true&eleDisOrder=false&act=exp&expire=0&partyName=&keyword1=&keyword=&+%E6%9F%A5%E8%A9%A2+=+%E6%9F%A5%E8%A9%A2+",
     ]
-    download_delay = 2
+    download_delay = 0.5
 
     def parse(self, response):
         """ get the following dictionary structure
