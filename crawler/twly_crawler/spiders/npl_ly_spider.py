@@ -13,7 +13,6 @@ def take_first(list_in):
         return list_in
 
 class Spider(scrapy.Spider):
-    #for scrapy
     name = "npl_ly"
     allowed_domains = ["npl.ly.gov.tw"]
     start_urls = [
@@ -35,8 +34,7 @@ class Spider(scrapy.Spider):
               remark       :
             }
         """
-        sel = Selector(response)
-        nodes = sel.xpath('//table/tr/td/a[contains(@href, "/do/www/commissionerInfo")]')
+        nodes = response.xpath('//table/tr/td/a[contains(@href, "/do/www/commissionerInfo")]')
         for node in nodes:
             item = LegislatorItem()
             item['name'] = take_first(node.xpath('text()').re(u'[\s]*([\S]+)[\s]*'))
@@ -55,10 +53,9 @@ class Spider(scrapy.Spider):
             yield request
 
     def parse_profile(self, response):
-        sel = Selector(response)
         items = []
         item = response.request.meta['item']
-        nodes = sel.xpath('//table/tr/td[@style="height:27"]')
+        nodes = response.xpath('//table/tr/td[@style="height:27"]')
         for node in nodes:
             if node.xpath('../td/font/text()').re(u'性別'):
                 item['gender'] = take_first(node.xpath('text()').re(u'[\s]*([\S]+)[\s]*'))

@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 import re
+from urlparse import urljoin
 import scrapy
-from scrapy.selector import Selector
-from twly_crawler.items import LegislatorItem
 
 
 def take_first(list_in):
@@ -28,21 +27,27 @@ def convert_contacts(dict_list):
     return contacts_list
 
 class Spider(scrapy.Spider):
-    #generate all url. each url for one legsitator of one office period
-    #the first office period is not avaiable on this site
-    urls_list = []
-    for ad in range(2,9):
-        for lgno in range(1,250):
-            urls_list.append("http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00%03d&stage=%d" % (lgno, ad))
-
-    #for scrapy
     name = "ly_info"
     allowed_domains = ["www.ly.gov.tw"]
-    start_urls = urls_list
     #server has some anti-ddos protection and we need some delay to avoid fetch failure
-    download_delay = 2
+    download_delay = 1
+
+    def start_requests(self):
+        for ad in range(2, 9):
+            payload = {
+                'queryFlag': 'true',
+                'searchValues[1]': str(ad),
+                'searchValues[5]': 'lgno',
+                'searchValues[6]': 'asc'
+            }
+            yield scrapy.FormRequest('http://www.ly.gov.tw/03_leg/0301_main/legList.action', formdata=payload, callback=self.parse, dont_filter=True)
 
     def parse(self, response):
+        for href in response.xpath('//*[@class="leg03_news_search_03"]/a/@href').extract():
+            url = urljoin(response.url, href)
+            yield scrapy.Request(url, callback=self.parse_profile)
+
+    def parse_profile(self, response):
         """ get the following information
             { links        : {ly : },
               ad           :
@@ -67,24 +72,22 @@ class Spider(scrapy.Spider):
             }
         """
 
-        sel = Selector(response)
-        items = []
-        item = LegislatorItem()
+        item = {}
         item['links'] = {
             "ly": response.url
         }
         item['ad'] = int(re.search(u'stage=([\d]{1,2})', response.url).group(1))
-        item['name'] = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'^姓名：([\S]+)'))
-        item['gender'] = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'^性別：([\S]+)'))
-        item['party'] = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'^黨籍：([\S]+)'))
-        item['caucus'] = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'^黨團：([\S]+)'))
-        item['constituency'] = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'^選區：([\S]+)'))
-        term_start = take_first(sel.xpath('//table/tr/td/ul/li/text()').re(u'到職日期：[\s]*([\d|/]+)'))
+        item['name'] = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'^姓名：([\S]+)'))
+        item['gender'] = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'^性別：([\S]+)'))
+        item['party'] = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'^黨籍：([\S]+)'))
+        item['caucus'] = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'^黨團：([\S]+)'))
+        item['constituency'] = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'^選區：([\S]+)'))
+        term_start = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'到職日期：[\s]*([\d|/]+)'))
         if term_start:
             item['term_start'] = term_start.replace('/', '-')
-        item['image'] = 'http://www.ly.gov.tw%s' % (take_first(sel.xpath('//table/tr/td/div/img[@class="leg03_pic"]/@src').extract()))
+        item['image'] = 'http://www.ly.gov.tw%s' % (take_first(response.xpath('//table/tr/td/div/img[@class="leg03_pic"]/@src').extract()))
         item['committees'] = []
-        committee_list = sel.xpath('//table/tr/td/ul/li/text()').re(u'^第[\d]{1,2}屆第[\d]{1,2}會期：[\s]*[\S]+[\s]*[\S]*')
+        committee_list = response.xpath('//table/tr/td/ul/li/text()').re(u'^第[\d]{1,2}屆第[\d]{1,2}會期：[\s]*[\S]+[\s]*[\S]*')
         for committee in committee_list:
             match = re.search(u'第(?P<ad>[\d]{1,2})屆第(?P<session>[\d]{1,2})會期：[\s]*(?P<name>[\S]+)[\s]*(?P<chair>\(召集委員\))?', committee)
             if match:
@@ -92,7 +95,7 @@ class Spider(scrapy.Spider):
                     item['committees'].append({"ad": int(match.group('ad')), "session": int(match.group('session')), "name":match.group('name'), "chair":True})
                 else:
                     item['committees'].append({"ad": int(match.group('ad')), "session": int(match.group('session')), "name":match.group('name'), "chair":False})
-        nodes = sel.xpath('//table/tr/td/ul[contains(@style, "list-style-position:outside;")]')
+        nodes = response.xpath('//table/tr/td/ul[contains(@style, "list-style-position:outside;")]')
         contacts = {}
         item['in_office'] = True
         for node in nodes:
@@ -118,5 +121,4 @@ class Spider(scrapy.Spider):
                 item['in_office'] = False
         if contacts:
             item['contacts'] = convert_contacts(contacts)
-        items.append(item)
-        return items
+        yield item

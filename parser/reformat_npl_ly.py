@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*
 import json
-import codecs
+import common
 
 
 def dict_per_ad(dict_in):
@@ -34,13 +34,12 @@ def merge_dicts(dict_list_id_sorted):
         output.append({"uid": pre_dict_item["uid"], "name": pre_dict_item["name"], "each_term": same_id_term})
     return output
 
-def write_file(data, file_name):
-    file = codecs.open(file_name, 'w', encoding='utf-8')
-    file.write(data)
-    file.close()
-
 objs = json.load(open('../data/npl_ly.json'))
+for npl_legislator in objs:
+    common.normalize_name(npl_legislator)
+dump_data = json.dumps(objs)
+common.write_file(dump_data, '../data/npl_ly.json')
 dump_data = json.dumps(merge_dicts(sorted(objs, key=lambda d: d["uid"])), sort_keys=True, indent=4, ensure_ascii=False)
-write_file(dump_data, '../data/pretty_format/npl_ly.json')
+common.write_file(dump_data, '../data/pretty_format/npl_ly.json')
 dump_data = json.dumps(merge_dicts(sorted(objs, key=lambda d: d["uid"])), sort_keys=True)
-write_file(dump_data, '../data/npl_ly(same_id_in_one_dict).json')
+common.write_file(dump_data, '../data/npl_ly(same_id_in_one_dict).json')

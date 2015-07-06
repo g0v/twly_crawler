@@ -3,10 +3,11 @@
 import re
 import json
 import codecs
+import common
 
 
 def find_legislator_from_ly_info(names, term, ly_dict_list):
-    possible = [legislator for legislator in ly_dict_list if legislator["ad"] == term["ad"] and legislator["name"].replace(u'．', u'.') in names]
+    possible = [legislator for legislator in ly_dict_list if legislator["ad"] == term["ad"] and legislator["name"] in names]
     if len(possible) == 1:
         return possible[0]
     elif len(possible) == 0:
@@ -20,7 +21,7 @@ def find_legislator_from_ly_info(names, term, ly_dict_list):
             print 'ly2npl still can not find only one legislator from possible list!!'
 
 def find_legislator_from_npl(ly_legislator, origin_npl_dict_list):
-    possible = [legislator for legislator in origin_npl_dict_list if legislator["name"] == ly_legislator["name"].replace(u'．', u'.') and legislator["ad"] == ly_legislator["ad"]]
+    possible = [legislator for legislator in origin_npl_dict_list if legislator["name"] == ly_legislator["name"] and legislator["ad"] == ly_legislator["ad"]]
     if len(possible) == 1:
         return possible[0]
     elif len(possible) == 0:
@@ -33,28 +34,17 @@ def find_legislator_from_npl(ly_legislator, origin_npl_dict_list):
         else:
             print 'npl2ly still can not find only one legislator from possible list!!'
 
-def constituency2county_district_village(constituency):
-    util = json.load(open('util.json'))
-    constituency_maped = json.load(open('../data/pretty_format/constituency_8_maped.json'))
-    match = re.search(u'(\S*)第(\d+)選舉區', constituency)
-    if match:
-        constituenct_eng = util.get(re.sub(u'台', u'臺', match.group(1)))
-        return constituency_maped.get('%s,%s' % (constituenct_eng, match.group(2)))
-
 def complement(addition, base):
+    # use npl as base information, if column that npl didn't has, use ly.gov.tw as complement
     pairs = [(key, value) for key, value in addition.items() if not base.has_key(key)]
     base.update(pairs)
     base["constituency"] = addition["constituency"]
     if base["ad"] != 1:
         base["experience"] = addition["experience"]
-    if base["ad"] == 8:
-        county_district_village = constituency2county_district_village(base["constituency"])
-        if county_district_village:
-            base.update(county_district_village)
     return base
 
 def conflict(compare, base, f):
-    for key in ["gender", "party", "in_office",]:
+    for key in ["gender", "in_office",]:
         if compare.has_key(key) and base.has_key(key):
             if compare[key] != base[key]:
                 f.write('key, %s, (ly.gov.tw), %s, (npl), %s, uid, %s, ad, %s, name, %s, links, %s\n' % (key, compare[key], base[key], base["uid"], base["ad"], base["name"], compare["links"]["ly"]))
@@ -69,6 +59,7 @@ for npl_legislator in npl_dict_list:
     for name in npl_legislator.get("former_names", []):
         names_list.append(name)
     for term in npl_legislator["each_term"]:
+        # ly.gov.tw didn't have legislators information of ad = 1
         if term["ad"] != 1:
             ly_legislator = find_legislator_from_ly_info(names_list, term, ly_dict_list)
             if ly_legislator:
@@ -82,11 +73,7 @@ for ly_legislator in ly_dict_list:
 f.close()
 # <-- end
 
-output_file = codecs.open('../data/merged.json', 'w', encoding='utf-8')
 dump_data = json.dumps(npl_dict_list, sort_keys=True)
-output_file.write(dump_data)
-output_file.close()
-output_pretty_file = codecs.open('../data/pretty_format/merged.json', 'w', encoding='utf-8')
+common.write_file(dump_data, '../data/merged.json')
 dump_data = json.dumps(npl_dict_list, sort_keys=True, indent=4, ensure_ascii=False)
-output_pretty_file.write(dump_data)
-output_pretty_file.close()
+common.write_file(dump_data, '../data/pretty_format/merged.json')
