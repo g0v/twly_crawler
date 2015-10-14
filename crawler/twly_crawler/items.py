@@ -9,6 +9,7 @@ class LegislatorItem(Item):
     uid = Field()
     ad = Field()
     name = Field()
+    former_names = Field()
     title = Field()
     gender = Field()
     elected_party = Field()

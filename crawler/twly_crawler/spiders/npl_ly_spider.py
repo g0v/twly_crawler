@@ -31,12 +31,15 @@ class Spider(scrapy.Spider):
         item = LegislatorItem()
         item['uid'] = int(re.search('memb(\d+)', response.url).group(1))
         item['in_office'] = True
+        item['former_names'] = []
         nodes = response.xpath('//td[@class="info_bg"]/table/tr')
         for node in nodes:
             if node.xpath('td[1]/text()').re(u'^姓名$'):
                 name_title = node.xpath('td[2]/text()').extract_first().split()
                 item['name'] = name_title[0]
                 item['title'] = name_title[1] if len(name_title) > 1 else '立法委員'
+            elif node.xpath('td[1]/text()').re(u'^姓名參照$'):
+                item['former_names'] = node.xpath('td[2]/text()').extract()
             elif node.xpath('td[1]/text()').re(u'^性別$'):
                 item['gender'] = node.xpath('td[2]/text()').extract_first()
             elif node.xpath('td[1]/text()').re(u'^任期$'):
