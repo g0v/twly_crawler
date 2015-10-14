@@ -80,7 +80,7 @@ class Spider(scrapy.Spider):
         item['name'] = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'^姓名：([\S]+)'))
         item['gender'] = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'^性別：([\S]+)'))
         item['party'] = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'^黨籍：([\S]+)'))
-        item['caucus'] = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'^黨團：([\S]+)'))
+        item['caucus'] = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'^黨\(政\)團：([\S]+)'))
         item['constituency'] = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'^選區：([\S]+)'))
         term_start = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'到職日期：[\s]*([\d|/]+)'))
         if term_start:

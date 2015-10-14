@@ -43,22 +43,17 @@ python merge_ly_and_npl.py
         
 merge.json is the final data, ./data(pretty_format)/merge.json is it's pretty format in order to read easily.
 
-File too large? Please see in below url:        
-[pretty version](http://g0v.github.io/twly_crawler/merged%28pretty_format%29.json)      
-[origin version](http://g0v.github.io/twly_crawler/merged.json)
-
 資料來源
 ======
 [立法院全球資訊網](http://www.ly.gov.tw/)       
 [立法院國會圖書館](http://npl.ly.gov.tw/)
-
 
 爬蟲流程
 =======
 
 如下圖所示, *scrapy* 這隻爬蟲程式依據 *ly_info_spider.py* 和 *npl_info_spider.py* 分別去
 立法院全球資訊網和立法院國會圖書館抓立委的資料，分別產生 *ly_info.json* 和 *npl_info.json*
-但這兩個檔案裡的中文都是未編碼的unicode，為了debug和後處理方便，各自有一隻reformat的程式
+但這兩個檔案裡的內容需要互補，各自有一隻reformat的程式
 ，分別再產生一些中繼檔。最後再經由 *merge_ly_and_npl.py* 合併產生最終結果 *merged.json*
 ，作為 *twly_fileHandler* 的輸入檔
 
