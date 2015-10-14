@@ -10,6 +10,7 @@ class LegislatorItem(Item):
     ad = Field()
     name = Field()
     gender = Field()
+    elected_party = Field()
     party = Field()
     caucus = Field()
     constituency = Field()

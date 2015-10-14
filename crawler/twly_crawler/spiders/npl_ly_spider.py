@@ -1,81 +1,54 @@
 # -*- coding: utf-8 -*-
 import re
+import urllib
+from urlparse import urljoin
 import scrapy
 from scrapy.http import Request
 from scrapy.selector import Selector
 from twly_crawler.items import LegislatorItem
 
 
-def take_first(list_in):
-    if len(list_in) == 1:
-        return list_in[0]
-    else:
-        return list_in
-
 class Spider(scrapy.Spider):
     name = "npl_ly"
-    allowed_domains = ["npl.ly.gov.tw"]
+    allowed_domains = ["lis.ly.gov.tw"]
     start_urls = [
-        "http://npl.ly.gov.tw/do/www/commissioner?orderBy=name&nameOrder=true&eleDisOrder=false&act=exp&expire=0&partyName=&keyword1=&keyword=&+%E6%9F%A5%E8%A9%A2+=+%E6%9F%A5%E8%A9%A2+",
+        "http://lis.ly.gov.tw/lylegismc/lylegismemkmout?!!FUNC400",
     ]
     download_delay = 0.5
 
     def parse(self, response):
-        """ get the following dictionary structure
-            { name         :
-              uid          :
-              ad           :
-              in_office    :
-              gender       :
-              party        :
-              constituency :
-              committee    :
-              experience   :
-              remark       :
-            }
-        """
-        nodes = response.xpath('//table/tr/td/a[contains(@href, "/do/www/commissionerInfo")]')
+        nodes = response.xpath('//ul[@id="ball_r"]//a')
         for node in nodes:
-            item = LegislatorItem()
-            item['name'] = take_first(node.xpath('text()').re(u'[\s]*([\S]+)[\s]*'))
-            match = re.search(u'id=(?P<id>[\d]*)&expireBack=0&expire=(?P<ad>[\d]*)', take_first(node.xpath('@href').extract()))
-            if match:
-                item['uid'] = int(match.group('id'))
-                item['ad'] = int(match.group('ad'))
-            else:
-                raise Exception("id & ad not found!")
-            if node.xpath('font/text()').re(u'離職'):
-                item['in_office'] = False
-            else:
-                item['in_office'] = True
-            request = Request('http://%s%s' % (self.allowed_domains[0], take_first(node.xpath('@href').extract())), callback=self.parse_profile)
-            request.meta['item'] = item
-            yield request
+            yield Request(urljoin(response.url, node.xpath('@href').extract_first()), callback=self.parse_ad, dont_filter=True)
+
+    def parse_ad(self, response):
+        nodes = response.xpath('//a[starts-with(@href, "/lylegisc")]')
+        for node in nodes:
+            href = node.xpath('@href').extract_first()
+            yield Request(urljoin(response.url, href), callback=self.parse_profile, dont_filter=True)
 
     def parse_profile(self, response):
-        items = []
-        item = response.request.meta['item']
-        nodes = response.xpath('//table/tr/td[@style="height:27"]')
+        item = LegislatorItem()
+        item['uid'] = int(re.search('memb(\d+)', response.url).group(1))
+        item['in_office'] = True
+        nodes = response.xpath('//td[@class="info_bg"]/table/tr')
         for node in nodes:
-            if node.xpath('../td/font/text()').re(u'性別'):
-                item['gender'] = take_first(node.xpath('text()').re(u'[\s]*([\S]+)[\s]*'))
-            elif node.xpath('../td/font/text()').re(u'當選黨籍'):
-                item['party'] = take_first(node.xpath('text()').re(u'[\s]*([\S]+)[\s]*'))
-            elif node.xpath('../td/font/text()').re(u'選區'):
-                item['constituency'] = take_first(node.xpath('text()').re(u'[\s]*([\S]+)[\s]*'))
-            elif node.xpath('../td/font/text()').re(u'委員會'):
-                item['committees'] = []
-                committee_list = node.xpath('text()').re(u'第[\S]{1,2}屆第[\S]{1,2}會期[：|:][\s]*[\S]+[\s]*[\S]*')
-                for committee in committee_list:
-                    match = re.search(u'第(?P<ad>[\S]{1,2})屆第(?P<session>[\S]{1,2})會期[：|:][\s]*(?P<name>[\S]+)[\s]*(?P<chair>\(召委\))?', committee)
-                    if match:
-                        if match.group('chair'):
-                            item['committees'].append({"ad": int(match.group('ad')), "session": int(match.group('session')), "name":match.group('name'), "chair":True})
-                        else:
-                            item['committees'].append({"ad": int(match.group('ad')), "session": int(match.group('session')), "name":match.group('name'), "chair":False})
-            elif node.xpath('../td/font/text()').re(u'簡歷'):
-                item['experience'] = node.xpath('text()').re(u'[\s]*([\S]+)[\s]*')
-            elif node.xpath('../td/font/text()').re(u'備註'):
-                item['remark'] = node.xpath('text()').re(u'[\s]*([\S]+)[\s]*')
-        items.append(item)
-        return items
+            if node.xpath('td[1]/text()').re(u'^姓名$'):
+                item['name'] = node.xpath('td[2]/text()').extract_first().split()[0]
+            elif node.xpath('td[1]/text()').re(u'^性別$'):
+                item['gender'] = node.xpath('td[2]/text()').extract_first()
+            elif node.xpath('td[1]/text()').re(u'^任期$'):
+                item['ad'] = int(node.xpath('td[2]/text()').extract_first())
+            elif node.xpath('td[1]/text()').re(u'^當選黨籍$'):
+                item['elected_party'] = node.xpath('td[2]/text()').extract_first()
+            elif node.xpath('td[1]/text()').re(u'^黨籍$'):
+                item['party'] = node.xpath('td[2]/text()').extract_first()
+            elif node.xpath('td[1]/text()').re(u'^選區$'):
+                item['constituency'] = node.xpath('td[2]/text()').extract_first()
+            elif node.xpath('td[1]/text()').re(u'^簡歷$'):
+                item['experience'] = node.xpath('td[2]//text()').re(u'[\s]*([\S]+)[\s]*')
+            elif node.xpath('td[1]/text()').re(u'^離職日期$'):
+                item['in_office'] = False
+            elif node.xpath('td[1]/text()').re(u'^備註$'):
+                item['remark'] = node.xpath('td[2]//text()').re(u'[\s]*([\S]+)[\s]*')
+        yield item

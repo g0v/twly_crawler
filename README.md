@@ -3,6 +3,10 @@ twly_crawler
 
 Crawler for [立委投票指南](http://vote.ly.g0v.tw/)
 
+Change Log
+======
+1. 2015-10-13: 發現國會圖書館改版, change related npl_ly crawler
+
 環境
 ======
 http://doc.scrapy.org/en/latest/intro/install.html      
@@ -11,21 +15,27 @@ http://doc.scrapy.org/en/latest/intro/install.html
 ======
 Enter a directory where you’d like to store these code and then run:        
 ```
-./crawl_all.sh
+cd crawler      
+./crawl_all.sh      
+cd ..
 ```
 or
 ```
-rm -f ly_info.json npl_ly.json     
-scrapy crawl ly_info -o ly_info.json -t json        
-scrapy crawl npl_ly -o npl_ly.json -t json        
+rm -f data/ly_info.json data/npl_ly.json     
+cd crawler      
+scrapy crawl ly_info -o ../data/ly_info.json -t json        
+scrapy crawl npl_ly -o ../data/npl_ly.json -t json        
+cd ..
 ```
         
 After crawler finished:        
 ```
+cd parser
 ./merge_all.sh
 ```
 or
 ```
+cd parser
 python reformat_ly_info.py      
 python reformat_npl_ly.py      
 python merge_ly_and_npl.py      

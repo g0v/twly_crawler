@@ -37,7 +37,7 @@ def merge_dicts(dict_list_id_sorted):
 objs = json.load(open('../data/npl_ly.json'))
 for npl_legislator in objs:
     common.normalize_name(npl_legislator)
-dump_data = json.dumps(objs)
+dump_data = json.dumps(objs, sort_keys=True, ensure_ascii=False)
 common.write_file(dump_data, '../data/npl_ly.json')
 dump_data = json.dumps(merge_dicts(sorted(objs, key=lambda d: d["uid"])), sort_keys=True, indent=4, ensure_ascii=False)
 common.write_file(dump_data, '../data/pretty_format/npl_ly.json')

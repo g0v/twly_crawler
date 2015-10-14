@@ -11,7 +11,7 @@ def find_legislator_from_ly_info(names, term, ly_dict_list):
     if len(possible) == 1:
         return possible[0]
     elif len(possible) == 0:
-        print 'ly2npl can not find legislator at ad: %s name in: %s' % (str(term["ad"]), names[0])
+        print 'ly2npl can not find legislator at ad: %s named: %s' % (str(term["ad"]), names[0])
     else:
         print 'ly2npl duplicate name in: %s at ad: %s' % (names[:], str(term["ad"]))
         possible2one = [legislator for legislator in possible if legislator["party"] == term["party"] and legislator["gender"] == term["gender"]]
@@ -73,7 +73,7 @@ for ly_legislator in ly_dict_list:
 f.close()
 # <-- end
 
-dump_data = json.dumps(npl_dict_list, sort_keys=True)
+dump_data = json.dumps(npl_dict_list, sort_keys=True, ensure_ascii=False)
 common.write_file(dump_data, '../data/merged.json')
 dump_data = json.dumps(npl_dict_list, sort_keys=True, indent=4, ensure_ascii=False)
 common.write_file(dump_data, '../data/pretty_format/merged.json')

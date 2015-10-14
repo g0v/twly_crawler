@@ -1,1 +1,0 @@
-key, in_office, (ly.gov.tw), False, (npl), True, uid, 767, ad, 3, name, 何聖隆, links, http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00169&stage=3

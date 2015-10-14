@@ -18,7 +18,11 @@ BOT_NAME = 'twly_crawler'
 
 SPIDER_MODULES = ['twly_crawler.spiders']
 NEWSPIDER_MODULE = 'twly_crawler.spiders'
+COOKIES_ENABLED = False
 LOG_FILE = 'log.txt'
+# for develop
+#HTTPCACHE_ENABLED = True
+#HTTPCACHE_EXPIRATION_SECS = 0
 
 FEED_EXPORTERS = {
     'json': 'crawler_lib.misc.UnicodeJsonItemExporter',
