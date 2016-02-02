@@ -33,7 +33,7 @@ class Spider(scrapy.Spider):
     download_delay = 1
 
     def start_requests(self):
-        for ad in range(2, 9):
+        for ad in range(2, 10):
             payload = {
                 'queryFlag': 'true',
                 'searchValues[1]': str(ad),
