@@ -837,6 +837,16 @@
                 "name": "王金平", 
                 "party": "中國國民黨", 
                 "title": "立法院院長"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "王金平", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -24145,6 +24155,16 @@
                 "name": "柯建銘", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "新竹市選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "柯建銘", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -26922,6 +26942,16 @@
                 "name": "黃昭順", 
                 "party": "中國國民黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "中國國民黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "黃昭順", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -28773,6 +28803,16 @@
                     "於86年12月20日起辭去立法委員職務"
                 ], 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "蘇嘉全", 
+                "party": "民主進步黨", 
+                "title": "立法院院長"
             }
         ], 
         "former_names": [], 
@@ -29516,6 +29556,16 @@
                     "行政院政務委員", 
                     "雲林社社長"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "李應元", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "李應元", 
@@ -31177,6 +31227,16 @@
                 "name": "陳其邁", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "陳其邁", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -32031,6 +32091,16 @@
                     "立法院交通、教育、預算、科技、法制、程序委員會程序委員", 
                     "民進黨立法院黨團總召集人"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "鄭寶清", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "桃園市第4選舉區", 
+                "elected_party": "民主進步黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "鄭寶清", 
@@ -36400,6 +36470,16 @@
                 "name": "陳明文", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "嘉義縣第2選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "陳明文", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -36837,6 +36917,16 @@
                 "name": "陳超明", 
                 "party": "中國國民黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "苗栗縣第1選舉區", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "陳超明", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -37083,6 +37173,16 @@
                     "桃園縣政府文化局長", 
                     "中國國民黨桃園縣黨部主任委員"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "陳學聖", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "桃園市第3選舉區", 
+                "elected_party": "中國國民黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "陳學聖", 
@@ -38134,6 +38234,16 @@
                 "name": "葉宜津", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "臺南市第1選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "葉宜津", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -38983,6 +39093,16 @@
                 "name": "賴士葆", 
                 "party": "中國國民黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "臺北市第8選舉區", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "賴士葆", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -39253,6 +39373,16 @@
                     "國民黨中央常務委員", 
                     "台中市愛心媽媽副大隊長"
                 ], 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "盧秀燕", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "臺中市第5選舉區", 
+                "elected_party": "中國國民黨", 
                 "gender": "女", 
                 "in_office": true, 
                 "name": "盧秀燕", 
@@ -39818,6 +39948,16 @@
                     "台北縣彰化同鄉會理事長", 
                     "救國團台北縣團委會指導委員"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "羅明才", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "新北市第11選舉區", 
+                "elected_party": "中國國民黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "羅明才", 
@@ -40931,12 +41071,26 @@
                     "臺北縣升格促進小組成員", 
                     "思源醫療基金會董事", 
                     "麗寶文教基金會執行長", 
-                    "日商大成建設副總緀理兼總工程師"
+                    "日商大成建設副總經理兼總工程師"
                 ], 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "李鴻鈞", 
-                "party": "中國國民黨", 
+                "party": "親民黨", 
+                "remark": [
+                    "104年11月17日退出中國國民黨", 
+                    "104年11月25日加入親民黨"
+                ], 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "親民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "李鴻鈞", 
+                "party": "親民黨", 
                 "title": "立法委員"
             }
         ], 
@@ -41311,6 +41465,16 @@
                 "name": "林岱樺", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "高雄市第4選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "林岱樺", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -41530,6 +41694,16 @@
                     "第5、6、7屆立法委員", 
                     "國立政治大學法律實務研究班結業"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "林德福", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "新北市第9選舉區", 
+                "elected_party": "中國國民黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "林德福", 
@@ -41841,6 +42015,16 @@
                 "name": "邱議瑩", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "高雄市第1選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "邱議瑩", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -42087,6 +42271,16 @@
                     "第5屆立法委員", 
                     "民進黨中常委"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "段宜康", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "段宜康", 
@@ -42576,6 +42770,16 @@
                 "name": "高志鵬", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "新北市第3選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "高志鵬", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -42727,6 +42931,16 @@
                     "第5、6、7屆立法委員", 
                     "台灣原住民防災救難協會榮譽總隊長"
                 ], 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "高金素梅", 
+                "party": "無黨團結聯盟", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "山地原住民", 
+                "elected_party": "無黨團結聯盟", 
                 "gender": "女", 
                 "in_office": true, 
                 "name": "高金素梅", 
@@ -44453,10 +44667,22 @@
                 "name": "廖國棟", 
                 "party": "中國國民黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "平地原住民", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "廖國棟Sufin‧Siluko", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
             }
         ], 
-        "former_names": [], 
-        "name": "廖國棟", 
+        "former_names": [
+            "廖國棟"
+        ], 
+        "name": "廖國棟Sufin‧Siluko", 
         "uid": 962
     }, 
     {
@@ -44558,6 +44784,16 @@
                 "remark": [
                     "於民國91年7月1日起辭去立法委員"
                 ], 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "高雄市第3選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "劉世芳", 
+                "party": "民主進步黨", 
                 "title": "立法委員"
             }
         ], 
@@ -45541,6 +45777,16 @@
                 "name": "蕭美琴", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "花蓮縣選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "蕭美琴", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -45747,6 +45993,16 @@
                     "立法院第五屆第四會期預算及決算委員會召集委員", 
                     "新台灣文教基金會董事長"
                 ], 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "蘇治芬", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "雲林縣第1選舉區", 
+                "elected_party": "民主進步黨", 
                 "gender": "女", 
                 "in_office": true, 
                 "name": "蘇治芬", 
@@ -54193,6 +54449,16 @@
                 "name": "孔文吉", 
                 "party": "中國國民黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "山地原住民", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "孔文吉", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -54300,6 +54566,16 @@
                     "伊甸社會福利基金會中區分會主任", 
                     "中華聯合勸募協會審查委員會委員"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "王榮璋", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "王榮璋", 
@@ -54617,6 +54893,16 @@
                     "遞補委員：黃仁杼"
                 ], 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "吳志揚", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -54799,6 +55085,16 @@
                 "name": "吳秉叡", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "新北市第4選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "吳秉叡", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -54911,6 +55207,16 @@
                     "電器維修工", 
                     "成衣廠縫紉機維修工"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "李昆澤", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "高雄市第6選舉區", 
+                "elected_party": "民主進步黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "李昆澤", 
@@ -55252,6 +55558,16 @@
                 "name": "林為洲", 
                 "party": "無黨籍", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "新竹縣選舉區", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "林為洲", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -55362,6 +55678,16 @@
                     "35歲連任單一選區選制下的立法委員", 
                     "長期在教育文化委員會為下一代打拚"
                 ], 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "林淑芬", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "新北市第2選舉區", 
+                "elected_party": "民主進步黨", 
                 "gender": "女", 
                 "in_office": true, 
                 "name": "林淑芬", 
@@ -55682,6 +56008,16 @@
                 "name": "徐國勇", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "徐國勇", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -55941,6 +56277,16 @@
                 "in_office": true, 
                 "name": "張麗善", 
                 "party": "無黨籍", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "中國國民黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "張麗善", 
+                "party": "中國國民黨", 
                 "title": "立法委員"
             }
         ], 
@@ -56480,6 +56826,16 @@
                 "name": "陳瑩", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "平地原住民", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "陳瑩", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -56651,6 +57007,16 @@
                 "name": "費鴻泰", 
                 "party": "中國國民黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "臺北市第7選舉區", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "費鴻泰", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -56759,7 +57125,7 @@
                     "立法院教育文化委員會召委", 
                     "文化大學華岡青年", 
                     "新北市體育會理事長", 
-                    "2005年中國青年救國青年將章", 
+                    "2005年中國青年救國青年獎章", 
                     "2004年雅典奧運跆拳道銀牌", 
                     "2003年德國世界錦標賽金牌", 
                     "2002年釜山亞運會跆拳道金牌", 
@@ -56838,6 +57204,16 @@
                     "行政院顧問", 
                     "行政院農業委員會專門委員"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "黃偉哲", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "臺南市第2選舉區", 
+                "elected_party": "民主進步黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "黃偉哲", 
@@ -57124,6 +57500,16 @@
                 "name": "管碧玲", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "高雄市第5選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "管碧玲", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -57279,6 +57665,16 @@
                 "name": "蔡其昌", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "臺中市第1選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "蔡其昌", 
+                "party": "民主進步黨", 
+                "title": "立法院副院長"
             }
         ], 
         "former_names": [], 
@@ -57454,6 +57850,16 @@
                     "沈富雄國會辦公室政策助理", 
                     "高雄市政府工務局機要秘書"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "鄭運鵬", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "桃園市第1選舉區", 
+                "elected_party": "民主進步黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "鄭運鵬", 
@@ -62732,6 +63138,16 @@
                 "name": "陳亭妃", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "臺南市第3選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "陳亭妃", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -63204,12 +63620,22 @@
                 "name": "簡東明", 
                 "party": "中國國民黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "山地原住民", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "簡東明Uliw‧Qaljupayare", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [
-            "Uliw．Qaljupayare"
+            "簡東明"
         ], 
-        "name": "簡東明", 
+        "name": "簡東明Uliw‧Qaljupayare", 
         "uid": 1717
     }, 
     {
@@ -63268,6 +63694,16 @@
                     "民進黨中央黨部執行委員", 
                     "第7屆立法委員"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "蘇震清", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "屏東縣第1選舉區", 
+                "elected_party": "民主進步黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "蘇震清", 
@@ -63468,6 +63904,16 @@
                 "name": "蔣乃辛", 
                 "party": "中國國民黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "臺北市第6選舉區", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "蔣乃辛", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -63528,6 +63974,16 @@
                 "name": "劉建國", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "雲林縣第2選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "劉建國", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -63569,6 +64025,16 @@
                     "中國國民黨埔里鎮黨部主委", 
                     "南投縣家扶中心委員"
                 ], 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "馬文君", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "南投縣第1選舉區", 
+                "elected_party": "中國國民黨", 
                 "gender": "女", 
                 "in_office": true, 
                 "name": "馬文君", 
@@ -63743,6 +64209,16 @@
                 "name": "王育敏", 
                 "party": "中國國民黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "中國國民黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "王育敏", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -63769,6 +64245,16 @@
                     "救國團鹿港團委會會長", 
                     "彰化縣青工會總會長"
                 ], 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "王惠美", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "彰化縣第1選舉區", 
+                "elected_party": "中國國民黨", 
                 "gender": "女", 
                 "in_office": true, 
                 "name": "王惠美", 
@@ -63806,6 +64292,16 @@
                 "name": "尤美女", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "尤美女", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -63833,6 +64329,16 @@
                     "中華民國委員會副秘書長", 
                     "獲選中央社2006年「台灣十大潛力人物」"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "江啟臣", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "臺中市第8選舉區", 
+                "elected_party": "中國國民黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "江啟臣", 
@@ -63909,6 +64415,16 @@
                 "name": "何欣純", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "臺中市第7選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "何欣純", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -63923,15 +64439,13 @@
                 "elected_party": "中國國民黨", 
                 "experience": [
                     "英國華威大學工業關係博士", 
+                    "第八屆全國不分區", 
                     "國立中正大學勞工關係學系教授", 
                     "考試院典試委員", 
                     "臺灣勞動與社會保障協會理事長", 
                     "臺灣總工會策略委員會委員", 
                     "臺灣高等教育產業工會發起人", 
-                    "縣市勞資爭議仲裁委員", 
-                    "雲林縣兒童福利發展協會創會理事長", 
-                    "雲林縣國際工商經管研究社創社社長", 
-                    "雲林縣越南同鄉權益協進會常務監事"
+                    "縣市勞資爭議仲裁委員"
                 ], 
                 "gender": "男", 
                 "in_office": true, 
@@ -63996,6 +64510,16 @@
                 "name": "呂玉玲", 
                 "party": "中國國民黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "桃園市第5選舉區", 
+                "elected_party": "中國國民黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "呂玉玲", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -64017,6 +64541,16 @@
                     "考試院銓敘部政務次長", 
                     "嘉義市副市長"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "李俊俋", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "嘉義市選舉區", 
+                "elected_party": "民主進步黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "李俊俋", 
@@ -64208,6 +64742,16 @@
                 "name": "邱志偉", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "高雄市第2選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "邱志偉", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -64235,6 +64779,16 @@
                     "綠色和平電台主持人", 
                     "蘭雅國中、輔大、政大社科院傑出校友"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "姚文智", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "臺北市第2選舉區", 
+                "elected_party": "民主進步黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "姚文智", 
@@ -64270,8 +64824,8 @@
                 "name": "徐欣瑩", 
                 "party": "民國黨", 
                 "remark": [
-                    "104年2月9日退出中國國民黨。", 
-                    "104年3月18日加入民國黨。"
+                    "104年2月9日退出中國國民黨", 
+                    "104年3月18日加入民國黨"
                 ], 
                 "title": "立法委員"
             }
@@ -64367,6 +64921,16 @@
                 "name": "許智傑", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "高雄市第8選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "許智傑", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -64386,6 +64950,19 @@
                     "雪源文教基金會董事長", 
                     "連江縣第3、4屆縣長"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "陳雪生", 
+                "party": "中國國民黨", 
+                "remark": [
+                    "104年7月8日加入中國國民黨"
+                ], 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "連江縣選舉區", 
+                "elected_party": "中國國民黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "陳雪生", 
@@ -64448,6 +65025,16 @@
                     "國立宜蘭大學兼任講師", 
                     "1987年高考及格"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "陳歐珀", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "宜蘭縣選舉區", 
+                "elected_party": "民主進步黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "陳歐珀", 
@@ -64632,6 +65219,16 @@
                 "name": "楊曜", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "澎湖縣選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "楊曜", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -64707,6 +65304,16 @@
                 "name": "趙天麟", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "高雄市第7選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "趙天麟", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -64736,6 +65343,16 @@
                 "name": "劉櫂豪", 
                 "party": "民主進步黨", 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "臺東縣選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "劉櫂豪", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -64757,6 +65374,16 @@
                     "台灣省政府副秘書長", 
                     "榮獲考試院頒發91年公務人員傑出貢獻獎"
                 ], 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "鄭天財Sra‧Kacaw", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "平地原住民", 
+                "elected_party": "中國國民黨", 
                 "gender": "男", 
                 "in_office": true, 
                 "name": "鄭天財Sra‧Kacaw", 
@@ -64789,6 +65416,16 @@
                     "蔡英文新北市競選辦公室發言人", 
                     "蔡英文總統競選辦公室發言人"
                 ], 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "鄭麗君", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
                 "gender": "女", 
                 "in_office": true, 
                 "name": "鄭麗君", 
@@ -65484,6 +66121,16 @@
                     "102年2月1日公告遞補"
                 ], 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "臺中市第2選舉區", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "顏寬恒", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -65510,6 +66157,16 @@
                 "remark": [
                     "民國102年3月22日公告遞補"
                 ], 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "親民黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "陳怡潔", 
+                "party": "親民黨", 
                 "title": "立法委員"
             }
         ], 
@@ -65628,6 +66285,16 @@
                     "104年2月12日公告遞補"
                 ], 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "臺中市第6選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "黃國書", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -65662,6 +66329,16 @@
                 "remark": [
                     "104年2月12日公告遞補"
                 ], 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "彰化縣第4選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "陳素月", 
+                "party": "民主進步黨", 
                 "title": "立法委員"
             }
         ], 
@@ -65698,6 +66375,16 @@
                     "104年2月12日公告遞補"
                 ], 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "苗栗縣第2選舉區", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "徐志榮", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -65724,6 +66411,16 @@
                 "remark": [
                     "104年2月12日公告遞補"
                 ], 
+                "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "南投縣第2選舉區", 
+                "elected_party": "中國國民黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "許淑華", 
+                "party": "中國國民黨", 
                 "title": "立法委員"
             }
         ], 
@@ -65760,6 +66457,16 @@
                     "104年2月12日公告遞補"
                 ], 
                 "title": "立法委員"
+            }, 
+            {
+                "ad": 9, 
+                "constituency": "屏東縣第3選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "莊瑞雄", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
             }
         ], 
         "former_names": [], 
@@ -65774,22 +66481,18 @@
                 "elected_party": "中國國民黨", 
                 "experience": [
                     "美國麻省波斯頓大學政治經濟學博士", 
-                    "中華民國國家安全會議諮詢委員（2008/05~2010/05）", 
-                    "太平洋經濟合作理事會（PECC)國際秘書處秘書長（1999/07–2001/12;新加坡）", 
-                    "亞太經合會（APEC)國際秘書處研究室主任（1996/07–1999/06；新加坡）", 
-                    "太平洋經濟合作理事會（PECC）中華民國委員會董事", 
+                    "中華民國國家安全會議諮詢委員(2008/05~2010/05", 
+                    ")", 
+                    "太平洋經濟合作理事會(PECC)國際秘書處秘書長(1999/07–2001/12;新加坡)", 
+                    "亞太經合會(APEC)國際秘書處研究室主任(1996/07–1999/06;新加坡)", 
+                    "太平洋經濟合作理事會(PECC)中華民國委員會董事", 
                     "台灣經濟研究院顧問", 
                     "遠景基金會董事暨全球經貿小組召集人", 
                     "二十一世紀基金會顧問", 
                     "新興市場研究協會常務理事", 
                     "中美文化經濟協會理事", 
                     "台灣環境資源戰略學會理事", 
-                    "政治大學亞洲研究國際博士學程（IDAS）、國際研究英語碩士學程（IMPIS）暨企管研究所（MBA）約聘兼任副教授", 
-                    "二十一世紀基金會顧問", 
-                    "新興市場研究協會常務理事", 
-                    "中美文化經濟協會理事", 
-                    "台灣環境資源戰略學會理事", 
-                    "政治大學亞洲研究國際博士學程（IDAS）、國際研究英語碩士學程（IMPIS）暨企管研究所（MBA）約聘兼任副教授"
+                    "政治大學亞洲研究國際博士學程(IDAS)、國際研究英語碩士學程(IMPIS)暨企管研究所(MBA)約聘兼任副教授"
                 ], 
                 "gender": "女", 
                 "in_office": true, 
@@ -65801,5 +66504,736 @@
         "former_names": [], 
         "name": "詹滿容", 
         "uid": 1813
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "吳焜裕", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "吳焜裕", 
+        "uid": 1814
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "吳玉琴", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "吳玉琴", 
+        "uid": 1815
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "陳曼麗", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "陳曼麗", 
+        "uid": 1816
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "顧立雄", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "顧立雄", 
+        "uid": 1817
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "蔡培慧", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "蔡培慧", 
+        "uid": 1818
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "谷辣斯‧尤達卡Kolas‧Yotaka", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "谷辣斯‧尤達卡Kolas‧Yotaka", 
+        "uid": 1819
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "余宛如", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "余宛如", 
+        "uid": 1820
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "鍾孔炤", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "鍾孔炤", 
+        "uid": 1821
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "林靜儀", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "林靜儀", 
+        "uid": 1822
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "周春米", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "周春米", 
+        "uid": 1823
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "中國國民黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "柯志恩", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "柯志恩", 
+        "uid": 1824
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "陳宜民", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "陳宜民", 
+        "uid": 1825
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "中國國民黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "林麗蟬", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "林麗蟬", 
+        "uid": 1826
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "許毓仁", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "許毓仁", 
+        "uid": 1827
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "曾銘宗", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "曾銘宗", 
+        "uid": 1828
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "中國國民黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "徐榛蔚", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "徐榛蔚", 
+        "uid": 1829
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "親民黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "周陳秀霞", 
+                "party": "親民黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "周陳秀霞", 
+        "uid": 1830
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "時代力量", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "高潞‧以用‧巴魕剌Kawlo‧Iyun‧Pacidal", 
+                "party": "時代力量", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "高潞‧以用‧巴魕剌Kawlo‧Iyun‧Pacidal", 
+        "uid": 1831
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "全國不分區", 
+                "elected_party": "時代力量", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "徐永明", 
+                "party": "時代力量", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "徐永明", 
+        "uid": 1832
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "臺北市第1選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "吳思瑤", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "吳思瑤", 
+        "uid": 1833
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "臺北市第3選舉區", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "蔣萬安", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "蔣萬安", 
+        "uid": 1834
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "臺北市第4選舉區", 
+                "elected_party": "中國國民黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "李彥秀", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "李彥秀", 
+        "uid": 1835
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "臺北市第5選舉區", 
+                "elected_party": "時代力量", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "林昶佐", 
+                "party": "時代力量", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "林昶佐", 
+        "uid": 1836
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "新北市第1選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "呂孫綾", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "呂孫綾", 
+        "uid": 1837
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "新北市第5選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "蘇巧慧", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "蘇巧慧", 
+        "uid": 1838
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "新北市第6選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "張宏陸", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "張宏陸", 
+        "uid": 1839
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "新北市第7選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "羅致政", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "羅致政", 
+        "uid": 1840
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "新北市第8選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "江永昌", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "江永昌", 
+        "uid": 1841
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "新北市第10選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "吳琪銘", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "吳琪銘", 
+        "uid": 1842
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "新北市第12選舉區", 
+                "elected_party": "時代力量", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "黃國昌", 
+                "party": "時代力量", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "黃國昌", 
+        "uid": 1843
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "桃園市第2選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "陳賴素美", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "陳賴素美", 
+        "uid": 1844
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "桃園市第6選舉區", 
+                "elected_party": "無黨籍", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "趙正宇", 
+                "party": "無黨籍", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "趙正宇", 
+        "uid": 1845
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "臺中市第3選舉區", 
+                "elected_party": "時代力量", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "洪慈庸", 
+                "party": "時代力量", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "洪慈庸", 
+        "uid": 1846
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "臺中市第4選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "張廖萬堅", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "張廖萬堅", 
+        "uid": 1847
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "臺南市第4選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "林俊憲", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "林俊憲", 
+        "uid": 1848
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "臺南市第5選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "王定宇", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "王定宇", 
+        "uid": 1849
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "高雄市第9選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "賴瑞隆", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "賴瑞隆", 
+        "uid": 1850
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "彰化縣第2選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "女", 
+                "in_office": true, 
+                "name": "黃秀芳", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "黃秀芳", 
+        "uid": 1851
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "彰化縣第3選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "洪宗熠", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "洪宗熠", 
+        "uid": 1852
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "嘉義縣第1選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "蔡易餘", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "蔡易餘", 
+        "uid": 1853
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "屏東縣第2選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "鍾佳濱", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "鍾佳濱", 
+        "uid": 1854
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "基隆市選舉區", 
+                "elected_party": "民主進步黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "蔡適應", 
+                "party": "民主進步黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "蔡適應", 
+        "uid": 1855
+    }, 
+    {
+        "each_term": [
+            {
+                "ad": 9, 
+                "constituency": "金門縣選舉區", 
+                "elected_party": "中國國民黨", 
+                "gender": "男", 
+                "in_office": true, 
+                "name": "楊鎮浯", 
+                "party": "中國國民黨", 
+                "title": "立法委員"
+            }
+        ], 
+        "former_names": [], 
+        "name": "楊鎮浯", 
+        "uid": 1856
     }
 ]
