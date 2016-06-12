@@ -32,15 +32,22 @@ class Spider(scrapy.Spider):
     #server has some anti-ddos protection and we need some delay to avoid fetch failure
     download_delay = 1
 
+    def __init__(self, ad=None, *args, **kwargs):
+        super(Spider, self).__init__(*args, **kwargs)
+        self.ad = ad
+
     def start_requests(self):
         for ad in range(2, 10):
-            payload = {
-                'queryFlag': 'true',
-                'searchValues[1]': str(ad),
-                'searchValues[5]': 'lgno',
-                'searchValues[6]': 'asc'
-            }
-            yield scrapy.FormRequest('http://www.ly.gov.tw/03_leg/0301_main/legList.action', formdata=payload, callback=self.parse, dont_filter=True)
+            if self.ad and self.ad != str(ad):
+                continue
+            else:
+                payload = {
+                    'queryFlag': 'true',
+                    'searchValues[1]': str(ad),
+                    'searchValues[5]': 'lgno',
+                    'searchValues[6]': 'asc'
+                }
+                yield scrapy.FormRequest('http://www.ly.gov.tw/03_leg/0301_main/legList.action', formdata=payload, callback=self.parse, dont_filter=True)
 
     def parse(self, response):
         for href in response.xpath('//*[@class="leg03_news_search_03"]/a/@href').extract():

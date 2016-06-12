@@ -16,10 +16,17 @@ class Spider(scrapy.Spider):
     ]
     download_delay = 0.5
 
+    def __init__(self, ad=None, *args, **kwargs):
+        super(Spider, self).__init__(*args, **kwargs)
+        self.ad = ad
+
     def parse(self, response):
         nodes = response.xpath('//ul[@id="ball_r"]//a')
         for node in nodes:
-            yield Request(urljoin(response.url, node.xpath('@href').extract_first()), callback=self.parse_ad, dont_filter=True)
+            if self.ad and self.ad != node.xpath('text()').extract_first():
+                continue
+            else:
+                yield Request(urljoin(response.url, node.xpath('@href').extract_first()), callback=self.parse_ad, dont_filter=True)
 
     def parse_ad(self, response):
         nodes = response.xpath('//a[starts-with(@href, "/lylegisc")]')

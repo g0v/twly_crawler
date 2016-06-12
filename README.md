@@ -15,30 +15,30 @@ http://doc.scrapy.org/en/latest/intro/install.html
 ======
 Enter a directory where you’d like to store these code and then run:        
 ```
-cd crawler      
-./crawl_all.sh      
-cd ..
+crawler$ ./crawl_all.sh      
 ```
 or
 ```
 rm -f data/ly_info.json data/npl_ly.json     
-cd crawler      
-scrapy crawl ly_info -o ../data/ly_info.json -t json        
-scrapy crawl npl_ly -o ../data/npl_ly.json -t json        
-cd ..
+crawler$ scrapy crawl ly_info -o ../data/ly_info.json -t json        
+crawler$ scrapy crawl npl_ly -o ../data/npl_ly.json -t json        
+```
+or specific ad
+```
+rm -f data/9/
+crawler$ scrapy crawl ly_info -a ad=9 -o ../data/9/ly_info.json -t json        
+crawler$ scrapy crawl npl_ly -a ad=9 -o ../data/9/npl_ly.json -t json        
 ```
         
 After crawler finished:        
 ```
-cd parser
-./merge_all.sh
+parser$ ./merge_all.sh
 ```
 or
 ```
-cd parser
-python reformat_ly_info.py      
-python reformat_npl_ly.py      
-python merge_ly_and_npl.py      
+parser$ python reformat_ly_info.py      
+parser$ python reformat_npl_ly.py      
+parser$ python merge_ly_and_npl.py      
 ```
         
 merge.json is the final data, ./data(pretty_format)/merge.json is it's pretty format in order to read easily.
