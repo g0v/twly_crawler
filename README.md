@@ -6,6 +6,7 @@ Crawler for [立委投票指南](http://vote.ly.g0v.tw/)
 Change Log
 ======
 1. 2015-10-13: 發現國會圖書館改版, change related npl_ly crawler
+2. 2016-06-14: 國會圖書館 not provide unique id for legislator anymore, change crawler/parser which ad >= 9, manage unique id ourself at [twly_fileHandler](https://github.com/thewayiam/twly_fileHandler)
 
 環境
 ======
@@ -39,6 +40,10 @@ or
 parser$ python reformat_ly_info.py      
 parser$ python reformat_npl_ly.py      
 parser$ python merge_ly_and_npl.py      
+```
+or specific ad, e.g.
+```
+parser$ python merge_ly_and_npl_one_ad.py --ad 9      
 ```
         
 merge.json is the final data, ./data(pretty_format)/merge.json is it's pretty format in order to read easily.

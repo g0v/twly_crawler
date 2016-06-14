@@ -36,7 +36,7 @@ class Spider(scrapy.Spider):
 
     def parse_profile(self, response):
         item = LegislatorItem()
-        item['uid'] = int(re.search('memb(\d+)', response.url).group(1))
+        item['ads'] = [int(x) for x in response.xpath('//*[@id="no"]/a/text()').extract()]
         item['in_office'] = True
         item['former_names'] = []
         nodes = response.xpath('//td[@class="info_bg"]/table/tr')

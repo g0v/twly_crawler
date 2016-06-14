@@ -6,7 +6,7 @@ from scrapy.item import Item, Field
 
 
 class LegislatorItem(Item):
-    uid = Field()
+    ads = Field()
     ad = Field()
     name = Field()
     former_names = Field()
