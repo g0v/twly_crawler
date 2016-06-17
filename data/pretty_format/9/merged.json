@@ -2,50 +2,53 @@
     {
         "ad": 9, 
         "ads": [
-            9
+            9, 
+            8, 
+            7, 
+            5
         ], 
         "caucus": "民主進步黨", 
         "committees": [
             {
                 "ad": 9, 
                 "chair": false, 
-                "name": "程序委員會", 
-                "session": 1
-            }, 
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "財政委員會", 
+                "name": "經濟委員會", 
                 "session": 1
             }
         ], 
-        "constituency": "全國不分區", 
+        "constituency": "高雄市第1選舉區", 
         "contacts": [
             {
-                "address": "10051臺北市中正區青島東路10號3503室", 
-                "fax": "02-2358-8015", 
+                "address": "10051臺北市中正區濟南路1段3-1號0801室", 
+                "fax": "02-2358-6520", 
                 "name": "國會研究室", 
-                "phone": "02-2358-8011"
+                "phone": "02-2358-6516"
+            }, 
+            {
+                "address": "843高雄市美濃區泰安路228號", 
+                "fax": "07-681-8677", 
+                "name": "美濃服務處", 
+                "phone": "07-681-8755"
             }
         ], 
         "education": [
-            "倫敦大學亞非學院飲食人類學碩士", 
-            "臺灣大學經濟系學士"
+            "高雄市道明高中", 
+            "美國舊金山多明尼肯大學企管研究所碩士"
         ], 
         "experience": [
-            "生態綠(股)公司創辦人、董事長", 
-            "Fairtrade Taiwan臺灣公平貿易推廣協會理事長", 
-            "社會企業發展聯盟理事", 
-            "綠色電商聯盟副理事長"
+            "第3屆國民大會代表", 
+            "第8、9屆民進黨中央常務委員", 
+            "行政院客家委員會副主委", 
+            "第5、7、8屆立法委員"
         ], 
         "former_names": [], 
         "gender": "女", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90011.jpg", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90037.jpg", 
         "in_office": true, 
         "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00011&stage=9"
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00037&stage=9"
         }, 
-        "name": "余宛如", 
+        "name": "邱議瑩", 
         "party": "民主進步黨", 
         "term_start": "2016-02-01", 
         "title": "立法委員"
@@ -55,6 +58,156 @@
         "ads": [
             9, 
             8
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "經費稽核委員會", 
+                "session": 1
+            }, 
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "經濟委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "高雄市第2選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號0607室", 
+                "fax": "02-2358-6565", 
+                "name": "國會研究室", 
+                "phone": "02-2358-6561"
+            }, 
+            {
+                "address": "高雄市岡山區中山南路385號", 
+                "fax": "07-623-0671", 
+                "name": "岡山服務處", 
+                "phone": "07-623-0655"
+            }, 
+            {
+                "address": "高雄市路竹區國昌路193號", 
+                "fax": "07-696-8052", 
+                "name": "路竹服務處", 
+                "phone": "07-696-8050"
+            }, 
+            {
+                "address": "高雄市梓官區梓官路361號", 
+                "fax": "07-610-7383", 
+                "name": "梓官服務處", 
+                "phone": "07-610-7303"
+            }, 
+            {
+                "address": "高雄市橋頭區新興路13號", 
+                "name": "橋頭服務處", 
+                "phone": "07-612-6127"
+            }, 
+            {
+                "address": "高雄市彌陀區鹽埕大路75號", 
+                "name": "彌陀聯絡處", 
+                "phone": "07-623-0655"
+            }, 
+            {
+                "address": "高雄市茄萣區東港街105號", 
+                "name": "茄萣服務處", 
+                "phone": "07-623-0655"
+            }
+        ], 
+        "education": [
+            "淡江大學俄羅斯研究所法學碩士", 
+            "國立臺灣大學國家發展研究所法學碩士", 
+            "國立中山大學大陸研究所社會科學博士"
+        ], 
+        "experience": [
+            "第8屆立法委員", 
+            "高雄市政府民政局長", 
+            "高雄縣政府民政處長", 
+            "修憲國民大會代表", 
+            "立陶宛維爾紐斯大學講座教授", 
+            "愛沙尼亞塔圖大學講座教授", 
+            "南華大學旅遊系助理教授", 
+            "英國劍橋大學國際關係研究所", 
+            "比利時魯汶大學歐洲研究所", 
+            "中正大學國際經濟所博士班"
+        ], 
+        "former_names": [], 
+        "gender": "男", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90036.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00036&stage=9"
+        }, 
+        "name": "邱志偉", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "內政委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "全國不分區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號0201室", 
+                "fax": "02-2358-6035", 
+                "name": "國會研究室", 
+                "phone": "02-2358-6031"
+            }, 
+            {
+                "address": "89147花蓮縣玉里鎮樂合里12鄰39號", 
+                "fax": "03-888-6446", 
+                "name": "樂合服務處", 
+                "phone": "03-888-6527"
+            }, 
+            {
+                "address": "花蓮縣玉里鎮民國路二段158-1號", 
+                "fax": "03-888-5070", 
+                "name": "玉里服務處", 
+                "phone": "03-888-0219"
+            }
+        ], 
+        "education": [
+            "臺中女中", 
+            "東海大學社會學系", 
+            "東海大學社會學系研究所碩士"
+        ], 
+        "experience": [
+            "桃園市政府原住民族行政局長", 
+            "原住民族電視台新聞部副理兼採訪中心組長、主播", 
+            "biz互動英語執行主編", 
+            "民視新聞部記者", 
+            "公共電視執行製作"
+        ], 
+        "former_names": [], 
+        "gender": "女", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90025.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00025&stage=9"
+        }, 
+        "name": "谷辣斯‧尤達卡Kolasyotaka", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9
         ], 
         "caucus": "民主進步黨", 
         "committees": [
@@ -65,657 +218,35 @@
                 "session": 1
             }
         ], 
-        "constituency": "臺中市第7選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號0301室", 
-                "fax": "02-2358-8390", 
-                "name": "國會研究室", 
-                "phone": "02-2358-8388"
-            }, 
-            {
-                "address": "臺中市大里區大里路63號", 
-                "fax": "04-2482-8743", 
-                "name": "大里服務處", 
-                "phone": "04-2483-6527"
-            }, 
-            {
-                "address": "臺中市太平區新平路二段142號", 
-                "fax": "04-2276-3555", 
-                "name": "太平服務處", 
-                "phone": "04-2276-3111"
-            }
-        ], 
-        "education": [
-            "塗城國小", 
-            "成功國中", 
-            "臺中女中", 
-            "國立成功大學", 
-            "英國約克大學婦女研究碩士"
-        ], 
-        "experience": [
-            "第8屆立法委員（公督盟評鑑教育文化委員會優秀立委、財促院評鑑教育組績優立委）", 
-            "立法院民進黨黨團副書記長", 
-            "第一屆大臺中市議員", 
-            "第15、16屆台中縣議員", 
-            "家扶中心北台中區副主任", 
-            "福田行善會、廣亮、同心、和風、合濟、眾愛等慈善團體會員"
-        ], 
-        "former_names": [], 
-        "gender": "女", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90010.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00010&stage=9"
-        }, 
-        "name": "何欣純", 
-        "party": "民主進步黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9, 
-            8
-        ], 
-        "caucus": "中國國民黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": true, 
-                "name": "外交及國防委員會", 
-                "session": 1
-            }, 
-            {
-                "ad": 9, 
-                "chair": true, 
-                "name": "程序委員會", 
-                "session": 1
-            }, 
-            {
-                "ad": 9, 
-                "chair": true, 
-                "name": "紀律委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "臺中市第8選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號2102室", 
-                "fax": "02-2358-6730", 
-                "name": "國會研究室", 
-                "phone": "02-2358-6726"
-            }, 
-            {
-                "address": "臺中市豐原區南村路20號", 
-                "fax": "04-2515-6798", 
-                "name": "豐原服務處", 
-                "phone": "04-2515-9998"
-            }, 
-            {
-                "address": "臺中市東勢區公園路36號", 
-                "fax": "04-2577-3167", 
-                "name": "東勢服務處", 
-                "phone": "04-2577-3099"
-            }
-        ], 
-        "education": [
-            "美國南卡羅萊納大學國際關係博士", 
-            "美國匹茲堡大學國際事務碩士", 
-            "國立政治大學外交學系", 
-            "台中一中", 
-            "豐南國中", 
-            "瑞穗國小"
-        ], 
-        "experience": [
-            "中華民國第8屆立法委員", 
-            "行政院新聞局局長", 
-            "東吳大學政治系專任副教授", 
-            "立法院中華民國與新加坡國會議員友好協會會長", 
-            "台灣經濟研究院國際處代處長", 
-            "台灣新世代關懷協會理事長", 
-            "公民監督國會聯盟、財經立法促進院評選為立法院績優委員"
-        ], 
-        "former_names": [], 
-        "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90009.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00009&stage=9"
-        }, 
-        "name": "江啟臣", 
-        "party": "中國國民黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "財政委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "新北市第8選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號2123室", 
-                "fax": "02-2358-8200", 
-                "name": "國會研究室", 
-                "phone": "02-2358-8199"
-            }, 
-            {
-                "address": "新北市中和區中和路44號2樓", 
-                "fax": "02-2249-7999", 
-                "name": "中和服務處", 
-                "phone": "02-2249-7899"
-            }
-        ], 
-        "education": [
-            "中和國小", 
-            "海山國中", 
-            "建國高中", 
-            "中興大學物理學士", 
-            "臺灣師範大學政治學研究所碩士"
-        ], 
-        "experience": [
-            "臺灣大學工業工程研究所碩士", 
-            "台北大學法律學院研究專班", 
-            "第2屆新北市議員", 
-            "第1屆新北市議員暨黨團幹事長", 
-            "第16屆臺北縣議員", 
-            "中和市市民代表", 
-            "立委趙永清國會助理", 
-            "凱達格蘭學校校友會監事", 
-            "陽光之友協會理事長", 
-            "紅十字會新北市分會副會長", 
-            "新北市義消第七大隊幹事"
-        ], 
-        "former_names": [], 
-        "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90008.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00008&stage=9"
-        }, 
-        "name": "江永昌", 
-        "party": "民主進步黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9, 
-            6
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "程序委員會", 
-                "session": 1
-            }, 
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "財政委員會", 
-                "session": 1
-            }
-        ], 
         "constituency": "全國不分區", 
         "contacts": [
             {
-                "address": "10051臺北市中正區濟南路1段3-1號2101室", 
-                "fax": "02-2358-8260", 
+                "address": "100臺北市中正區青島東路一段3111室", 
+                "fax": "02-2358-8245", 
                 "name": "國會研究室", 
-                "phone": "02-2358-8258"
+                "phone": "02-2358-8328"
             }
         ], 
         "education": [
-            "國立岡山高中畢業"
+            "東海大學社會學系"
         ], 
         "experience": [
-            "中華民國身心障礙聯盟秘書長", 
-            "台灣社會心理復健協會理事長", 
-            "台灣社會福利總盟常務理事", 
-            "伊甸社會福利基金會顧問", 
-            "蘋果日報慈善基金會常務董事", 
-            "新境界文教基金會董事", 
-            "臺灣少年權益及福利促進聯盟顧問", 
-            "第6屆立法委員"
-        ], 
-        "former_names": [], 
-        "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90005.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00005&stage=9"
-        }, 
-        "name": "王榮璋", 
-        "party": "民主進步黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9, 
-            8
-        ], 
-        "caucus": "中國國民黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "經濟委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "彰化縣第1選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號0501室", 
-                "fax": "02-2358-6185", 
-                "name": "國會研究室", 
-                "phone": "02-2358-6181"
-            }, 
-            {
-                "address": "彰化縣鹿港鎮永安里鹿東路55號", 
-                "fax": "04-777-9150", 
-                "name": "鹿港服務處", 
-                "phone": "04-775-4168"
-            }, 
-            {
-                "address": "彰化縣和美鎮德美路456號", 
-                "fax": "04-757-4822", 
-                "name": "和美服務處", 
-                "phone": "04-757-8568"
-            }
-        ], 
-        "education": [
-            "彰化縣洛津國小 ", 
-            "彰化縣鹿港國中 ", 
-            "國立臺中第二高級中學", 
-            "私立東海大學政治系學士學位、碩士學位", 
-            "國立彰化師範大學財務金融學系博士班(就讀中)"
-        ], 
-        "experience": [
-            "鹿鳴國中、伸港國中、大慶商工教師", 
-            "大葉大學、建國科技大學兼任講師", 
-            "彰化縣青年工作委員會總會長", 
-            "救國團鹿港鎮團委會會長", 
-            "鹿菁獅子會會長", 
-            "彰化縣土風舞協會理事長", 
-            "彰化縣議員", 
-            "鹿港鎮長", 
-            "立法委員", 
-            "彰化師範大學財務金融學系博士生"
+            "台灣展翅協會秘書長", 
+            "國際終止兒少性剝削組織東亞執委", 
+            "台灣女人連線理事", 
+            "行政院防制人口販運協調會委員", 
+            "行政院兒童及少年福利與權益推動小組委員"
         ], 
         "former_names": [], 
         "gender": "女", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90004.jpg", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90115.jpg", 
         "in_office": true, 
         "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00004&stage=9"
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00115&stage=9"
         }, 
-        "name": "王惠美", 
-        "party": "中國國民黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9, 
-            8, 
-            7, 
-            6, 
-            5, 
-            4, 
-            3, 
-            2, 
-            1
-        ], 
-        "caucus": "中國國民黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "外交及國防委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "全國不分區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區鎮江街2號1樓", 
-                "fax": "02-2358-8685", 
-                "name": "國會研究室", 
-                "phone": "02-2358-8681"
-            }, 
-            {
-                "address": "高雄市路竹區甲南村大仁路369巷7號", 
-                "fax": "07-607-5669", 
-                "name": "高雄服務處", 
-                "phone": "07-607-5509"
-            }
-        ], 
-        "education": [
-            "臺灣省立師範大學數學系畢業"
-        ], 
-        "experience": [
-            "立法院院長、副院長", 
-            "中國國民黨副主席", 
-            "國家生技醫療產業策進會會長"
-        ], 
-        "former_names": [], 
-        "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90001.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00001&stage=9"
-        }, 
-        "name": "王金平", 
-        "party": "中國國民黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "外交及國防委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "臺南市第5選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區青島東路1號3205室", 
-                "fax": "02-2358-8215", 
-                "name": "國會研究室", 
-                "phone": "02-2358-8211"
-            }, 
-            {
-                "address": "710臺南市永康區永大路一段259號(永大路及大灣東路口)", 
-                "fax": "06-2739-817", 
-                "name": "永康服務處", 
-                "phone": "06-2739-217"
-            }, 
-            {
-                "address": "711臺南市歸仁區中山路三段129號", 
-                "fax": "06-338-7412", 
-                "name": "南關線服務處", 
-                "phone": "06-330-2318~9"
-            }
-        ], 
-        "education": [
-            "成功大學外文系80級", 
-            "成功大學管理學院高階管理碩士97級", 
-            "長榮大學經營管理所博士班"
-        ], 
-        "experience": [
-            "臺南市議會第15、16屆議員", 
-            "台南直轄市第1屆市議員", 
-            "臺南市議會教育委員會召集人", 
-            "長老教會松年學講師", 
-            "臺南市教師會顧問", 
-            "臺南市教育產業工會顧問", 
-            "關中虎慢速球聯盟理事長", 
-            "電視台資深政論評論員"
-        ], 
-        "former_names": [], 
-        "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90003.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00003&stage=9"
-        }, 
-        "name": "王定宇", 
+        "name": "李麗芬", 
         "party": "民主進步黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9, 
-            8
-        ], 
-        "caucus": "中國國民黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": true, 
-                "name": "社會福利及衛生環境委員會", 
-                "session": 1
-            }, 
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "程序委員會", 
-                "session": 1
-            }, 
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "紀律委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "全國不分區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區青島東路1號3401室", 
-                "fax": "02-2358-8265", 
-                "name": "國會研究室", 
-                "phone": "02-2358-8261"
-            }
-        ], 
-        "education": [
-            "東海大學社會工作學系碩士", 
-            "東海大學社會工作學系學士"
-        ], 
-        "experience": [
-            "第8屆立法委員", 
-            "總統府人權諮詢小組委員", 
-            "內政部兒少福利委員會委員", 
-            "兒童福利聯盟基金會執行長"
-        ], 
-        "former_names": [], 
-        "gender": "女", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90002.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00002&stage=9"
-        }, 
-        "name": "王育敏", 
-        "party": "中國國民黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9, 
-            8
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "司法及法制委員會", 
-                "session": 1
-            }, 
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "程序委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "全國不分區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號0402室", 
-                "fax": "02-2358-8113", 
-                "name": "國會研究室", 
-                "phone": "02-2358-8112"
-            }
-        ], 
-        "education": [
-            "國立臺灣大學法律學研究所碩士"
-        ], 
-        "experience": [
-            "第8屆立委", 
-            "台北律師公會前理事長", 
-            "台灣婦女團體全國聯合會創會理事長", 
-            "婦女新知基金會前董事長", 
-            "總統府前人權諮詢委員"
-        ], 
-        "former_names": [], 
-        "gender": "女", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90007.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00007&stage=9"
-        }, 
-        "name": "尤美女", 
-        "party": "民主進步黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9, 
-            8, 
-            7, 
-            6
-        ], 
-        "caucus": "中國國民黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "經濟委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "山地原住民", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號0203室", 
-                "fax": "02-2358-8250", 
-                "name": "國會研究室", 
-                "phone": "02-2358-8246"
-            }
-        ], 
-        "education": [
-            "臺灣大學外文系畢業", 
-            "美國奧勒岡大學(University of Oregon)新聞碩士", 
-            "英國羅芙堡大學(Loughborough University)社會學系媒體研究組博士"
-        ], 
-        "experience": [
-            "第6、7、8屆立法委員", 
-            "臺北市政府原住民事務委員會主任委員", 
-            "內政部民政司專員", 
-            "行政院新聞局聯絡室秘書", 
-            "財團法人公共電視文化事業基金會董事", 
-            "朝陽科技大學及文藻外語專科學校等助理教授", 
-            "東吳大學、東華大學、花蓮師範學院等兼任助理教授"
-        ], 
-        "former_names": [], 
-        "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90006.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00006&stage=9"
-        }, 
-        "name": "孔文吉", 
-        "party": "中國國民黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9, 
-            8, 
-            7, 
-            6
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "經濟委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "高雄市第5選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號0901室", 
-                "fax": "02-2358-8150", 
-                "name": "國會研究室", 
-                "phone": "02-2358-8146"
-            }, 
-            {
-                "address": "高雄市三民區博愛一路183號", 
-                "fax": "07-313-5797", 
-                "name": "三民服務處", 
-                "phone": "07-313-7816"
-            }, 
-            {
-                "address": "高雄市鼓山區九如四路1097號", 
-                "fax": "07-521-5237", 
-                "name": "內惟服務處", 
-                "phone": "07-533-0227"
-            }
-        ], 
-        "education": [
-            "臺灣大學政治學博士"
-        ], 
-        "experience": [
-            "哈佛大學甘迺迪政府學院國家與國際安全高階行政專班結業", 
-            "國立台北大學公共行政暨政策學系副教授", 
-            "台灣教授協會秘書長", 
-            "高雄市新聞處處長、文化局局長", 
-            "第6、7、8屆立法委員", 
-            "立法院教育文化委員會、交通委員會召集委員", 
-            "立法院民進黨黨團幹事長", 
-            "民進黨中央黨部政策中心主任", 
-            "民進黨中央常務委員、中央執行委員"
-        ], 
-        "former_names": [], 
-        "gender": "女", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90083.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00083&stage=9"
-        }, 
-        "name": "管碧玲", 
-        "party": "民主進步黨", 
-        "term_start": "2016-02-01", 
+        "term_start": "2016-05-26", 
         "title": "立法委員"
     }, 
     {
@@ -727,58 +258,55 @@
             6, 
             5
         ], 
-        "caucus": "中國國民黨", 
+        "caucus": "親民黨", 
         "committees": [
             {
                 "ad": 9, 
                 "chair": false, 
-                "name": "經濟委員會", 
+                "name": "交通委員會", 
                 "session": 1
             }
         ], 
-        "constituency": "平地原住民", 
+        "constituency": "全國不分區", 
         "contacts": [
             {
-                "address": "10051臺北市中正區濟南路1段3-1號0807室", 
-                "fax": "02-2358-8180", 
+                "address": "10051臺北市中正區濟南路1段3-1號1108室", 
+                "fax": "02-2358-6240", 
                 "name": "國會研究室", 
-                "phone": "02-2358-8176"
+                "phone": "02-2358-6236"
             }, 
             {
-                "address": "臺東市四維路3段72號", 
-                "fax": "089-228-600", 
-                "name": "台東服務處", 
-                "phone": "089-228-798"
+                "address": "新北市新莊區公園路36號", 
+                "fax": "02-2992-9818", 
+                "name": "新莊服務處", 
+                "phone": "02-2992-9199"
+            }, 
+            {
+                "fax": "02-2900-0833", 
+                "name": "泰山服務處", 
+                "phone": "02-2297-7093"
             }
         ], 
         "education": [
-            "高雄醫學大學醫學系"
+            "日本大學結構工程學博士", 
+            "黎明工專畢業"
         ], 
         "experience": [
             "第5、6、7、8屆立法委員", 
-            "第3屆國大代表", 
-            "台東基督教醫院主治醫師", 
-            "台東衛生局課長", 
-            "台東縣延平、海端、蘭嶼、長濱、成功等鄉鎮衛生所主任兼醫師", 
-            "中華兩岸少數民族知識經濟交流協會理事長", 
-            "立法院厚生會會長", 
-            "東甯診所院長", 
-            "中華海峽兩岸醫療暨健康產業發展協會理事長", 
-            "臺灣原住民企業人協會理事長", 
-            "立法院國民黨團書記長", 
-            "國民黨中常委"
+            "立法院台日交流聯誼會會長", 
+            "淡江大學建築所兼任副教授", 
+            "中華民國紅十字會總會理事", 
+            "台灣民主基金會董事"
         ], 
-        "former_names": [
-            "廖國棟"
-        ], 
+        "former_names": [], 
         "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90082.jpg", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90024.jpg", 
         "in_office": true, 
         "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00082&stage=9"
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00024&stage=9"
         }, 
-        "name": "廖國棟Sufin‧Siluko", 
-        "party": "中國國民黨", 
+        "name": "李鴻鈞", 
+        "party": "親民黨", 
         "term_start": "2016-02-01", 
         "title": "立法委員"
     }, 
@@ -787,70 +315,45 @@
         "ads": [
             9, 
             8, 
-            7, 
-            6, 
-            5, 
-            4
+            4, 
+            3
         ], 
         "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": true, 
-                "name": "交通委員會", 
-                "session": 1
-            }, 
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "紀律委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "臺南市第1選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號0403室", 
-                "fax": "02-2358-6295", 
-                "name": "國會研究室", 
-                "phone": "02-2358-6291"
-            }, 
-            {
-                "address": "臺南市新營區民生路130號", 
-                "fax": "06-657-2818", 
-                "name": "新營服務處", 
-                "phone": "06-657-2808"
-            }, 
-            {
-                "address": "臺南市中西區成功路305號", 
-                "fax": "06-221-9027", 
-                "name": "成功服務處", 
-                "phone": "06-221-6027"
-            }
-        ], 
+        "committees": [], 
+        "constituency": "全國不分區", 
         "education": [
-            "美國Bridgeport大學音樂碩士"
+            "崙背國小", 
+            "虎尾初中", 
+            "台中一中", 
+            "台大公共衛生學系學士、碩士", 
+            "哈佛大學醫管碩士", 
+            "美國北卡醫療經濟學博士"
         ], 
         "experience": [
-            "公民監督國會聯盟唯一評鑑滿分立委", 
-            "澄社評鑑連續多年獲得表現優秀立委", 
-            "商業周刊評鑑優秀立委", 
-            "2007年美國國務院「菁英計畫」訪問學人", 
-            "民進黨中央黨部婦女部主任", 
-            "民進黨立法院黨團總幹事、書記長", 
-            "現任立法委員", 
-            "臺灣省議員暨民進黨黨團總召", 
-            "奧地利維也納音樂學院"
+            "立法委員", 
+            "駐美副代表 ", 
+            "行政院秘書長", 
+            "行政院勞工委員會主任委員", 
+            "行政院政務委員"
         ], 
         "former_names": [], 
-        "gender": "女", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90081.jpg", 
-        "in_office": true, 
+        "gender": "男", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90023.jpg", 
+        "in_office": false, 
         "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00081&stage=9"
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00023&stage=9"
         }, 
-        "name": "葉宜津", 
+        "name": "李應元", 
         "party": "民主進步黨", 
+        "remark": [
+            "自民國105年5月20日起辭去立法委員職務", 
+            "遞補委員：施義芳"
+        ], 
+        "term_end": {
+            "date": "2016-05-20", 
+            "reason": "依台立人字第1050003490號函自105年05月20日辭去立法委員職務。", 
+            "replacement": []
+        }, 
         "term_start": "2016-02-01", 
         "title": "立法委員"
     }, 
@@ -864,51 +367,53 @@
             {
                 "ad": 9, 
                 "chair": false, 
-                "name": "內政委員會", 
+                "name": "程序委員會", 
+                "session": 1
+            }, 
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "社會福利及衛生環境委員會", 
                 "session": 1
             }
         ], 
-        "constituency": "金門縣選舉區", 
+        "constituency": "臺北市第4選舉區", 
         "contacts": [
             {
-                "address": "10051臺北市中正區青島東路1號3103室", 
-                "fax": "02-2358-6100", 
+                "address": "10051臺北市中正區濟南路1段3-1號2119室", 
+                "fax": "02-2358-6925", 
                 "name": "國會研究室", 
-                "phone": "02-2358-6099"
+                "phone": "02-2358-6281"
             }, 
             {
-                "address": "金門縣金城鎮民生路69號", 
-                "fax": "082-375-155", 
-                "name": "金門服務處", 
-                "phone": "082-375-230"
+                "address": "臺北市南港區研究院路二段70巷10弄8號", 
+                "fax": "02-2651-1941", 
+                "name": "南港服務處", 
+                "phone": "02-2783-4987"
             }, 
             {
-                "address": "臺南市永康區復國一路500號", 
-                "name": "臺南服務處", 
-                "phone": "06-233-5927"
+                "address": "臺北市內湖區內湖路一段737巷27號2樓", 
+                "fax": "02-2798-6766", 
+                "name": "內湖服務處", 
+                "phone": "02-2798-9288"
             }
         ], 
         "education": [
-            "金門高中", 
-            "文化大學經濟系", 
-            "英國西敏大學企管碩士"
+            "美國加州爾灣大學經濟系畢業"
         ], 
         "experience": [
-            "金控公司襄理", 
-            "金門縣政府機要秘書", 
-            "金門縣政府交通旅遊局專員", 
-            "金門縣政府交通旅遊局局長", 
-            "金門縣政府觀光處處長", 
-            "中國國民黨大陸事務部副主任"
+            "臺北市議會第8、9、10、11、12屆市議員", 
+            "青溪婦聯會南港支分會主任委員", 
+            "南港區體育會理事長"
         ], 
         "former_names": [], 
-        "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90080.jpg", 
+        "gender": "女", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90022.jpg", 
         "in_office": true, 
         "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00080&stage=9"
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00022&stage=9"
         }, 
-        "name": "楊鎮浯", 
+        "name": "李彥秀", 
         "party": "中國國民黨", 
         "term_start": "2016-02-01", 
         "title": "立法委員"
@@ -924,42 +429,532 @@
             {
                 "ad": 9, 
                 "chair": false, 
+                "name": "內政委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "嘉義市選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號1001室", 
+                "fax": "02-2358-6545", 
+                "name": "國會研究室", 
+                "phone": "02-2358-6541"
+            }, 
+            {
+                "address": "600嘉義市西區博愛路二段166號", 
+                "fax": "05-277-9775", 
+                "name": "嘉義服務處", 
+                "phone": "05-271-9595"
+            }
+        ], 
+        "education": [
+            "美國波士頓學院政治研究所碩士", 
+            "文化大學政治系學士", 
+            "嘉義市民族國小"
+        ], 
+        "experience": [
+            "總統府國策顧問兼憲改辦公室主任", 
+            "考試院銓敘部政務次長", 
+            "嘉義市副市長"
+        ], 
+        "former_names": [], 
+        "gender": "男", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90021.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00021&stage=9"
+        }, 
+        "name": "李俊俋", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9, 
+            8, 
+            6
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "交通委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "高雄市第6選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號0306室", 
+                "fax": "02-2358-6090", 
+                "name": "國會研究室", 
+                "phone": "02-2358-6086"
+            }, 
+            {
+                "address": "高雄市三民區大昌二路63號", 
+                "fax": "07-386-3277", 
+                "name": "高雄服務處", 
+                "phone": "07-386-8292"
+            }
+        ], 
+        "education": [
+            "輔大歷史系畢", 
+            "中山大學政治學碩士"
+        ], 
+        "experience": [
+            "蔡英文主席特別助理", 
+            "第6、8屆立法委員（交通委員會召委）", 
+            "第6屆高雄市議員（民進黨團總召）", 
+            "第3屆國大代表（修憲審查小組召集人）", 
+            "高雄縣政府新聞室主任", 
+            "民進黨大型造勢晚會主持人", 
+            "陳定南立委特別助理", 
+            "台灣人權促進會總幹事", 
+            "台灣人權雜誌總主筆", 
+            "台灣環保聯盟幹事", 
+            "電器維修工", 
+            "成衣廠縫紉機維修工"
+        ], 
+        "former_names": [], 
+        "gender": "男", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90020.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00020&stage=9"
+        }, 
+        "name": "李昆澤", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "外交及國防委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "新北市第1選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號0805室", 
+                "fax": "02-2358-6530", 
+                "name": "國會研究室", 
+                "phone": "02-2358-6526"
+            }, 
+            {
+                "address": "新北市淡水區淡金路24號", 
+                "fax": "02-8626-0128", 
+                "name": "淡水服務處", 
+                "phone": "02-8626-9666"
+            }, 
+            {
+                "address": "新北市泰山區文程路18巷12號", 
+                "fax": "02-2909-5641", 
+                "name": "泰山服務處", 
+                "phone": "02-2296-6994"
+            }
+        ], 
+        "education": [
+            "淡水國小", 
+            "聖心女中", 
+            "文化大學政治學系", 
+            "文化大學政治研究所碩士"
+        ], 
+        "experience": [
+            "文化大學政治研究所博士生", 
+            "民進黨第14、 15、16屆中央執行委員", 
+            "淡信慈善基金會執行長", 
+            "淡水民主協會常務理事", 
+            "新北市教育發展協會副總幹事"
+        ], 
+        "former_names": [], 
+        "gender": "女", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90019.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00019&stage=9"
+        }, 
+        "name": "呂孫綾", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9, 
+            8
+        ], 
+        "caucus": "中國國民黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "外交及國防委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "桃園市第5選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號0903室", 
+                "fax": "02-2358-6840", 
+                "name": "國會研究室", 
+                "phone": "02-2358-6836"
+            }, 
+            {
+                "address": "桃園縣平鎮市復興街68號", 
+                "fax": "03-401-0616", 
+                "name": "平鎮服務處", 
+                "phone": "03-401-5616"
+            }, 
+            {
+                "address": "桃園縣龍潭鄉華南路一段135號", 
+                "name": "龍潭服務處", 
+                "phone": "03-409-6688;03-480-6549"
+            }
+        ], 
+        "education": [
+            "桃園創新技術學院企業管理科", 
+            "桃園市育達高中", 
+            "桃園市中壢國中", 
+            "桃園市中壢國小"
+        ], 
+        "experience": [
+            "中華民國第8屆立法委員", 
+            "中國國民黨第19屆中央委員", 
+            "中國國民黨桃園市平鎮區委員會主任委員", 
+            "珍珠國際同濟會第10屆會長", 
+            "桃園市守望相助大隊平鎮中隊長", 
+            "國立中央大學客家學院平鎮客家書院執行委員", 
+            "桃園市體育會划船委員會主任委員", 
+            "桃園市平鎮區槌球推廣協會理事長", 
+            "婦聯青溪桃園縣支會主任委員", 
+            "中華民國婦女聯合會平鎮分會主任委員", 
+            "桃園市平鎮區志工協會理事長", 
+            "桃園市平鎮區社區營造協會理事長"
+        ], 
+        "former_names": [], 
+        "gender": "女", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90018.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00018&stage=9"
+        }, 
+        "name": "呂玉玲", 
+        "party": "中國國民黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "內政委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "新北市第10選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號0605室", 
+                "fax": "02-2358-6320", 
+                "name": "國會研究室", 
+                "phone": "02-2358-6316"
+            }, 
+            {
+                "address": "新北市土城區金城路三段172號", 
+                "fax": "02-2270-0802", 
+                "name": "土城服務處", 
+                "phone": "02-2270-1580"
+            }, 
+            {
+                "address": "新北市三峽區中正路一段218號", 
+                "fax": "02-8671-6968", 
+                "name": "三峽服務處", 
+                "phone": "02-2673-2636"
+            }
+        ], 
+        "education": [
+            "德霖技術學院畢"
+        ], 
+        "experience": [
+            "2002年土城市民代表", 
+            "2004年任務型國代", 
+            "2005年當選第16屆臺北縣議員", 
+            "2010年當選新北市第1屆市議員", 
+            "2013、2014年擔任議會教育召集人", 
+            "2014年當選新北市第2屆市議員", 
+            "新北市消防局義勇消防隊第5大隊大隊長", 
+            "土城區雲林同鄉會創會長", 
+            "新北市礦工協會榮譽理事長", 
+            "大漢溪文教基金會董事長", 
+            "國立政治大學行政管理碩士學分班"
+        ], 
+        "former_names": [], 
+        "gender": "男", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90017.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00017&stage=9"
+        }, 
+        "name": "吳琪銘", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "程序委員會", 
+                "session": 1
+            }, 
+            {
+                "ad": 9, 
+                "chair": false, 
                 "name": "社會福利及衛生環境委員會", 
                 "session": 1
             }
         ], 
-        "constituency": "澎湖縣選舉區", 
+        "constituency": "全國不分區", 
         "contacts": [
             {
-                "address": "10051臺北市中正區濟南路1段3-1號0205室", 
-                "fax": "02-2358-6740", 
+                "address": "10051臺北市中正區青島東路1號3309室", 
+                "fax": "02-2358-6225", 
                 "name": "國會研究室", 
-                "phone": "02-2358-6736"
-            }, 
-            {
-                "address": "澎湖縣馬公市新店路473號", 
-                "fax": "06-921-1317", 
-                "name": "澎湖服務處", 
-                "phone": "06-921-8678"
+                "phone": "02-2358-6222"
             }
         ], 
         "education": [
-            "東海大學法律系"
+            "美國北卡蘿萊納大學教堂山分校環境工程科博士(毒理)", 
+            "美國北卡蘿萊納大學教堂山分校碩士(環境工程科學)", 
+            "國立陽明大學醫學工程碩士", 
+            "國立清華大學化學工程系學士", 
+            "嘉義高中", 
+            "嘉義市民生國中", 
+            "嘉義市志航國小"
         ], 
         "experience": [
-            "民進黨澎湖縣黨部主任委員", 
-            "澎湖縣議員", 
-            "立法委員"
+            "臺灣大學職業醫學與工業衛生研究所教授", 
+            "國家衛生研究院環境衛生與職業醫學組副研究員", 
+            "中國醫藥大學職業安全與衛生學系助理教授", 
+            "臺灣風險分析學會理事長", 
+            "中華民國環境保護學會常務理事", 
+            "環保團體看守臺灣協會理事長", 
+            "臺灣環保聯盟副會長"
         ], 
         "former_names": [], 
         "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90079.jpg", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90016.jpg", 
         "in_office": true, 
         "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00079&stage=9"
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00016&stage=9"
         }, 
-        "name": "楊曜", 
+        "name": "吳焜裕", 
         "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "教育及文化委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "臺北市第1選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區青島東路1號3108室", 
+                "fax": "02-2358-8135", 
+                "name": "國會研究室", 
+                "phone": "02-2358-8131"
+            }, 
+            {
+                "address": "臺北市北投區承德路七段196號", 
+                "fax": "02-2820-3500", 
+                "name": "北投服務處", 
+                "phone": "02-2820-5800"
+            }
+        ], 
+        "education": [
+            "臺灣大學政治學研究所碩士", 
+            "輔仁大學西語系、日語系文學雙學士"
+        ], 
+        "experience": [
+            "臺北市議員(第10、11、12屆)", 
+            "臺北市議會民進黨團總召集人", 
+            "民進黨中常委、中執委、中評委"
+        ], 
+        "former_names": [], 
+        "gender": "女", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90015.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00015&stage=9"
+        }, 
+        "name": "吳思瑤", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9, 
+            8, 
+            6
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "財政委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "新北市第4選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號0902室", 
+                "fax": "02-2358-6859", 
+                "name": "國會研究室", 
+                "phone": "02-2358-6858"
+            }, 
+            {
+                "address": "新北市新莊區化成路路814巷1號", 
+                "fax": "02-8522-5726", 
+                "name": "新北總服務處", 
+                "phone": "02-8522-5786"
+            }, 
+            {
+                "address": "新北市新莊區中原路327號1樓", 
+                "fax": "02-2277-5657", 
+                "name": "大新莊服務處", 
+                "phone": "02-2276-8287"
+            }, 
+            {
+                "address": "新北市新莊區後港一路130巷48號1樓", 
+                "fax": "02-2208-3853", 
+                "name": "福營服務處", 
+                "phone": "02-2208-3852"
+            }
+        ], 
+        "education": [
+            "士林國小", 
+            "成功高中", 
+            "國立政治大學法律系法學組學士", 
+            "國立政治大學法律研究所碩士"
+        ], 
+        "experience": [
+            "野百合學運政大學生代表", 
+            "司法官訓練所29期", 
+            "臺東地方法院法官", 
+            "臺灣司法改革連線成員", 
+            "凱達格蘭學校國策班第1期。臺北縣政府縣長機要秘書", 
+            "第6屆立法委員", 
+            "律師", 
+            "民進黨臺北縣、新北市黨部主委", 
+            "第8屆不分區立法委員", 
+            "第8屆第4、5會期民進黨立法院黨團書記長"
+        ], 
+        "former_names": [], 
+        "gender": "男", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90014.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00014&stage=9"
+        }, 
+        "name": "吳秉叡", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9, 
+            7, 
+            6
+        ], 
+        "caucus": "中國國民黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "教育及文化委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "全國不分區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號2117室", 
+                "fax": "02-2358-6415", 
+                "name": "國會研究室", 
+                "phone": "02-2358-6411"
+            }, 
+            {
+                "address": "桃園市中壢區中正路131號", 
+                "fax": "03-280-5399", 
+                "name": "中壢服務處", 
+                "phone": "03-280-5398"
+            }
+        ], 
+        "education": [
+            "哈佛大學法學碩士", 
+            "臺灣大學法律研究所碩士", 
+            "臺灣大學法律系畢業"
+        ], 
+        "experience": [
+            "中華職業棒球大聯盟會長", 
+            "桃園縣長", 
+            "第6、7屆立法委員", 
+            "中原大學、台灣警專榮譽教授", 
+            "執業律師"
+        ], 
+        "former_names": [], 
+        "gender": "男", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90013.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00013&stage=9"
+        }, 
+        "name": "吳志揚", 
+        "party": "中國國民黨", 
         "term_start": "2016-02-01", 
         "title": "立法委員"
     }, 
@@ -1212,6 +1207,12 @@
                 "fax": "02-2678-2268", 
                 "name": "鶯歌服務處", 
                 "phone": "02-2678-3368"
+            }, 
+            {
+                "address": "242新北市新莊區民安西路319號1樓", 
+                "fax": "02-2204-9636", 
+                "name": "新莊西盛服務處", 
+                "phone": "02-2204-1638"
             }
         ], 
         "education": [
@@ -2729,6 +2730,315 @@
         "ad": 9, 
         "ads": [
             9, 
+            8, 
+            7, 
+            6
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "經濟委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "高雄市第5選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號0901室", 
+                "fax": "02-2358-8150", 
+                "name": "國會研究室", 
+                "phone": "02-2358-8146"
+            }, 
+            {
+                "address": "高雄市三民區博愛一路183號", 
+                "fax": "07-313-5797", 
+                "name": "三民服務處", 
+                "phone": "07-313-7816"
+            }, 
+            {
+                "address": "高雄市鼓山區九如四路1097號", 
+                "fax": "07-521-5237", 
+                "name": "內惟服務處", 
+                "phone": "07-533-0227"
+            }
+        ], 
+        "education": [
+            "臺灣大學政治學博士"
+        ], 
+        "experience": [
+            "哈佛大學甘迺迪政府學院國家與國際安全高階行政專班結業", 
+            "國立台北大學公共行政暨政策學系副教授", 
+            "台灣教授協會秘書長", 
+            "高雄市新聞處處長、文化局局長", 
+            "第6、7、8屆立法委員", 
+            "立法院教育文化委員會、交通委員會召集委員", 
+            "立法院民進黨黨團幹事長", 
+            "民進黨中央黨部政策中心主任", 
+            "民進黨中央常務委員、中央執行委員"
+        ], 
+        "former_names": [], 
+        "gender": "女", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90083.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00083&stage=9"
+        }, 
+        "name": "管碧玲", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9, 
+            8, 
+            7, 
+            6, 
+            5
+        ], 
+        "caucus": "中國國民黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "經濟委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "平地原住民", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號0807室", 
+                "fax": "02-2358-8180", 
+                "name": "國會研究室", 
+                "phone": "02-2358-8176"
+            }, 
+            {
+                "address": "臺東市四維路3段72號", 
+                "fax": "089-228-600", 
+                "name": "台東服務處", 
+                "phone": "089-228-798"
+            }
+        ], 
+        "education": [
+            "高雄醫學大學醫學系"
+        ], 
+        "experience": [
+            "第5、6、7、8屆立法委員", 
+            "第3屆國大代表", 
+            "台東基督教醫院主治醫師", 
+            "台東衛生局課長", 
+            "台東縣延平、海端、蘭嶼、長濱、成功等鄉鎮衛生所主任兼醫師", 
+            "中華兩岸少數民族知識經濟交流協會理事長", 
+            "立法院厚生會會長", 
+            "東甯診所院長", 
+            "中華海峽兩岸醫療暨健康產業發展協會理事長", 
+            "臺灣原住民企業人協會理事長", 
+            "立法院國民黨團書記長", 
+            "國民黨中常委"
+        ], 
+        "former_names": [
+            "廖國棟"
+        ], 
+        "gender": "男", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90082.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00082&stage=9"
+        }, 
+        "name": "廖國棟Sufin‧Siluko", 
+        "party": "中國國民黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9, 
+            8, 
+            7, 
+            6, 
+            5, 
+            4
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": true, 
+                "name": "交通委員會", 
+                "session": 1
+            }, 
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "紀律委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "臺南市第1選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號0403室", 
+                "fax": "02-2358-6295", 
+                "name": "國會研究室", 
+                "phone": "02-2358-6291"
+            }, 
+            {
+                "address": "臺南市新營區民生路130號", 
+                "fax": "06-657-2818", 
+                "name": "新營服務處", 
+                "phone": "06-657-2808"
+            }, 
+            {
+                "address": "臺南市中西區成功路305號", 
+                "fax": "06-221-9027", 
+                "name": "成功服務處", 
+                "phone": "06-221-6027"
+            }
+        ], 
+        "education": [
+            "美國Bridgeport大學音樂碩士"
+        ], 
+        "experience": [
+            "公民監督國會聯盟唯一評鑑滿分立委", 
+            "澄社評鑑連續多年獲得表現優秀立委", 
+            "商業周刊評鑑優秀立委", 
+            "2007年美國國務院「菁英計畫」訪問學人", 
+            "民進黨中央黨部婦女部主任", 
+            "民進黨立法院黨團總幹事、書記長", 
+            "現任立法委員", 
+            "臺灣省議員暨民進黨黨團總召", 
+            "奧地利維也納音樂學院"
+        ], 
+        "former_names": [], 
+        "gender": "女", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90081.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00081&stage=9"
+        }, 
+        "name": "葉宜津", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9
+        ], 
+        "caucus": "中國國民黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "內政委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "金門縣選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區青島東路1號3103室", 
+                "fax": "02-2358-6100", 
+                "name": "國會研究室", 
+                "phone": "02-2358-6099"
+            }, 
+            {
+                "address": "金門縣金城鎮民生路69號", 
+                "fax": "082-375-155", 
+                "name": "金門服務處", 
+                "phone": "082-375-230"
+            }, 
+            {
+                "address": "臺南市永康區復國一路500號", 
+                "name": "臺南服務處", 
+                "phone": "06-233-5927"
+            }
+        ], 
+        "education": [
+            "金門高中", 
+            "文化大學經濟系", 
+            "英國西敏大學企管碩士"
+        ], 
+        "experience": [
+            "金控公司襄理", 
+            "金門縣政府機要秘書", 
+            "金門縣政府交通旅遊局專員", 
+            "金門縣政府交通旅遊局局長", 
+            "金門縣政府觀光處處長", 
+            "中國國民黨大陸事務部副主任"
+        ], 
+        "former_names": [], 
+        "gender": "男", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90080.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00080&stage=9"
+        }, 
+        "name": "楊鎮浯", 
+        "party": "中國國民黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9, 
+            8
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "社會福利及衛生環境委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "澎湖縣選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號0205室", 
+                "fax": "02-2358-6740", 
+                "name": "國會研究室", 
+                "phone": "02-2358-6736"
+            }, 
+            {
+                "address": "澎湖縣馬公市新店路473號", 
+                "fax": "06-921-1317", 
+                "name": "澎湖服務處", 
+                "phone": "06-921-8678"
+            }
+        ], 
+        "education": [
+            "東海大學法律系"
+        ], 
+        "experience": [
+            "民進黨澎湖縣黨部主任委員", 
+            "澎湖縣議員", 
+            "立法委員"
+        ], 
+        "former_names": [], 
+        "gender": "男", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90079.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00079&stage=9"
+        }, 
+        "name": "楊曜", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9, 
             8
         ], 
         "caucus": "民主進步黨", 
@@ -3475,7 +3785,7 @@
             "東海大學EMBA高階管理學院碩士", 
             "東吳大學政治學研究所碩士班", 
             "輔仁大學大眾傳播系", 
-            "台中一中"
+            "國立台中一中"
         ], 
         "experience": [
             "民進黨中央黨部執行委員", 
@@ -5765,965 +6075,6 @@
     {
         "ad": 9, 
         "ads": [
-            9, 
-            8, 
-            7, 
-            5
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "經濟委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "高雄市第1選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號0801室", 
-                "fax": "02-2358-6520", 
-                "name": "國會研究室", 
-                "phone": "02-2358-6516"
-            }, 
-            {
-                "address": "843高雄市美濃區泰安路228號", 
-                "fax": "07-681-8677", 
-                "name": "美濃服務處", 
-                "phone": "07-681-8755"
-            }
-        ], 
-        "education": [
-            "高雄市道明高中", 
-            "美國舊金山多明尼肯大學企管研究所碩士"
-        ], 
-        "experience": [
-            "第3屆國民大會代表", 
-            "第8、9屆民進黨中央常務委員", 
-            "行政院客家委員會副主委", 
-            "第5、7、8屆立法委員"
-        ], 
-        "former_names": [], 
-        "gender": "女", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90037.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00037&stage=9"
-        }, 
-        "name": "邱議瑩", 
-        "party": "民主進步黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9, 
-            8
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "經費稽核委員會", 
-                "session": 1
-            }, 
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "經濟委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "高雄市第2選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號0607室", 
-                "fax": "02-2358-6565", 
-                "name": "國會研究室", 
-                "phone": "02-2358-6561"
-            }, 
-            {
-                "address": "高雄市岡山區中山南路385號", 
-                "fax": "07-623-0671", 
-                "name": "岡山服務處", 
-                "phone": "07-623-0655"
-            }, 
-            {
-                "address": "高雄市路竹區國昌路193號", 
-                "fax": "07-696-8052", 
-                "name": "路竹服務處", 
-                "phone": "07-696-8050"
-            }, 
-            {
-                "address": "高雄市梓官區梓官路361號", 
-                "fax": "07-610-7383", 
-                "name": "梓官服務處", 
-                "phone": "07-610-7303"
-            }, 
-            {
-                "address": "高雄市橋頭區新興路13號", 
-                "name": "橋頭服務處", 
-                "phone": "07-612-6127"
-            }, 
-            {
-                "address": "高雄市彌陀區鹽埕大路75號", 
-                "name": "彌陀聯絡處", 
-                "phone": "07-623-0655"
-            }, 
-            {
-                "address": "高雄市茄萣區東港街105號", 
-                "name": "茄萣服務處", 
-                "phone": "07-623-0655"
-            }
-        ], 
-        "education": [
-            "淡江大學俄羅斯研究所法學碩士", 
-            "國立臺灣大學國家發展研究所法學碩士", 
-            "國立中山大學大陸研究所社會科學博士"
-        ], 
-        "experience": [
-            "第8屆立法委員", 
-            "高雄市政府民政局長", 
-            "高雄縣政府民政處長", 
-            "修憲國民大會代表", 
-            "立陶宛維爾紐斯大學講座教授", 
-            "愛沙尼亞塔圖大學講座教授", 
-            "南華大學旅遊系助理教授", 
-            "英國劍橋大學國際關係研究所", 
-            "比利時魯汶大學歐洲研究所", 
-            "中正大學國際經濟所博士班"
-        ], 
-        "former_names": [], 
-        "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90036.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00036&stage=9"
-        }, 
-        "name": "邱志偉", 
-        "party": "民主進步黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "內政委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "全國不分區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號0201室", 
-                "fax": "02-2358-6035", 
-                "name": "國會研究室", 
-                "phone": "02-2358-6031"
-            }, 
-            {
-                "address": "89147花蓮縣玉里鎮樂合里12鄰39號", 
-                "fax": "03-888-6446", 
-                "name": "樂合服務處", 
-                "phone": "03-888-6527"
-            }, 
-            {
-                "address": "花蓮縣玉里鎮民國路二段158-1號", 
-                "fax": "03-888-5070", 
-                "name": "玉里服務處", 
-                "phone": "03-888-0219"
-            }
-        ], 
-        "education": [
-            "臺中女中", 
-            "東海大學社會學系", 
-            "東海大學社會學系研究所碩士"
-        ], 
-        "experience": [
-            "桃園市政府原住民族行政局長", 
-            "原住民族電視台新聞部副理兼採訪中心組長、主播", 
-            "biz互動英語執行主編", 
-            "民視新聞部記者", 
-            "公共電視執行製作"
-        ], 
-        "former_names": [], 
-        "gender": "女", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90025.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00025&stage=9"
-        }, 
-        "name": "谷辣斯‧尤達卡Kolas", 
-        "party": "民主進步黨", 
-        "term_start": "2016-02-01", 
-        "title": "Yotaka"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "教育及文化委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "全國不分區", 
-        "contacts": [
-            {
-                "address": "100臺北市中正區青島東路一段3111室", 
-                "fax": "02-2358-8245", 
-                "name": "國會研究室", 
-                "phone": "02-2358-8328"
-            }
-        ], 
-        "education": [
-            "東海大學社會學系"
-        ], 
-        "experience": [
-            "台灣展翅協會秘書長", 
-            "國際終止兒少性剝削組織東亞執委", 
-            "台灣女人連線理事", 
-            "行政院防制人口販運協調會委員", 
-            "行政院兒童及少年福利與權益推動小組委員"
-        ], 
-        "former_names": [], 
-        "gender": "女", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90115.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00115&stage=9"
-        }, 
-        "name": "李麗芬", 
-        "party": "民主進步黨", 
-        "term_start": "2016-05-26", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9, 
-            8, 
-            7, 
-            6, 
-            5
-        ], 
-        "caucus": "親民黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "交通委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "全國不分區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號1108室", 
-                "fax": "02-2358-6240", 
-                "name": "國會研究室", 
-                "phone": "02-2358-6236"
-            }, 
-            {
-                "address": "新北市新莊區公園路36號", 
-                "fax": "02-2992-9818", 
-                "name": "新莊服務處", 
-                "phone": "02-2992-9199"
-            }, 
-            {
-                "fax": "02-2900-0833", 
-                "name": "泰山服務處", 
-                "phone": "02-2297-7093"
-            }
-        ], 
-        "education": [
-            "日本大學結構工程學博士", 
-            "黎明工專畢業"
-        ], 
-        "experience": [
-            "第5、6、7、8屆立法委員", 
-            "立法院台日交流聯誼會會長", 
-            "淡江大學建築所兼任副教授", 
-            "中華民國紅十字會總會理事", 
-            "台灣民主基金會董事"
-        ], 
-        "former_names": [], 
-        "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90024.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00024&stage=9"
-        }, 
-        "name": "李鴻鈞", 
-        "party": "親民黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9, 
-            8, 
-            4, 
-            3
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [], 
-        "constituency": "全國不分區", 
-        "education": [
-            "崙背國小", 
-            "虎尾初中", 
-            "台中一中", 
-            "台大公共衛生學系學士、碩士", 
-            "哈佛大學醫管碩士", 
-            "美國北卡醫療經濟學博士"
-        ], 
-        "experience": [
-            "立法委員", 
-            "駐美副代表 ", 
-            "行政院秘書長", 
-            "行政院勞工委員會主任委員", 
-            "行政院政務委員"
-        ], 
-        "former_names": [], 
-        "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90023.jpg", 
-        "in_office": false, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00023&stage=9"
-        }, 
-        "name": "李應元", 
-        "party": "民主進步黨", 
-        "remark": [
-            "自民國105年5月20日起辭去立法委員職務", 
-            "遞補委員：施義芳"
-        ], 
-        "term_end": {
-            "date": "2016-05-20", 
-            "reason": "依台立人字第1050003490號函自105年05月20日辭去立法委員職務。", 
-            "replacement": []
-        }, 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9
-        ], 
-        "caucus": "中國國民黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "程序委員會", 
-                "session": 1
-            }, 
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "社會福利及衛生環境委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "臺北市第4選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號2119室", 
-                "fax": "02-2358-6925", 
-                "name": "國會研究室", 
-                "phone": "02-2358-6281"
-            }, 
-            {
-                "address": "臺北市南港區研究院路二段70巷10弄8號", 
-                "fax": "02-2651-1941", 
-                "name": "南港服務處", 
-                "phone": "02-2783-4987"
-            }, 
-            {
-                "address": "臺北市內湖區內湖路一段737巷27號2樓", 
-                "fax": "02-2798-6766", 
-                "name": "內湖服務處", 
-                "phone": "02-2798-9288"
-            }
-        ], 
-        "education": [
-            "美國加州爾灣大學經濟系畢業"
-        ], 
-        "experience": [
-            "臺北市議會第8、9、10、11、12屆市議員", 
-            "青溪婦聯會南港支分會主任委員", 
-            "南港區體育會理事長"
-        ], 
-        "former_names": [], 
-        "gender": "女", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90022.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00022&stage=9"
-        }, 
-        "name": "李彥秀", 
-        "party": "中國國民黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9, 
-            8
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "內政委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "嘉義市選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號1001室", 
-                "fax": "02-2358-6545", 
-                "name": "國會研究室", 
-                "phone": "02-2358-6541"
-            }, 
-            {
-                "address": "600嘉義市西區博愛路二段166號", 
-                "fax": "05-277-9775", 
-                "name": "嘉義服務處", 
-                "phone": "05-271-9595"
-            }
-        ], 
-        "education": [
-            "美國波士頓學院政治研究所碩士", 
-            "文化大學政治系學士", 
-            "嘉義市民族國小"
-        ], 
-        "experience": [
-            "總統府國策顧問兼憲改辦公室主任", 
-            "考試院銓敘部政務次長", 
-            "嘉義市副市長"
-        ], 
-        "former_names": [], 
-        "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90021.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00021&stage=9"
-        }, 
-        "name": "李俊俋", 
-        "party": "民主進步黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9, 
-            8, 
-            6
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "交通委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "高雄市第6選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號0306室", 
-                "fax": "02-2358-6090", 
-                "name": "國會研究室", 
-                "phone": "02-2358-6086"
-            }, 
-            {
-                "address": "高雄市三民區大昌二路63號", 
-                "fax": "07-386-3277", 
-                "name": "高雄服務處", 
-                "phone": "07-386-8292"
-            }
-        ], 
-        "education": [
-            "輔大歷史系畢", 
-            "中山大學政治學碩士"
-        ], 
-        "experience": [
-            "蔡英文主席特別助理", 
-            "第6、8屆立法委員（交通委員會召委）", 
-            "第6屆高雄市議員（民進黨團總召）", 
-            "第3屆國大代表（修憲審查小組召集人）", 
-            "高雄縣政府新聞室主任", 
-            "民進黨大型造勢晚會主持人", 
-            "陳定南立委特別助理", 
-            "台灣人權促進會總幹事", 
-            "台灣人權雜誌總主筆", 
-            "台灣環保聯盟幹事", 
-            "電器維修工", 
-            "成衣廠縫紉機維修工"
-        ], 
-        "former_names": [], 
-        "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90020.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00020&stage=9"
-        }, 
-        "name": "李昆澤", 
-        "party": "民主進步黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "外交及國防委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "新北市第1選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號0805室", 
-                "fax": "02-2358-6530", 
-                "name": "國會研究室", 
-                "phone": "02-2358-6526"
-            }, 
-            {
-                "address": "新北市淡水區淡金路24號", 
-                "fax": "02-8626-0128", 
-                "name": "淡水服務處", 
-                "phone": "02-8626-9666"
-            }, 
-            {
-                "address": "新北市泰山區文程路18巷12號", 
-                "fax": "02-2909-5641", 
-                "name": "泰山服務處", 
-                "phone": "02-2296-6994"
-            }
-        ], 
-        "education": [
-            "淡水國小", 
-            "聖心女中", 
-            "文化大學政治學系", 
-            "文化大學政治研究所碩士"
-        ], 
-        "experience": [
-            "文化大學政治研究所博士生", 
-            "民進黨第14、 15、16屆中央執行委員", 
-            "淡信慈善基金會執行長", 
-            "淡水民主協會常務理事", 
-            "新北市教育發展協會副總幹事"
-        ], 
-        "former_names": [], 
-        "gender": "女", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90019.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00019&stage=9"
-        }, 
-        "name": "呂孫綾", 
-        "party": "民主進步黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9, 
-            8
-        ], 
-        "caucus": "中國國民黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "外交及國防委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "桃園市第5選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號0903室", 
-                "fax": "02-2358-6840", 
-                "name": "國會研究室", 
-                "phone": "02-2358-6836"
-            }, 
-            {
-                "address": "桃園縣平鎮市復興街68號", 
-                "fax": "03-401-0616", 
-                "name": "平鎮服務處", 
-                "phone": "03-401-5616"
-            }, 
-            {
-                "address": "桃園縣龍潭鄉華南路一段135號", 
-                "name": "龍潭服務處", 
-                "phone": "03-409-6688;03-480-6549"
-            }
-        ], 
-        "education": [
-            "桃園創新技術學院企業管理科", 
-            "桃園市育達高中", 
-            "桃園市中壢國中", 
-            "桃園市中壢國小"
-        ], 
-        "experience": [
-            "中華民國第8屆立法委員", 
-            "中國國民黨第19屆中央委員", 
-            "中國國民黨桃園市平鎮區委員會主任委員", 
-            "珍珠國際同濟會第10屆會長", 
-            "桃園市守望相助大隊平鎮中隊長", 
-            "國立中央大學客家學院平鎮客家書院執行委員", 
-            "桃園市體育會划船委員會主任委員", 
-            "桃園市平鎮區槌球推廣協會理事長", 
-            "婦聯青溪桃園縣支會主任委員", 
-            "中華民國婦女聯合會平鎮分會主任委員", 
-            "桃園市平鎮區志工協會理事長", 
-            "桃園市平鎮區社區營造協會理事長"
-        ], 
-        "former_names": [], 
-        "gender": "女", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90018.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00018&stage=9"
-        }, 
-        "name": "呂玉玲", 
-        "party": "中國國民黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "內政委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "新北市第10選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號0605室", 
-                "fax": "02-2358-6320", 
-                "name": "國會研究室", 
-                "phone": "02-2358-6316"
-            }, 
-            {
-                "address": "新北市土城區金城路三段172號", 
-                "fax": "02-2270-0802", 
-                "name": "土城服務處", 
-                "phone": "02-2270-1580"
-            }, 
-            {
-                "address": "新北市三峽區中正路一段218號", 
-                "fax": "02-8671-6968", 
-                "name": "三峽服務處", 
-                "phone": "02-2673-2636"
-            }
-        ], 
-        "education": [
-            "德霖技術學院畢"
-        ], 
-        "experience": [
-            "2002年土城市民代表", 
-            "2004年任務型國代", 
-            "2005年當選第16屆臺北縣議員", 
-            "2010年當選新北市第1屆市議員", 
-            "2013、2014年擔任議會教育召集人", 
-            "2014年當選新北市第2屆市議員", 
-            "新北市消防局義勇消防隊第5大隊大隊長", 
-            "土城區雲林同鄉會創會長", 
-            "新北市礦工協會榮譽理事長", 
-            "大漢溪文教基金會董事長", 
-            "國立政治大學行政管理碩士學分班"
-        ], 
-        "former_names": [], 
-        "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90017.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00017&stage=9"
-        }, 
-        "name": "吳琪銘", 
-        "party": "民主進步黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "程序委員會", 
-                "session": 1
-            }, 
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "社會福利及衛生環境委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "全國不分區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區青島東路1號3309室", 
-                "fax": "02-2358-6225", 
-                "name": "國會研究室", 
-                "phone": "02-2358-6222"
-            }
-        ], 
-        "education": [
-            "美國北卡蘿萊納大學教堂山分校環境工程科博士(毒理)", 
-            "美國北卡蘿萊納大學教堂山分校碩士(環境工程科學)", 
-            "國立陽明大學醫學工程碩士", 
-            "國立清華大學化學工程系學士", 
-            "嘉義高中", 
-            "嘉義市民生國中", 
-            "嘉義市志航國小"
-        ], 
-        "experience": [
-            "臺灣大學職業醫學與工業衛生研究所教授", 
-            "國家衛生研究院環境衛生與職業醫學組副研究員", 
-            "中國醫藥大學職業安全與衛生學系助理教授", 
-            "臺灣風險分析學會理事長", 
-            "中華民國環境保護學會常務理事", 
-            "環保團體看守臺灣協會理事長", 
-            "臺灣環保聯盟副會長"
-        ], 
-        "former_names": [], 
-        "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90016.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00016&stage=9"
-        }, 
-        "name": "吳焜裕", 
-        "party": "民主進步黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "教育及文化委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "臺北市第1選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區青島東路1號3108室", 
-                "fax": "02-2358-8135", 
-                "name": "國會研究室", 
-                "phone": "02-2358-8131"
-            }, 
-            {
-                "address": "臺北市北投區承德路七段196號", 
-                "fax": "02-2820-3500", 
-                "name": "北投服務處", 
-                "phone": "02-2820-5800"
-            }
-        ], 
-        "education": [
-            "臺灣大學政治學研究所碩士", 
-            "輔仁大學西語系、日語系文學雙學士"
-        ], 
-        "experience": [
-            "臺北市議員(第10、11、12屆)", 
-            "臺北市議會民進黨團總召集人", 
-            "民進黨中常委、中執委、中評委"
-        ], 
-        "former_names": [], 
-        "gender": "女", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90015.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00015&stage=9"
-        }, 
-        "name": "吳思瑤", 
-        "party": "民主進步黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9, 
-            8, 
-            6
-        ], 
-        "caucus": "民主進步黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "財政委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "新北市第4選舉區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號0902室", 
-                "fax": "02-2358-6859", 
-                "name": "國會研究室", 
-                "phone": "02-2358-6858"
-            }, 
-            {
-                "address": "新北市新莊區化成路路814巷1號", 
-                "fax": "02-8522-5726", 
-                "name": "新北總服務處", 
-                "phone": "02-8522-5786"
-            }, 
-            {
-                "address": "新北市新莊區中原路327號1樓", 
-                "fax": "02-2277-5657", 
-                "name": "大新莊服務處", 
-                "phone": "02-2276-8287"
-            }, 
-            {
-                "address": "新北市新莊區後港一路130巷48號1樓", 
-                "fax": "02-2208-3853", 
-                "name": "福營服務處", 
-                "phone": "02-2208-3852"
-            }
-        ], 
-        "education": [
-            "士林國小", 
-            "成功高中", 
-            "國立政治大學法律系法學組學士", 
-            "國立政治大學法律研究所碩士"
-        ], 
-        "experience": [
-            "野百合學運政大學生代表", 
-            "司法官訓練所29期", 
-            "臺東地方法院法官", 
-            "臺灣司法改革連線成員", 
-            "凱達格蘭學校國策班第1期。臺北縣政府縣長機要秘書", 
-            "第6屆立法委員", 
-            "律師", 
-            "民進黨臺北縣、新北市黨部主委", 
-            "第8屆不分區立法委員", 
-            "第8屆第4、5會期民進黨立法院黨團書記長"
-        ], 
-        "former_names": [], 
-        "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90014.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00014&stage=9"
-        }, 
-        "name": "吳秉叡", 
-        "party": "民主進步黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
-            9, 
-            7, 
-            6
-        ], 
-        "caucus": "中國國民黨", 
-        "committees": [
-            {
-                "ad": 9, 
-                "chair": false, 
-                "name": "教育及文化委員會", 
-                "session": 1
-            }
-        ], 
-        "constituency": "全國不分區", 
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號2117室", 
-                "fax": "02-2358-6415", 
-                "name": "國會研究室", 
-                "phone": "02-2358-6411"
-            }, 
-            {
-                "address": "桃園市中壢區中正路131號", 
-                "fax": "03-280-5399", 
-                "name": "中壢服務處", 
-                "phone": "03-280-5398"
-            }
-        ], 
-        "education": [
-            "哈佛大學法學碩士", 
-            "臺灣大學法律研究所碩士", 
-            "臺灣大學法律系畢業"
-        ], 
-        "experience": [
-            "中華職業棒球大聯盟會長", 
-            "桃園縣長", 
-            "第6、7屆立法委員", 
-            "中原大學、台灣警專榮譽教授", 
-            "執業律師"
-        ], 
-        "former_names": [], 
-        "gender": "男", 
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90013.jpg", 
-        "in_office": true, 
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00013&stage=9"
-        }, 
-        "name": "吳志揚", 
-        "party": "中國國民黨", 
-        "term_start": "2016-02-01", 
-        "title": "立法委員"
-    }, 
-    {
-        "ad": 9, 
-        "ads": [
             9
         ], 
         "caucus": "民主進步黨", 
@@ -6771,6 +6122,661 @@
         }, 
         "name": "吳玉琴", 
         "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "程序委員會", 
+                "session": 1
+            }, 
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "財政委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "全國不分區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區青島東路10號3503室", 
+                "fax": "02-2358-8015", 
+                "name": "國會研究室", 
+                "phone": "02-2358-8011"
+            }
+        ], 
+        "education": [
+            "倫敦大學亞非學院飲食人類學碩士", 
+            "臺灣大學經濟系學士"
+        ], 
+        "experience": [
+            "生態綠(股)公司創辦人、董事長", 
+            "Fairtrade Taiwan臺灣公平貿易推廣協會理事長", 
+            "社會企業發展聯盟理事", 
+            "綠色電商聯盟副理事長"
+        ], 
+        "former_names": [], 
+        "gender": "女", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90011.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00011&stage=9"
+        }, 
+        "name": "余宛如", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9, 
+            8
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "教育及文化委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "臺中市第7選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號0301室", 
+                "fax": "02-2358-8390", 
+                "name": "國會研究室", 
+                "phone": "02-2358-8388"
+            }, 
+            {
+                "address": "臺中市大里區大里路63號", 
+                "fax": "04-2482-8743", 
+                "name": "大里服務處", 
+                "phone": "04-2483-6527"
+            }, 
+            {
+                "address": "臺中市太平區新平路二段142號", 
+                "fax": "04-2276-3555", 
+                "name": "太平服務處", 
+                "phone": "04-2276-3111"
+            }
+        ], 
+        "education": [
+            "塗城國小", 
+            "成功國中", 
+            "臺中女中", 
+            "國立成功大學", 
+            "英國約克大學婦女研究碩士"
+        ], 
+        "experience": [
+            "第8屆立法委員（公督盟評鑑教育文化委員會優秀立委、財促院評鑑教育組績優立委）", 
+            "立法院民進黨黨團副書記長", 
+            "第一屆大臺中市議員", 
+            "第15、16屆台中縣議員", 
+            "家扶中心北台中區副主任", 
+            "福田行善會、廣亮、同心、和風、合濟、眾愛等慈善團體會員"
+        ], 
+        "former_names": [], 
+        "gender": "女", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90010.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00010&stage=9"
+        }, 
+        "name": "何欣純", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9, 
+            8
+        ], 
+        "caucus": "中國國民黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": true, 
+                "name": "外交及國防委員會", 
+                "session": 1
+            }, 
+            {
+                "ad": 9, 
+                "chair": true, 
+                "name": "程序委員會", 
+                "session": 1
+            }, 
+            {
+                "ad": 9, 
+                "chair": true, 
+                "name": "紀律委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "臺中市第8選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號2102室", 
+                "fax": "02-2358-6730", 
+                "name": "國會研究室", 
+                "phone": "02-2358-6726"
+            }, 
+            {
+                "address": "臺中市豐原區南村路20號", 
+                "fax": "04-2515-6798", 
+                "name": "豐原服務處", 
+                "phone": "04-2515-9998"
+            }, 
+            {
+                "address": "臺中市東勢區公園路36號", 
+                "fax": "04-2577-3167", 
+                "name": "東勢服務處", 
+                "phone": "04-2577-3099"
+            }
+        ], 
+        "education": [
+            "美國南卡羅萊納大學國際關係博士", 
+            "美國匹茲堡大學國際事務碩士", 
+            "國立政治大學外交學系", 
+            "台中一中", 
+            "豐南國中", 
+            "瑞穗國小"
+        ], 
+        "experience": [
+            "中華民國第8屆立法委員", 
+            "行政院新聞局局長", 
+            "東吳大學政治系專任副教授", 
+            "立法院中華民國與新加坡國會議員友好協會會長", 
+            "台灣經濟研究院國際處代處長", 
+            "台灣新世代關懷協會理事長", 
+            "公民監督國會聯盟、財經立法促進院評選為立法院績優委員"
+        ], 
+        "former_names": [], 
+        "gender": "男", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90009.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00009&stage=9"
+        }, 
+        "name": "江啟臣", 
+        "party": "中國國民黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "財政委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "新北市第8選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號2123室", 
+                "fax": "02-2358-8200", 
+                "name": "國會研究室", 
+                "phone": "02-2358-8199"
+            }, 
+            {
+                "address": "新北市中和區中和路44號2樓", 
+                "fax": "02-2249-7999", 
+                "name": "中和服務處", 
+                "phone": "02-2249-7899"
+            }
+        ], 
+        "education": [
+            "中和國小", 
+            "海山國中", 
+            "建國高中", 
+            "中興大學物理學士", 
+            "臺灣師範大學政治學研究所碩士"
+        ], 
+        "experience": [
+            "臺灣大學工業工程研究所碩士", 
+            "台北大學法律學院研究專班", 
+            "第2屆新北市議員", 
+            "第1屆新北市議員暨黨團幹事長", 
+            "第16屆臺北縣議員", 
+            "中和市市民代表", 
+            "立委趙永清國會助理", 
+            "凱達格蘭學校校友會監事", 
+            "陽光之友協會理事長", 
+            "紅十字會新北市分會副會長", 
+            "新北市義消第七大隊幹事"
+        ], 
+        "former_names": [], 
+        "gender": "男", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90008.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00008&stage=9"
+        }, 
+        "name": "江永昌", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9, 
+            6
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "程序委員會", 
+                "session": 1
+            }, 
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "財政委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "全國不分區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號2101室", 
+                "fax": "02-2358-8260", 
+                "name": "國會研究室", 
+                "phone": "02-2358-8258"
+            }
+        ], 
+        "education": [
+            "國立岡山高中畢業"
+        ], 
+        "experience": [
+            "中華民國身心障礙聯盟秘書長", 
+            "台灣社會心理復健協會理事長", 
+            "台灣社會福利總盟常務理事", 
+            "伊甸社會福利基金會顧問", 
+            "蘋果日報慈善基金會常務董事", 
+            "新境界文教基金會董事", 
+            "臺灣少年權益及福利促進聯盟顧問", 
+            "第6屆立法委員"
+        ], 
+        "former_names": [], 
+        "gender": "男", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90005.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00005&stage=9"
+        }, 
+        "name": "王榮璋", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9, 
+            8
+        ], 
+        "caucus": "中國國民黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "經濟委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "彰化縣第1選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號0501室", 
+                "fax": "02-2358-6185", 
+                "name": "國會研究室", 
+                "phone": "02-2358-6181"
+            }, 
+            {
+                "address": "彰化縣鹿港鎮永安里鹿東路55號", 
+                "fax": "04-777-9150", 
+                "name": "鹿港服務處", 
+                "phone": "04-775-4168"
+            }, 
+            {
+                "address": "彰化縣和美鎮德美路456號", 
+                "fax": "04-757-4822", 
+                "name": "和美服務處", 
+                "phone": "04-757-8568"
+            }
+        ], 
+        "education": [
+            "彰化縣洛津國小 ", 
+            "彰化縣鹿港國中 ", 
+            "國立臺中第二高級中學", 
+            "私立東海大學政治系學士學位、碩士學位", 
+            "國立彰化師範大學財務金融學系博士班(就讀中)"
+        ], 
+        "experience": [
+            "鹿鳴國中、伸港國中、大慶商工教師", 
+            "大葉大學、建國科技大學兼任講師", 
+            "彰化縣青年工作委員會總會長", 
+            "救國團鹿港鎮團委會會長", 
+            "鹿菁獅子會會長", 
+            "彰化縣土風舞協會理事長", 
+            "彰化縣議員", 
+            "鹿港鎮長", 
+            "立法委員", 
+            "彰化師範大學財務金融學系博士生"
+        ], 
+        "former_names": [], 
+        "gender": "女", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90004.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00004&stage=9"
+        }, 
+        "name": "王惠美", 
+        "party": "中國國民黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9, 
+            8, 
+            7, 
+            6, 
+            5, 
+            4, 
+            3, 
+            2, 
+            1
+        ], 
+        "caucus": "中國國民黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "外交及國防委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "全國不分區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區鎮江街2號1樓", 
+                "fax": "02-2358-8685", 
+                "name": "國會研究室", 
+                "phone": "02-2358-8681"
+            }, 
+            {
+                "address": "高雄市路竹區甲南村大仁路369巷7號", 
+                "fax": "07-607-5669", 
+                "name": "高雄服務處", 
+                "phone": "07-607-5509"
+            }
+        ], 
+        "education": [
+            "臺灣省立師範大學數學系畢業"
+        ], 
+        "experience": [
+            "立法院院長、副院長", 
+            "中國國民黨副主席", 
+            "國家生技醫療產業策進會會長"
+        ], 
+        "former_names": [], 
+        "gender": "男", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90001.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00001&stage=9"
+        }, 
+        "name": "王金平", 
+        "party": "中國國民黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "外交及國防委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "臺南市第5選舉區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區青島東路1號3205室", 
+                "fax": "02-2358-8215", 
+                "name": "國會研究室", 
+                "phone": "02-2358-8211"
+            }, 
+            {
+                "address": "710臺南市永康區永大路一段259號(永大路及大灣東路口)", 
+                "fax": "06-2739-817", 
+                "name": "永康服務處", 
+                "phone": "06-2739-217"
+            }, 
+            {
+                "address": "711臺南市歸仁區中山路三段129號", 
+                "fax": "06-338-7412", 
+                "name": "南關線服務處", 
+                "phone": "06-330-2318~9"
+            }
+        ], 
+        "education": [
+            "成功大學外文系80級", 
+            "成功大學管理學院高階管理碩士97級", 
+            "長榮大學經營管理所博士班"
+        ], 
+        "experience": [
+            "臺南市議會第15、16屆議員", 
+            "台南直轄市第1屆市議員", 
+            "臺南市議會教育委員會召集人", 
+            "長老教會松年學講師", 
+            "臺南市教師會顧問", 
+            "臺南市教育產業工會顧問", 
+            "關中虎慢速球聯盟理事長", 
+            "電視台資深政論評論員"
+        ], 
+        "former_names": [], 
+        "gender": "男", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90003.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00003&stage=9"
+        }, 
+        "name": "王定宇", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9, 
+            8
+        ], 
+        "caucus": "中國國民黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": true, 
+                "name": "社會福利及衛生環境委員會", 
+                "session": 1
+            }, 
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "程序委員會", 
+                "session": 1
+            }, 
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "紀律委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "全國不分區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區青島東路1號3401室", 
+                "fax": "02-2358-8265", 
+                "name": "國會研究室", 
+                "phone": "02-2358-8261"
+            }
+        ], 
+        "education": [
+            "東海大學社會工作學系碩士", 
+            "東海大學社會工作學系學士"
+        ], 
+        "experience": [
+            "第8屆立法委員", 
+            "總統府人權諮詢小組委員", 
+            "內政部兒少福利委員會委員", 
+            "兒童福利聯盟基金會執行長"
+        ], 
+        "former_names": [], 
+        "gender": "女", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90002.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00002&stage=9"
+        }, 
+        "name": "王育敏", 
+        "party": "中國國民黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9, 
+            8
+        ], 
+        "caucus": "民主進步黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "司法及法制委員會", 
+                "session": 1
+            }, 
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "程序委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "全國不分區", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號0402室", 
+                "fax": "02-2358-8113", 
+                "name": "國會研究室", 
+                "phone": "02-2358-8112"
+            }
+        ], 
+        "education": [
+            "國立臺灣大學法律學研究所碩士"
+        ], 
+        "experience": [
+            "第8屆立委", 
+            "台北律師公會前理事長", 
+            "台灣婦女團體全國聯合會創會理事長", 
+            "婦女新知基金會前董事長", 
+            "總統府前人權諮詢委員"
+        ], 
+        "former_names": [], 
+        "gender": "女", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90007.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00007&stage=9"
+        }, 
+        "name": "尤美女", 
+        "party": "民主進步黨", 
+        "term_start": "2016-02-01", 
+        "title": "立法委員"
+    }, 
+    {
+        "ad": 9, 
+        "ads": [
+            9, 
+            8, 
+            7, 
+            6
+        ], 
+        "caucus": "中國國民黨", 
+        "committees": [
+            {
+                "ad": 9, 
+                "chair": false, 
+                "name": "經濟委員會", 
+                "session": 1
+            }
+        ], 
+        "constituency": "山地原住民", 
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號0203室", 
+                "fax": "02-2358-8250", 
+                "name": "國會研究室", 
+                "phone": "02-2358-8246"
+            }
+        ], 
+        "education": [
+            "臺灣大學外文系畢業", 
+            "美國奧勒岡大學(University of Oregon)新聞碩士", 
+            "英國羅芙堡大學(Loughborough University)社會學系媒體研究組博士"
+        ], 
+        "experience": [
+            "第6、7、8屆立法委員", 
+            "臺北市政府原住民事務委員會主任委員", 
+            "內政部民政司專員", 
+            "行政院新聞局聯絡室秘書", 
+            "財團法人公共電視文化事業基金會董事", 
+            "朝陽科技大學及文藻外語專科學校等助理教授", 
+            "東吳大學、東華大學、花蓮師範學院等兼任助理教授"
+        ], 
+        "former_names": [], 
+        "gender": "男", 
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/90006.jpg", 
+        "in_office": true, 
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00006&stage=9"
+        }, 
+        "name": "孔文吉", 
+        "party": "中國國民黨", 
         "term_start": "2016-02-01", 
         "title": "立法委員"
     }

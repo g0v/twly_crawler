@@ -84,7 +84,7 @@ class Spider(scrapy.Spider):
             "ly": response.url
         }
         item['ad'] = int(re.search(u'stage=([\d]{1,2})', response.url).group(1))
-        item['name'] = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'^姓名：([\S]+)'))
+        item['name'] = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'^姓名：(.+)')).strip()
         item['gender'] = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'^性別：([\S]+)'))
         item['party'] = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'^黨籍：([\S]+)'))
         item['caucus'] = take_first(response.xpath('//table/tr/td/ul/li/text()').re(u'^黨\(政\)團：([\S]+)'))

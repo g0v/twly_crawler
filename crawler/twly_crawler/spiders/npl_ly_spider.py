@@ -42,9 +42,14 @@ class Spider(scrapy.Spider):
         nodes = response.xpath('//td[@class="info_bg"]/table/tr')
         for node in nodes:
             if node.xpath('td[1]/text()').re(u'^姓名$'):
-                name_title = node.xpath('td[2]/text()').extract_first().split()
-                item['name'] = name_title[0]
-                item['title'] = name_title[1] if len(name_title) > 1 else '立法委員'
+                name_title = node.xpath('td[2]/text()').extract_first()
+                m = re.search(u'\s*(\S*院長)', name_title)
+                if not m:
+                    item['name'] = name_title.strip()
+                    item['title'] = u'立法委員'
+                else:
+                    item['name'] = re.sub(m.group(0), '', name_title)
+                    item['title'] = m.group(1)
             elif node.xpath('td[1]/text()').re(u'^姓名參照$'):
                 item['former_names'] = node.xpath('td[2]/text()').extract()
             elif node.xpath('td[1]/text()').re(u'^性別$'):
