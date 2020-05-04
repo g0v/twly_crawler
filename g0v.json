@@ -15,8 +15,8 @@
   ],
   "keywords": [
     "twly",
-	"legislator",
-	"crawler",
+    "legislator",
+    "crawler",
     "python"
   ],
   "audience": [
@@ -32,6 +32,6 @@
     "thewayiam"
   ],
   "needs": [
-    "programmer",
+    "programmer"
   ]
 }
