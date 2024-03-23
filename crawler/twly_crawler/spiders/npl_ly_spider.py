@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 import re
 import urllib
-from urlparse import urljoin
+from urllib.parse import urljoin
 import scrapy
 from scrapy.http import Request
 from scrapy.selector import Selector
 from twly_crawler.items import LegislatorItem
-
+from scrapy.utils.response import open_in_browser
 
 class Spider(scrapy.Spider):
     name = "npl_ly"
     allowed_domains = ["lis.ly.gov.tw"]
     start_urls = [
-        "http://lis.ly.gov.tw/lylegismc/lylegismemkmout?!!FUNC400",
+        "https://lis.ly.gov.tw/lylegismc/lylegismemkmout?!!FUNC400",
     ]
     download_delay = 0.5
 
@@ -29,7 +29,8 @@ class Spider(scrapy.Spider):
                 yield Request(urljoin(response.url, node.xpath('@href').extract_first()), callback=self.parse_ad, dont_filter=True)
 
     def parse_ad(self, response):
-        nodes = response.xpath('//a[starts-with(@href, "/lylegisc")]')
+        open_in_browser(response)
+        nodes = response.xpath('//div[@id="box01"]/table[@class="list01"]/tbody/tr/td/a[starts-with(@href, "/lylegisc")]')
         for node in nodes:
             href = node.xpath('@href').extract_first()
             yield Request(urljoin(response.url, href), callback=self.parse_profile, dont_filter=True)
@@ -62,7 +63,7 @@ class Spider(scrapy.Spider):
                 item['party'] = node.xpath('td[2]/text()').extract_first()
             elif node.xpath('td[1]/text()').re(u'^選區$'):
                 item['constituency'] = node.xpath('td[2]/text()').extract_first()
-            elif node.xpath('td[1]/text()').re(u'^簡歷$'):
+            elif node.xpath('td[1]/text()').re(u'^經歷$'):
                 item['experience'] = node.xpath('td[2]//text()').re(u'[\s]*([\S]+)[\s]*')
             elif node.xpath('td[1]/text()').re(u'^離職日期$'):
                 item['in_office'] = False

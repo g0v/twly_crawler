@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import re
-from urlparse import urljoin
+from urllib.parse import urljoin
 import scrapy
 
 
@@ -41,12 +41,16 @@ class Spider(scrapy.Spider):
             if self.ad and self.ad != str(ad):
                 continue
             else:
-                payload = {
-                    'queryFlag': 'true',
-                    'searchValues[1]': str(ad),
-                    'searchValues[5]': 'lgno',
-                    'searchValues[6]': 'asc'
+                legislators_list = {
+                  '3': 'https://www.ly.gov.tw/Pages/List.aspx?nodeid=144',
+                  '4': 'https://www.ly.gov.tw/Pages/List.aspx?nodeid=143',
+                  '5': 'https://www.ly.gov.tw/Pages/List.aspx?nodeid=142',
+                  '6': 'https://www.ly.gov.tw/Pages/List.aspx?nodeid=141',
+                  '7': 'https://www.ly.gov.tw/Pages/List.aspx?nodeid=140',
+                  '8': 'https://www.ly.gov.tw/Pages/List.aspx?nodeid=139',
+                  '9': 'https://www.ly.gov.tw/Pages/List.aspx?nodeid=109',
                 }
+             
                 yield scrapy.FormRequest('http://www.ly.gov.tw/03_leg/0301_main/legList.action', formdata=payload, callback=self.parse, dont_filter=True)
 
     def parse(self, response):

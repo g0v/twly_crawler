@@ -1,11 +1,10 @@
 import os
 import subprocess
-import urllib2
 import requests
 from scrapy.http import HtmlResponse, Request
 from scrapy.utils.url import canonicalize_url
 import json
-from scrapy.contrib.exporter import BaseItemExporter, JsonLinesItemExporter, JsonItemExporter
+from scrapy.exporters import BaseItemExporter, JsonLinesItemExporter, JsonItemExporter
 
 
 def append_contact(item, contact_type, label, value):

@@ -21,14 +21,14 @@ crawler$ ./crawl_all.sh
 or
 ```
 rm -f data/ly_info.json data/npl_ly.json     
-crawler$ scrapy crawl ly_info -o ../data/ly_info.json -t json        
-crawler$ scrapy crawl npl_ly -o ../data/npl_ly.json -t json        
+crawler$ scrapy crawl ly_info -o ../data/ly_info.json:json        
+crawler$ scrapy crawl npl_ly -o ../data/npl_ly.json:json        
 ```
 or specific ad
 ```
 rm -f data/9/
-crawler$ scrapy crawl ly_info -a ad=9 -o ../data/9/ly_info.json -t json        
-crawler$ scrapy crawl npl_ly -a ad=9 -o ../data/9/npl_ly.json -t json        
+crawler$ scrapy crawl ly_info -a ad=9 -o ../data/9/ly_info.json:json        
+crawler$ scrapy crawl npl_ly -a ad=9 -o ../data/9/npl_ly.json:json        
 ```
         
 After crawler finished:        
